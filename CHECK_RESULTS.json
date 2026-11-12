@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_RELEASE_CHECK_PASS",
+  "package": {
+    "status": "PACKAGE_INTEGRITY_PASS",
+    "source_modules": 986,
+    "source_bytes_match_manifest": true,
+    "fresh_Lean_replay_performed": false,
+    "notice": "Hash and source checks only. No Lean execution or historical replay-record check."
+  },
+  "contracts": {
+    "status": "CONTRACT_SOURCE_BINDINGS_PASS",
+    "modules": 30,
+    "contracts": 20,
+    "definitions": 17,
+    "historical_obligations": 7,
+    "referenced_literature_keys": 7,
+    "exact_source_fragments": 379,
+    "Lean_elaboration_performed": false
+  },
+  "offline_regressions": {
+    "run": 31,
+    "passed": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "fresh_Lean_execution_performed": false,
+  "public_release_authorized": false,
+  "check_date": "2026-11-12",
+  "note": "Offline source checks only; not a Lean replay. Re-run scripts/check_release.py to check the extracted files."
+}

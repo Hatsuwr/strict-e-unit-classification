@@ -1,0 +1,4069 @@
+{
+  "format": 1,
+  "release_version": "1.0.1",
+  "status": "PRIVATE_SOURCE_RELEASE",
+  "change_notice": "Modified for the source-focused edition, 12 November 2026.",
+  "source_manifest_sha256": "78df0530c2e6e95057fe0a3a959ae6610a163550244a50c6e84b1d44e0d695af",
+  "files": {
+    ".github/workflows/check.yml": {
+      "bytes": 520,
+      "sha256": "1c4f03ccab303e707c906c947a327b5bf6250590cd86f68208faa5e58da4a175"
+    },
+    ".gitignore": {
+      "bytes": 108,
+      "sha256": "28bc6857044ab087a00df0e6ba43adccc5642f908fc66da564db60f1e463b052"
+    },
+    "AUDIT.md": {
+      "bytes": 1192,
+      "sha256": "d0e1dd44e7142f9d08a791260a307328b356bfddbab20b870f4db482f33281ae"
+    },
+    "CHECK_RESULTS.json": {
+      "bytes": 940,
+      "sha256": "2df169fc144022acf064b932e4b6df0931a58c36d4b2029ac98a6b970a84a31e"
+    },
+    "CITATION.md": {
+      "bytes": 4027,
+      "sha256": "31587b27d4d11e7dab684da64697516fc6c4a925b500c8b8ee724b5543644985"
+    },
+    "CONTRACTS.json": {
+      "bytes": 153459,
+      "sha256": "b908062738f4c8a6290b5b272e91969e5cd0799aaa36372d98d2d37a60959f98"
+    },
+    "DEPENDENCY_PINS.json": {
+      "bytes": 5978,
+      "sha256": "954bb7d0a003afd889a597ec95f888c0fe9f5d03e5f0bfa90ce34539376cec09"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "bytes": 789,
+      "sha256": "c4145af88ec95d74f1709a9b2464a0c36aa9a62156f559bd942cdf1e329da4a0"
+    },
+    "PROOF.md": {
+      "bytes": 8428,
+      "sha256": "c20c3f3c1becb72174415fc2475cebf0e02dafb0c40c0bd2d9a678c569825c0d"
+    },
+    "README.md": {
+      "bytes": 1956,
+      "sha256": "c43cf76e65f454f6fa57872f2c453441ee748b86c0b6a8c9bc8c894f9fb14120"
+    },
+    "RELEASE.json": {
+      "bytes": 972,
+      "sha256": "9915db3da11d4acfeb8ee8d06e2659a53159ae90d4c097fdd3ee2ef00e4d784f"
+    },
+    "REPRODUCING.md": {
+      "bytes": 3718,
+      "sha256": "f39f550e87e7d854f3e13833bd521dbbf647c3941721ced50ee0a074f1373b61"
+    },
+    "SOURCE_MANIFEST.json": {
+      "bytes": 183985,
+      "sha256": "78df0530c2e6e95057fe0a3a959ae6610a163550244a50c6e84b1d44e0d695af"
+    },
+    "THEOREM.md": {
+      "bytes": 4485,
+      "sha256": "ca058dabf94b56d89f46e8a165e3afee3c5dd923f04c8c693065d8fecea9a2c9"
+    },
+    "VALIDATION.md": {
+      "bytes": 2257,
+      "sha256": "e2e473c37cb248feee0c8dd57512355063047ee9100c611cc6c2464dce81709f"
+    },
+    "project/AbsoluteRelationIdeal.lean": {
+      "bytes": 2460,
+      "sha256": "9ce6199495028c84bc6161d0cf59bea3255a33b392b3f6ce17b77bdfef807c85"
+    },
+    "project/ActualAmplitudeFactorialArithmetic.lean": {
+      "bytes": 1463,
+      "sha256": "7448ed69b5e8048172cf4190938ad81cb5d3e8716deda276480327dc4c64746a"
+    },
+    "project/ActualBlockQuotientContradiction.lean": {
+      "bytes": 2631,
+      "sha256": "a543253f097fd4b4f3b4e54557d2617e63ee3efb7d7b0b1a3b4a2bf1645965ae"
+    },
+    "project/ActualCompanionLocalRegularity.lean": {
+      "bytes": 2497,
+      "sha256": "1d09296b4bf383b8f4b3634816819f5ae4557a5e931955a7163b1272ba8738c9"
+    },
+    "project/ActualEntireAbsolutePrimality.lean": {
+      "bytes": 2914,
+      "sha256": "89c2247ef3bb034c86397c650eeb38482d3a6f66e051a26c29ab3a048da2907b"
+    },
+    "project/ActualEntireOrdinaryPrimeGauge.lean": {
+      "bytes": 6416,
+      "sha256": "0f45d66dc0e76c1fffe31f45c3a8d630375b317946e5e0bd17d097ba27d41445"
+    },
+    "project/ActualEulerFieldMap.lean": {
+      "bytes": 3249,
+      "sha256": "163e0a2e279dc6f7f0d01350a1147e5a4e0e167a856a6ce9574ccd2dbb2d7812"
+    },
+    "project/ActualFiniteLaurentArithmeticFrame.lean": {
+      "bytes": 3569,
+      "sha256": "563e0d730e68e4c9dc2a18423389fa9d8808781403ab0fb6a1a1f520706639b1"
+    },
+    "project/ActualFiniteLaurentConstructedFrame.lean": {
+      "bytes": 5628,
+      "sha256": "7f072d2abfefc9dbc1379520674e165130e85a5cbd19ffdd412268954752a576"
+    },
+    "project/ActualFiniteLaurentScalarGauge.lean": {
+      "bytes": 3593,
+      "sha256": "edcdaef1ca886f6dcc564d67cfd0d105ced52120cd0d17e65e2c31022910acaa"
+    },
+    "project/ActualFourierArithmeticFrame.lean": {
+      "bytes": 1016,
+      "sha256": "0dec8272c89ec48324b0ffe180f8ca714f76d5e1fc88305effbbe273e968bcfc"
+    },
+    "project/ActualFourierClassAssembly.lean": {
+      "bytes": 1709,
+      "sha256": "a0004cfe0b36bc7862b39c7b5e26c43c77c10bac9b381058f861c9c84ba1ff6a"
+    },
+    "project/ActualFourierCoefficientODE.lean": {
+      "bytes": 2447,
+      "sha256": "cdcf1e9552cc66876309f0566e4af850427d2c6748487c2f318769abac3b58fa"
+    },
+    "project/ActualFourierFieldDescent.lean": {
+      "bytes": 4496,
+      "sha256": "c458ba22350b1eb6130ab682e7d37d8643569f2a5ad3c022e12dc4efa9a51946"
+    },
+    "project/ActualFourierLeadingMonomial.lean": {
+      "bytes": 1035,
+      "sha256": "c7a2d3885f91215f0dae2bc0f53584f219b44bd6430655923f97456e2c03337e"
+    },
+    "project/ActualFourierRamifiedBlock.lean": {
+      "bytes": 2379,
+      "sha256": "7248bd897a09235cb5ceb4bb95fbfa959e42ae24fa3b136f4dcf1375b29445c5"
+    },
+    "project/ActualFourierRamifiedJet.lean": {
+      "bytes": 1038,
+      "sha256": "7c88a7cbb5091bfa8046392584a02a542606a26bdaef0fd636871f20d558da4a"
+    },
+    "project/ActualFourierRationalTuple.lean": {
+      "bytes": 1574,
+      "sha256": "3a5a8274245b2230b4be52c785fe0447534c1a1628b3af02ac93b053b7116156"
+    },
+    "project/ActualFourierScalarNormalForm.lean": {
+      "bytes": 2614,
+      "sha256": "b2ff0dcbf15fd4d10d0676bd7de913366497361a6d78ff7431933f3ba9f60210"
+    },
+    "project/ActualFrameFiberExponentialDescent.lean": {
+      "bytes": 5631,
+      "sha256": "8b82b2a9b8714448a8b022110e3e033ffa261bb673d399051d6ec8bbe726c262"
+    },
+    "project/ActualFramePreimageArithmetic.lean": {
+      "bytes": 2785,
+      "sha256": "c93c6801a272e1c2df90799ca82b7e9fdeee8693ec6eee5cce0dfc54351ff9fb"
+    },
+    "project/ActualFrameSolutionDenominators.lean": {
+      "bytes": 2650,
+      "sha256": "247bddac4bcb59208d3525f0eb204c306bfba117a937a9e997a76e6a8b47ae31"
+    },
+    "project/ActualGlobalBaseUnit.lean": {
+      "bytes": 3609,
+      "sha256": "b5e6eb52532b4dea7149c3ee8dbe7886417f045d8ed98a32a0a203c292b5c6e8"
+    },
+    "project/ActualGlobalRamifiedRow.lean": {
+      "bytes": 3881,
+      "sha256": "efb492b5e4fc664110bcb155671733f0238ffda4b9f967b7e63bd920e0db8973"
+    },
+    "project/ActualGlobalResidueSpectrum.lean": {
+      "bytes": 1617,
+      "sha256": "e799fa7b5733ef415b70a199c9c422bf88ea08b5e234eeb1162311325dafd75e"
+    },
+    "project/ActualLinearLiftingFromScalar.lean": {
+      "bytes": 9727,
+      "sha256": "3690ffde238c21ecdb2a891ab782c3f661886ca8df8349a082218c315fdb754f"
+    },
+    "project/ActualLogCoefficientConnection.lean": {
+      "bytes": 1123,
+      "sha256": "626aab202c4ab6ebf35694ceda92932139a5c57a78311add6ede803ebe9ece91"
+    },
+    "project/ActualLogFrameCoordinates.lean": {
+      "bytes": 2884,
+      "sha256": "82f2b5d26182979c91aabc46a5ce974fc430cc832ec2039f85ceeb8f807797e1"
+    },
+    "project/ActualLogFrameSpanning.lean": {
+      "bytes": 2576,
+      "sha256": "d3fcd0f20414bf03adf134318f04ffc124620561f45f85ca3a74fc26960a2233"
+    },
+    "project/ActualMinimalArithmeticConnection.lean": {
+      "bytes": 5727,
+      "sha256": "56ad598914e24a42341b6b595b5f80bce964b980236e6be83a76492f26309b25"
+    },
+    "project/ActualMinimalPolynomialConnection.lean": {
+      "bytes": 5080,
+      "sha256": "9f0579bfa544193857798977982d71d4eb3f20c55f79fa3b2aa44bb298a3240d"
+    },
+    "project/ActualOrderedMomentIntertwining.lean": {
+      "bytes": 3568,
+      "sha256": "cf406ab28e20fe2372d6b8d3294058c70e8ff73e8cccf76d17d2ecd771c8c3a0"
+    },
+    "project/ActualParallelPreimageExtraction.lean": {
+      "bytes": 1965,
+      "sha256": "7d3d653f24e05c452d16d0c01c6758bdf27a000d96b3b952f47d34c7a2a0e6a2"
+    },
+    "project/ActualPreimageOriginalSource.lean": {
+      "bytes": 3057,
+      "sha256": "c527905c9fc22d05f70034c8815f7ad9acfb1390b7efba88eb7fb4500fbfff92"
+    },
+    "project/ActualRamifiedAmbientScalars.lean": {
+      "bytes": 2473,
+      "sha256": "2fd5525d7b25b0b7174ce3d0c6e81c3594cc4f1c98066b741c45ac3505afa7c7"
+    },
+    "project/ActualRamifiedBlockRow.lean": {
+      "bytes": 2848,
+      "sha256": "b30c87b1bb396f6934edbdb466c6a89b358be3c8b22bbe410f34371de90d2c84"
+    },
+    "project/ActualRamifiedTaylor.lean": {
+      "bytes": 2217,
+      "sha256": "544e6169a9be831f58a25b346e0b32e0e4770fb5d621fa416550ac6c58bcd120"
+    },
+    "project/ActualRationalClassBaseUnits.lean": {
+      "bytes": 3320,
+      "sha256": "27ed25d996bd7ce33f1ff79fa3069b49b11b70afa6c7e92d7f4c9ab27e67f67e"
+    },
+    "project/ActualRationalMinimalSingularity.lean": {
+      "bytes": 6328,
+      "sha256": "4b8d323d118e93968637be8281242bc8eafd538918acf6e90caeb050df5da792"
+    },
+    "project/ActualRationalProductQuotientOperator.lean": {
+      "bytes": 6864,
+      "sha256": "99a0678976168066766bd819e8191a8588d0f41cffa835534ec096665225f4c6"
+    },
+    "project/ActualReciprocalFieldEquation.lean": {
+      "bytes": 2993,
+      "sha256": "9739bbcbaef3cb504c1b2ca5047d5e634cc0d802edd27094445cb6f3dedaa6f9"
+    },
+    "project/ActualReflectedPreimageJet.lean": {
+      "bytes": 4008,
+      "sha256": "673ed4d0bb1d3b59668feb42da0f64238f6eea23c7f83724579e38021f25965f"
+    },
+    "project/ActualResonanceAmplitudeFactorization.lean": {
+      "bytes": 2309,
+      "sha256": "67248f20e839c87a2a2ac7843d41f1526305bb2031f762b639db7b2fe6bc33b7"
+    },
+    "project/ActualScalarNormalFormRow.lean": {
+      "bytes": 716,
+      "sha256": "a1a5003cdb57fb9dc5dbc6cd30fda5a7d3927787c703d089ead6cb96307ebe83"
+    },
+    "project/ActualSourceTowerEquation.lean": {
+      "bytes": 1941,
+      "sha256": "ab60ba917d87a67b6347b7cd9d131a8794dc81575f243ea348d1f8b716d56676"
+    },
+    "project/ActualStrictEConjugateBlocks.lean": {
+      "bytes": 17141,
+      "sha256": "2c6048938b241c8051ee4a2e46f57edda575e7a1e4c11e6e5837e483a7a3215c"
+    },
+    "project/ActualStrictEFrameAvailability.lean": {
+      "bytes": 1329,
+      "sha256": "af7391b5aa2836b201347efcf52db293257714b493fb8ffa87910aaf9c1e857c"
+    },
+    "project/ActualStrictEGaloisNorm.lean": {
+      "bytes": 11537,
+      "sha256": "513bb35eb26a9a545c6c629523ace8a69cd8f9691d7f02db4cc6b945442b8106"
+    },
+    "project/ActualStrictEMinimalCyclic.lean": {
+      "bytes": 5056,
+      "sha256": "1a67289fe4f8a1a3c8f663859c493b214afc4ce91bf35791472b8bf93c97ec9f"
+    },
+    "project/ActualZeroEulerSolution.lean": {
+      "bytes": 2828,
+      "sha256": "6ced415d40b65db860ed25335f054bd33b4288439e2ce1918fab8cfe0db3c805"
+    },
+    "project/AlgebraicBaseChangeDomain.lean": {
+      "bytes": 3567,
+      "sha256": "b21b179b2e656cad0b623a54d7e8a1c38150b5f75214608dcb0024a3eff9c748"
+    },
+    "project/AlgebraicBinomialIndividualInverse.lean": {
+      "bytes": 4086,
+      "sha256": "e4a24bd29a49e8d928216c9b08ea841183351c1f1c4c7d94b8fed04a92db5ce1"
+    },
+    "project/AlgebraicComplexIndicialArithmetic.lean": {
+      "bytes": 2108,
+      "sha256": "022b05eb508d6740b64b243452a3626f4254cdcbe1feb6bf702eb2886faacb62"
+    },
+    "project/AlgebraicExponentialDenominators.lean": {
+      "bytes": 3537,
+      "sha256": "a71b50dd57f5feb906d16eb276293ffd1e0b334d660ceb96cf346cc1e23353b8"
+    },
+    "project/AlgebraicFiber.lean": {
+      "bytes": 2538,
+      "sha256": "9c2b9df2349883c78600f6d03cca5bdbb30f41971ab71fe6e386fac49ece477a"
+    },
+    "project/AlgebraicFiberDomain.lean": {
+      "bytes": 3572,
+      "sha256": "166a8c5c5e6fbddba140c5c7bc6f043c9b4af6f23436e75495cdc38a416bb755"
+    },
+    "project/AlgebraicFiberQuotient.lean": {
+      "bytes": 3856,
+      "sha256": "bd4fefe0cd1650f3b32549efd90a789c0608d167844c663703ce3166ff3f32ba"
+    },
+    "project/AlgebraicInterfaces.lean": {
+      "bytes": 2747,
+      "sha256": "4459f557b67be8187167a162aec136a3b7179641a002d24d3ed8bab119ae1f93"
+    },
+    "project/AlgebraicPoint.lean": {
+      "bytes": 3028,
+      "sha256": "0c11cd42830b07b8ba5629dad289b141794409fc94f3e355fcad0cd37ae7f1fc"
+    },
+    "project/AlgebraicPointAvoidance.lean": {
+      "bytes": 1334,
+      "sha256": "646c8cff4d38e991ae93a7d3bf2f9c9d50c3d8faf15d321dc5eb7ec30d832238"
+    },
+    "project/AlgebraicScalarExponential.lean": {
+      "bytes": 7956,
+      "sha256": "383c44082349a15c67b20b3be9f85d4a498cd61bd4c57e9142aae312cbd64e9b"
+    },
+    "project/AlgebraicTensorDomain.lean": {
+      "bytes": 3472,
+      "sha256": "79c16b991dc742727ac0a606aaa149018b6861e39d8e36c7cf1df93434ca1ca9"
+    },
+    "project/AlignedActualFrameArithmetic.lean": {
+      "bytes": 1765,
+      "sha256": "5aa2537129bc51fba9ee6f21ffd59de4515e2452d25c898ef813eedf5b5fad2c"
+    },
+    "project/AlignedClassPivotNonvanishing.lean": {
+      "bytes": 2136,
+      "sha256": "2989a8cfeafd1897912a69ec4ab472b2419ee8768086a79ac1d97e5afddb73e3"
+    },
+    "project/AllClassDiagonalNormalization.lean": {
+      "bytes": 2499,
+      "sha256": "b1d66948169f3b09df04d3b04826461c6da370955d714906f5b8b3d3125a2327"
+    },
+    "project/AllClassFilteredSolutionDenominators.lean": {
+      "bytes": 2826,
+      "sha256": "066897c4838695f1c29f5b5183c1d6742e244d59b95b17d61757ec5357c70529"
+    },
+    "project/AllClassFinitePrefixFilter.lean": {
+      "bytes": 4248,
+      "sha256": "d242a5a55511340239983ce64bcf95c9a6d2a97e9c1f933bd799bd2a71c97f12"
+    },
+    "project/AllClassNonzeroPivotExtraction.lean": {
+      "bytes": 2396,
+      "sha256": "e04a40159255d7d4fba62de8281c8ee717ccd18c4a6af7ad496fde3e338b16fd"
+    },
+    "project/AllClassPrefixConnectionArithmetic.lean": {
+      "bytes": 4096,
+      "sha256": "0376e7f17e2732da2eb7718694ef708bdbbda63670f5b9ef8bf68fad9da65cb5"
+    },
+    "project/AllClassSharedFilterArithmetic.lean": {
+      "bytes": 2794,
+      "sha256": "1f756caefbeb06fee10940e4828dce901eac224b96ca0c04fa2955c2a67a1780"
+    },
+    "project/AllClassSolutionMatrixPrefix.lean": {
+      "bytes": 4507,
+      "sha256": "1ebbe5347d414aef32c3b0dcc984df49cdb8d4cb13501327e49c859caab25858"
+    },
+    "project/AnalyticFormalTaylor.lean": {
+      "bytes": 6389,
+      "sha256": "a21bbd940d81c18eb196a4275b55565d051e5682430c67d5cb05e83d12382392"
+    },
+    "project/AnalyticResonanceSquareBlock.lean": {
+      "bytes": 1926,
+      "sha256": "13ed3814ddec446fd34aca2737522f6acda67ebd8fd8412027aacf1480343646"
+    },
+    "project/ArbitraryActualOrdinaryGerms.lean": {
+      "bytes": 7482,
+      "sha256": "c516c88be000c77327ae7cf5476cd0cc827c7eaef35476df7847d390a10472db"
+    },
+    "project/ArbitraryOrdinaryAnalyticGerms.lean": {
+      "bytes": 7345,
+      "sha256": "375acd9d6789f0bc9f9f83743c71ea50d6cedcf0101ca862a5957fec91fa41cc"
+    },
+    "project/ArithmeticProgressionPrimeObstruction.lean": {
+      "bytes": 2083,
+      "sha256": "f190004b9790ff4b955f98237818254927ec0601e82908d47af1d829aac84411"
+    },
+    "project/ArithmeticRecovery.lean": {
+      "bytes": 6195,
+      "sha256": "efa26fe4cae39de5597c145a924366dea00b9c94d16afc850e32eca7996d497a"
+    },
+    "project/AttainedIrregularSlope.lean": {
+      "bytes": 2770,
+      "sha256": "bd9f7fe07f243f22d4eb5862194a9e5828cc1efbc1f4c55197290834fec52a72"
+    },
+    "project/AugmentedCompanionScalarEquivalence.lean": {
+      "bytes": 2529,
+      "sha256": "1d75c9c2da8008cf4bf15dd474ab76e0d7dfdec3440d6e5e6a8d2af80870a555"
+    },
+    "project/AugmentedSourceConstructedFrame.lean": {
+      "bytes": 3482,
+      "sha256": "c6a92fb9c3ff1eda2186783bf88888f8ee34e6156a851cc9540deb836432f719"
+    },
+    "project/AugmentedSourceCyclicShape.lean": {
+      "bytes": 3141,
+      "sha256": "8d2b9b21df594406acacdd0e5c8b09a2092ca1ff86ab2c80a460395c5a1740c6"
+    },
+    "project/AugmentedSourceEulerMatrix.lean": {
+      "bytes": 5227,
+      "sha256": "f7a00cdb18263d127f992a988823ef3904377b23b30e6e60c53a825a90b0e0c3"
+    },
+    "project/AugmentedSourceEulerSolutions.lean": {
+      "bytes": 3672,
+      "sha256": "65e380cf4b4fe28ed45616115d860244296f45a36b1c12399e674d39bb880c99"
+    },
+    "project/BalancedIntegralTypeIIPade.lean": {
+      "bytes": 7390,
+      "sha256": "fcda8bc8c45bde7a5b7fd83493e9294084415664c8637d0be1b215681d1cdd2b"
+    },
+    "project/BaseFractionConstants.lean": {
+      "bytes": 6677,
+      "sha256": "2d2a94f3d3c97b0082fb0c4b29ba537e3daed62093e69545856f5963f90bf5ca"
+    },
+    "project/BeukersFiberConsequence.lean": {
+      "bytes": 3760,
+      "sha256": "67f1c818d1e10eabfd245a4f8f436f3b935ac4e92be376915369454463abe15a"
+    },
+    "project/BialgebraBaseChange.lean": {
+      "bytes": 3331,
+      "sha256": "4abf064efc503c10e3a7bdaf32fb42adb2109472d214655b20220b451182e9eb"
+    },
+    "project/BialgebraBaseChangeCounit.lean": {
+      "bytes": 4136,
+      "sha256": "bdf19ffd048bb14e2b1a612a33639537a7fb13176a8b05afa0ec7ca509fb93c5"
+    },
+    "project/BialgebraBaseChangeLaws.lean": {
+      "bytes": 6898,
+      "sha256": "43463abaf86d5054dc33491582bb9abd41e6a200ad8368f876809a3e7313beb8"
+    },
+    "project/BinomialConjugateBounds.lean": {
+      "bytes": 4476,
+      "sha256": "67d5a28ba3c3fdc9a63fce3464b253fd80dbb5306990353babf1c9fb076c6738"
+    },
+    "project/BinomialGaloisDegreeOne.lean": {
+      "bytes": 2323,
+      "sha256": "eb1a7b6b8aa0ec8c45460940c9cf8fb3a8d7a93f95a0d4587cc80592dabd2dd2"
+    },
+    "project/BinomialIndividualInverseBounds.lean": {
+      "bytes": 5721,
+      "sha256": "d4f536f0be6efde777099d7c37542871524b1d90cace3f199e7be571e77e49e0"
+    },
+    "project/BinomialNaturalScaling.lean": {
+      "bytes": 4129,
+      "sha256": "84e8219525867e9026ba1c040b410bb9445b91f1995211a0b4268cb9b4b90c1e"
+    },
+    "project/BinomialPrefixRationality.lean": {
+      "bytes": 2908,
+      "sha256": "66a5266c29ed46db653b6adb49adee22fe21a78e0c16e667855e52b3219c83c4"
+    },
+    "project/BinomialPrefixShiftClosure.lean": {
+      "bytes": 4436,
+      "sha256": "c9d4e15008322fcbdd0e034b7fdc975d2ecb65e124492703e654c80e3e42f731"
+    },
+    "project/BinomialPrimitiveCombination.lean": {
+      "bytes": 4570,
+      "sha256": "191fcb821283369dd2bafcac7e1920a5abfb705711e68923b797198a141c5368"
+    },
+    "project/BinomialSplittingField.lean": {
+      "bytes": 3201,
+      "sha256": "bc7a2454482366b45a715a2e64c6032ec70dde42e3b86151e0847ec2666ffa2b"
+    },
+    "project/BinomialValuationObstruction.lean": {
+      "bytes": 3082,
+      "sha256": "36a3cc52367ba1c542a552a95ebb82fc4b7e400042f13023ae381a04a7f08331"
+    },
+    "project/BlockFundamentalSupport.lean": {
+      "bytes": 7707,
+      "sha256": "71cd853a86306b7106f2081646b5aad59ac53b88e6c5a591d85cf548092f80c4"
+    },
+    "project/BorelCoefficientPolynomialRecurrence.lean": {
+      "bytes": 5486,
+      "sha256": "9e8e67506c93c2050065056e93cc5f6b66c3c48a5ae77acfa6e09e3c3897230b"
+    },
+    "project/BoundedChartPolynomialAnnihilator.lean": {
+      "bytes": 6752,
+      "sha256": "bcc6d364ac24ba88baedd6787146a6ab2a4d66bb7fef1315373e7c05349d3049"
+    },
+    "project/BoundedLogNormalizationJet.lean": {
+      "bytes": 4181,
+      "sha256": "0f9972dc9ec954f5df09d14c54d29d20aa4fd3bdaf4f9d6602d9ef911ca4d5f4"
+    },
+    "project/BoundedMatrixEntryProducts.lean": {
+      "bytes": 2765,
+      "sha256": "07b880e0333479c675c1497dc7cda071e19995afbcc45a71481951299f868794"
+    },
+    "project/BoundedPolynomialRowOrder.lean": {
+      "bytes": 3376,
+      "sha256": "e88d917bc41d4913bfe2600f02f5b93031eab79d06cb35c8161e95fde29013ed"
+    },
+    "project/CandidateActionCoassociativity.lean": {
+      "bytes": 4789,
+      "sha256": "f8a75374be1f639268d66af4264915da0376d08c2e2a2a9c1ffa3bcb9d5844bf"
+    },
+    "project/CandidateCoaction.lean": {
+      "bytes": 3738,
+      "sha256": "b0cc57cc847ff1e3d913208e9049e4ea167766e59213e917c4e231545be0f415"
+    },
+    "project/CandidateCounit.lean": {
+      "bytes": 8077,
+      "sha256": "e1f5ffc4877b43f6904c6bd3bd3c2f245f2cefba3fb35e63ec702c2e9f6683ee"
+    },
+    "project/CandidateDifferentialCoaction.lean": {
+      "bytes": 4307,
+      "sha256": "8c49a514d3ffc36ca83944f1fd738fbef34a2bd29197a987426d5ac70bad8ee6"
+    },
+    "project/CandidateFaithfullyFlat.lean": {
+      "bytes": 7999,
+      "sha256": "da2c0130ac6c903b47fa7a1f0628579b8304fdce5c83d68a1375ac9985b2792b"
+    },
+    "project/CandidateFiberUnitLift.lean": {
+      "bytes": 1735,
+      "sha256": "bb759df5a2b8477fcb810fa2a74ee7687d5639b87c4d3c1884b30874f401db80"
+    },
+    "project/CanonicalDifferentialCharacter.lean": {
+      "bytes": 4264,
+      "sha256": "a7c2fd9d13c8c8cc70ebd7f915d556aab63d9c6d271b5b4dc0282c361d5af33c"
+    },
+    "project/CanonicalInvariants.lean": {
+      "bytes": 1340,
+      "sha256": "eb2c0cb94888db954fe7436ba0ed0540d20a4accbb34788abcab05778c159934"
+    },
+    "project/CanonicalStructureProjections.lean": {
+      "bytes": 905,
+      "sha256": "5a4feb00be52b0145769a675676cf939f459d060a755e40c4ac143a60750c437"
+    },
+    "project/CanonicalTorsor.lean": {
+      "bytes": 4075,
+      "sha256": "1c4c3cb4075dfd008d0cc159853322bddc6aa195e7121d3a6bd6afa44954be35"
+    },
+    "project/CanonicalTorsorUnitLift.lean": {
+      "bytes": 4602,
+      "sha256": "d17deab626ec8d4b4f1988f737e8180fdfaf91aed154d643e9300d8765399b0d"
+    },
+    "project/CertifiedPrimeSummability.lean": {
+      "bytes": 2079,
+      "sha256": "960d96383c7cc68625a60842109b726ed21c871e6a2d59a78f0e29e5f2e64492"
+    },
+    "project/CharacterUnitLift.lean": {
+      "bytes": 3018,
+      "sha256": "6508b22f1a144622052e7896d613fcc9227f5645097979e27fa66fe1f0dfe864"
+    },
+    "project/ClassExponentRationalityReduction.lean": {
+      "bytes": 1359,
+      "sha256": "1b07c2707623801b36a2741503b8fc998f4649a83ff601b4875d68c21464643e"
+    },
+    "project/ClearedConnectionSolution.lean": {
+      "bytes": 4481,
+      "sha256": "259217eb51e9201bb324a15c7b2d3a44d87428e8540245b56469d07c883ebf6c"
+    },
+    "project/CoefficientConjugatePrefix.lean": {
+      "bytes": 16896,
+      "sha256": "73043d275bf31c297415b2774fd58420e012c2b8f679a2b02eeb3e72d3ea7397"
+    },
+    "project/CoefficientEulerEigenvectors.lean": {
+      "bytes": 1507,
+      "sha256": "d81eee950bbc08b53ffcbeb81455c5dcb3b2f8697f5f6840298806fa38ff9fe1"
+    },
+    "project/CoefficientEulerLeibniz.lean": {
+      "bytes": 1992,
+      "sha256": "a9cdf1721a3206dcbacce797cc0c3e1ea462ad60f9d4276b1d6e984a8494be44"
+    },
+    "project/CommonMatrixNormDenominator.lean": {
+      "bytes": 3116,
+      "sha256": "3c3799ca65fccd75eebdf0ae481c7be20d72f0f5f3543cf60fe721b35d8f6659"
+    },
+    "project/CompanionArithmeticLocalRegularity.lean": {
+      "bytes": 2033,
+      "sha256": "d38ffeba992127651a041bcee2ab90ca26cc8d90f48dd51e7ca73a6e56692a3a"
+    },
+    "project/CompanionCommonDenominatorLocalBounds.lean": {
+      "bytes": 3792,
+      "sha256": "53b82af0ffdff52ca66eedd8f11c0d9b61ccc9d76dcbacc15e14938a84f0cc9a"
+    },
+    "project/CompanionLaurentShearBasics.lean": {
+      "bytes": 6974,
+      "sha256": "14c606726ae821122145a9ee646af8acd144c0fb00ea944b436305949d2c14a3"
+    },
+    "project/ComplexCompactOrdinaryBounds.lean": {
+      "bytes": 6472,
+      "sha256": "c0aa8885f7e65bfde7bed65746d033736fb8a2c7dbc8081a1744503230d13632"
+    },
+    "project/ComplexOrdinaryAnalyticFrame.lean": {
+      "bytes": 5779,
+      "sha256": "235cb2789742bc333be23dfe07d333714c7e13670ac66cc3095c096ecc1edf1a"
+    },
+    "project/ComplexOrdinaryGermExtension.lean": {
+      "bytes": 4397,
+      "sha256": "cb7eaa2a4f77bb393a69bab18d3ee65c0aed9f2d7ccbbbc6160d7c79c4973a9c"
+    },
+    "project/ComplexOriginalCoordinateGerms.lean": {
+      "bytes": 5208,
+      "sha256": "d4be38dcf5bf2f6eda81081bd5d99697d304b5f5f8f7b3b00c2e03b976cd869a"
+    },
+    "project/ComplexPolynomialSystemBounds.lean": {
+      "bytes": 8051,
+      "sha256": "232c3e47a31d5bf2a4cd84a85f85c3c73bfd36db78069ff3c5d4667cf2306d9c"
+    },
+    "project/ComplexPolynomialSystemGrowth.lean": {
+      "bytes": 4966,
+      "sha256": "c79bc024959f6af8b277f081be17f0c31259f314d1821b24a83042f7ac77eea9"
+    },
+    "project/ComplexRegularPathContinuation.lean": {
+      "bytes": 6087,
+      "sha256": "90757c4eae1a928cbcf63d8bd00586bdb75b215ec67bca0cbd7e1372da393a69"
+    },
+    "project/ComplexUniformGermDisks.lean": {
+      "bytes": 5394,
+      "sha256": "f2749da1c04a0ac6b24f0166adc0c7b93a3bac4fc889bfed0018445e61aae696"
+    },
+    "project/ConductorFactorCertificates.lean": {
+      "bytes": 2972,
+      "sha256": "c668c1b0917623bfb4f23c1f482b8345cbcbed05aafabf5927c2b7a9e131452e"
+    },
+    "project/ConnectionMixedLeibniz.lean": {
+      "bytes": 2521,
+      "sha256": "31e8cb80e99d2a7c992d19064b9deb77876ff560586e924fd30b4e0c28e07229"
+    },
+    "project/ConnectionStage53NormalOrder.lean": {
+      "bytes": 2143,
+      "sha256": "ee5fe54e71ddb0c5302a0af42d9cd47e3aa2036f018d6db763049bcc011a0086"
+    },
+    "project/ConstantCompanionArithmeticObstruction.lean": {
+      "bytes": 3888,
+      "sha256": "2c0d5439885311ac4fa0a2502f8ae17fc1d539e1e2a7156b83760257b512ea77"
+    },
+    "project/ConstantCompanionObstruction.lean": {
+      "bytes": 5964,
+      "sha256": "c5bb0cc9add9b18b4ba6931378d9df3100c72397f76ea56e5d59d7b5fa33dfd2"
+    },
+    "project/ConstantForcingConnection.lean": {
+      "bytes": 3147,
+      "sha256": "7d6d30003841d498661dfe561b33276df5c6779a68435e9979e55a4e02cb8e07"
+    },
+    "project/ConstantForcingDividedFormula.lean": {
+      "bytes": 3018,
+      "sha256": "0d2955eac50dc5dd464193b56ee9e1f23af885f8ac993b6f5009d0a77ccf8420"
+    },
+    "project/ConstantForcingPoleBounds.lean": {
+      "bytes": 3091,
+      "sha256": "e112c0b10de9e7400d05c2fc9dd77eca494410cd63b65bf1ffbeb6e344bffd14"
+    },
+    "project/ConstantForcingPrefixArithmetic.lean": {
+      "bytes": 5422,
+      "sha256": "3ed59efbb7bb09cf583ac70499d8a10e1b4c6f66559cba118265c4d2294a8f73"
+    },
+    "project/ConstructedPVCharacterLift.lean": {
+      "bytes": 4628,
+      "sha256": "f2699198a207b52124f29d669d89b73ecb548888b69ca9935bba45f137da6b04"
+    },
+    "project/ConstructedPVFiberUnitLift.lean": {
+      "bytes": 4891,
+      "sha256": "d78af60c08420d58f80aec8465c29cbfcecfd7473dc3cef168cd53324ca6a5b7"
+    },
+    "project/ConvergentOrdinaryGerms.lean": {
+      "bytes": 3810,
+      "sha256": "0f51cf74df3eae78d8cdd54cc5d44058187233f7138326194c7a3c84d48ae44e"
+    },
+    "project/CoordinateChartFullGraph.lean": {
+      "bytes": 3066,
+      "sha256": "4ee9cbfd7c9388b52b1bbff4ee698089806355ba6686f380611ebee3497e0d63"
+    },
+    "project/CovariantRowStabilization.lean": {
+      "bytes": 7842,
+      "sha256": "0090f787e0278714137a43c441d4cf5cc1a86fa86d4c6bf517dda184fd562bfb"
+    },
+    "project/CyclicJetInverseTriangular.lean": {
+      "bytes": 1141,
+      "sha256": "8dd3e5dd82f07f24def2dead473a32e3678c33805db427c93d8efb423d255fe0"
+    },
+    "project/CyclicRegularEulerFrame.lean": {
+      "bytes": 4492,
+      "sha256": "b2c8e5dc724a28a40ec4a43f5a5fcfe879b1f73bf0367148f78514c80ec812d5"
+    },
+    "project/DenominatorGeometricGrowthObstruction.lean": {
+      "bytes": 1916,
+      "sha256": "d2d6e84ddb9052b86f67aee55a670be8429971f8390057100c774fccede4ca3c"
+    },
+    "project/DerivationDividedLeibniz.lean": {
+      "bytes": 2674,
+      "sha256": "b1a2c4efb2c2e164a489e361a92389fadbb0e5beca847a9f85d12e2313429e20"
+    },
+    "project/DerivationOverConstants.lean": {
+      "bytes": 2108,
+      "sha256": "bddea486cb16dc3a0161160641b93901f2d5d7ad1f4747ef26e9cef86aa70db6"
+    },
+    "project/DerivationTransport.lean": {
+      "bytes": 1915,
+      "sha256": "38ac3488db53a5565857f194bd1820ddf1959a64fbbd81b0aa87a82b09ffc37d"
+    },
+    "project/DerivativeStableNormalizedGraph.lean": {
+      "bytes": 3924,
+      "sha256": "5a7b23332301ac5515a2816f6e447297cf07b1894c79e40af6be7582ff6447cc"
+    },
+    "project/DeterminantalIdealStability.lean": {
+      "bytes": 10975,
+      "sha256": "29222613d32c0720ffa6a5c4531f47e281fd110c2e68ef465a708cbfa313701d"
+    },
+    "project/DiagonalBinomialEndpoint.lean": {
+      "bytes": 1988,
+      "sha256": "f34dd683986a05b4f366b1e55ffb1d5230fd0b2b454a20994e4c026f9c16e8b4"
+    },
+    "project/DiagonalBinomialSharedInverse.lean": {
+      "bytes": 4279,
+      "sha256": "c360d6f87dcdd1a0737c3460b62c084e05eca5d679ae2d742b92587108d11087"
+    },
+    "project/DiagonalCompositeLogNormalization.lean": {
+      "bytes": 2893,
+      "sha256": "e5f31a584c982b24c3d06ef1463db3a454df063ab063b57e9f78ae9805a0f535"
+    },
+    "project/DifferentialBasisRangeBaseChange.lean": {
+      "bytes": 3962,
+      "sha256": "3ebc78cca6b356e36d3eacf76f14abf32c2729b316e54abc03ac663c837a0b09"
+    },
+    "project/DifferentialCharacter.lean": {
+      "bytes": 4405,
+      "sha256": "ec31044b7af62daaed3c9b4d3081f8aa99a16560aa9eb89da54d945fed044a05"
+    },
+    "project/DifferentialConstantsIndependence.lean": {
+      "bytes": 9196,
+      "sha256": "44441e483a441a41a7febb9e03c0d0ea53b709dd42481f9111202832e11fc513"
+    },
+    "project/DifferentialFiniteFiltration.lean": {
+      "bytes": 5038,
+      "sha256": "09addfcce7b3d73006e3b24dd2d688ce9110c50c2374f6041ee4efbeb0a79120"
+    },
+    "project/DifferentialFrameCoordinates.lean": {
+      "bytes": 1417,
+      "sha256": "841e4027871f547b6bc3f3b12d44cd849c6e87edceda67dfef0bf39790658729"
+    },
+    "project/DifferentialPresentationRank.lean": {
+      "bytes": 5977,
+      "sha256": "a80d24f1765f5c8eb0c7f79c5035b3e0aeac65bdbba292644913f3c35e1e0b12"
+    },
+    "project/DifferentialQuotientConnection.lean": {
+      "bytes": 3190,
+      "sha256": "2035204e05673952859e72fb41590150727813162ed658272281f7c96310b624"
+    },
+    "project/DisjointNaturalExponentClasses.lean": {
+      "bytes": 2864,
+      "sha256": "3b739fd0a76e518d27fd427df1d0432e618ffa81ad2d7b85afd5eb6353e39b1f"
+    },
+    "project/DisjointNaturalResonanceIndex.lean": {
+      "bytes": 3855,
+      "sha256": "11bbabcf4eaa35ae207cd09601a23d55e7555f969f40caf31590d152fbce13bd"
+    },
+    "project/DomainUnitCharacters.lean": {
+      "bytes": 2324,
+      "sha256": "81fa5099f8517c04c13f07683febcf897924791f25a7726565a633fd0e53bf37"
+    },
+    "project/DualBinomialOperator.lean": {
+      "bytes": 5510,
+      "sha256": "6d5a6a39cab98d7cd18887438bc9469af9490c14b4f1b99075ad15286e294676"
+    },
+    "project/DualColumnProperStableSpan.lean": {
+      "bytes": 2871,
+      "sha256": "193b7e7d01f576a2504aef1220600dba4b5dbe03b6bbc9aa82a62e7e53c973c5"
+    },
+    "project/ElementaryGeneratorGrowth.lean": {
+      "bytes": 4044,
+      "sha256": "453288f52bdd6a1d989039ad0f62a5f0cb0c3656153005ef00b9d49dd46cb5dd"
+    },
+    "project/EntireFractionIntegralPolynomial.lean": {
+      "bytes": 1170,
+      "sha256": "b197538364922b99121114ae4885eaf5995050cd7e610dd281b328d8a8b554c9"
+    },
+    "project/EntireFractionMonicRationality.lean": {
+      "bytes": 2534,
+      "sha256": "e82f34ee3208f31cc5816b949a80ae751d024480f7709c024ddd940be43700b4"
+    },
+    "project/EntireLaurentMonicRelation.lean": {
+      "bytes": 5818,
+      "sha256": "c08e64a7d1615e29d5f7d4dec38b6ec75ea2b1c9ed128d7d5108d14ba4bd8d3c"
+    },
+    "project/EntireLogarithm.lean": {
+      "bytes": 1533,
+      "sha256": "039228953c89757e157bb5f912c80cb2dfcc365f6ee90c5fddbe8536446b9f6e"
+    },
+    "project/EntirePolynomialGrowth.lean": {
+      "bytes": 4725,
+      "sha256": "5f68abdb93e902963df053d6d028e2401ff96cc5abdc80b34d33983bfab8d358"
+    },
+    "project/EntirePrimitive.lean": {
+      "bytes": 3549,
+      "sha256": "0528e161944bc9db27341edc23c1d5198f74afdc57585546718038ba375ccfc5"
+    },
+    "project/EntireSubfieldTaylorEmbedding.lean": {
+      "bytes": 9401,
+      "sha256": "86c47099c35cdb444af48fa8be77e925d6a324626c7c7d4b92f938455c634c40"
+    },
+    "project/EntireTaylorEmbedding.lean": {
+      "bytes": 9132,
+      "sha256": "7cdacac13814b1cd279cf5a4eb4c711ed46dbee8374a13ff607d67af66bee755"
+    },
+    "project/EntireUnitArithmeticRecovery.lean": {
+      "bytes": 2608,
+      "sha256": "b6ceeac6cf2c5ee3239c045e113680d8904bd6062e35d1fb0b8d9ae9dd1c6202"
+    },
+    "project/EntireUnitExponentialPolynomial.lean": {
+      "bytes": 4173,
+      "sha256": "fa25d5c43af1e98d596a63f65a8980949dc84577ff0e1d77aa0877c89cd4d790"
+    },
+    "project/EquivariantWeightChart.lean": {
+      "bytes": 10604,
+      "sha256": "918df25ab6d79bbbf5af5c5f945c9d55ddfd8e232a1b4be1c679094a32dce533"
+    },
+    "project/EulerAnalyticCoefficientDisk.lean": {
+      "bytes": 5713,
+      "sha256": "5c8f9fc4f20c24128995b1601b2342e500a1e104675f2cc3b15328b0d17de370"
+    },
+    "project/EulerAnalyticCoefficientGerms.lean": {
+      "bytes": 7051,
+      "sha256": "f8103ed66d72ff89ec9a2839484ccb4c3c88fb5ae98e716ad193364926a81b16"
+    },
+    "project/EulerCompositeConnectionArithmetic.lean": {
+      "bytes": 4631,
+      "sha256": "6d65a158897ac8fe58ed79f393efa47118e006124e1ee07e78085f89c2f4bbd8"
+    },
+    "project/EulerCyclicCompanionIdentity.lean": {
+      "bytes": 2978,
+      "sha256": "ce76b20e0f3f056e330d9c532295036f14381140401db82738b5c821d0c525b0"
+    },
+    "project/EulerCyclicJetTriangular.lean": {
+      "bytes": 4453,
+      "sha256": "3a9c2536135375ae976e2ff302308714cabe32295329e8582bf2283d8b41cc25"
+    },
+    "project/EulerFallingConnectionArithmetic.lean": {
+      "bytes": 6657,
+      "sha256": "5cc1df01961e473c249bdd5187ae6730303317c451c39a77f3fc3ab2855a37e9"
+    },
+    "project/EulerForcingCoordinateOrder.lean": {
+      "bytes": 5566,
+      "sha256": "9e7172b7273c0dcf75b4767d41825f26d7ecd9f54c38b310c9e8aa49026c67c9"
+    },
+    "project/EulerShiftedConnectionArithmetic.lean": {
+      "bytes": 4216,
+      "sha256": "0c927c795511eff9950284af7ac58b4fe81ecd4b1c1fa2e4845464d5266797e1"
+    },
+    "project/EulerShiftedConnectionOperator.lean": {
+      "bytes": 4102,
+      "sha256": "95e98b653b72e1372fa13b77b13aa8f126f3711198dc5886957cbed5257a0c3f"
+    },
+    "project/ExactImagePreimageArithmetic.lean": {
+      "bytes": 1897,
+      "sha256": "5211954d9dc6de717c1a2496fa9bcd8f6d10e483372e7ff35c75dc4dcf4ba717"
+    },
+    "project/ExactImageZeroPreimageArithmetic.lean": {
+      "bytes": 1802,
+      "sha256": "dffae1b84ea2fe5d4b5d4ca97d7a9aeddba4a26fedf8f2162518b001b17fe200"
+    },
+    "project/ExpandedConnectionIntegrality.lean": {
+      "bytes": 1880,
+      "sha256": "388a1dc8a203a0ae2497a5ce848246842054c459ff9f42e41d091185d08d9c48"
+    },
+    "project/ExpandedWeightedSupport.lean": {
+      "bytes": 1693,
+      "sha256": "d3631905830f4b961ee84dd65fc4167e13e6e27ab7f25b4bf19233a1117e8276"
+    },
+    "project/ExponentialGeneratingGrowth.lean": {
+      "bytes": 4895,
+      "sha256": "7d4f1f9d8b67488c6096d844d4572ff9a7b26440a73ba81d58e46b48b4b05db4"
+    },
+    "project/ExtendedActualNonintegerPreimageArithmetic.lean": {
+      "bytes": 3845,
+      "sha256": "13cf20332af91fb1c46b8fe0daaecb675df42608fd371511f3dd4ee89c702335"
+    },
+    "project/ExtendedActualZeroPreimageArithmetic.lean": {
+      "bytes": 3775,
+      "sha256": "9201ddd26a1a620d547d294dd09de71b035885939b25bb154bb0c2261136e37f"
+    },
+    "project/ExtendedSourceCompanion.lean": {
+      "bytes": 2456,
+      "sha256": "057fd3ce5c09278c82bd51aba5610bd983dea473f936bafb020bc163af2e5039"
+    },
+    "project/ExtendedSourceResidualFrame.lean": {
+      "bytes": 1812,
+      "sha256": "2a473bf4952fc5f9086737221e2125540f437a97a97f476d196b30e10cc27582"
+    },
+    "project/FactorialArithmeticIntegerShift.lean": {
+      "bytes": 3212,
+      "sha256": "efc7652042f50fad76d7e4cca1caebae47d916927c1884f5548fa938b7838476"
+    },
+    "project/FactorialDenominatorObstruction.lean": {
+      "bytes": 4760,
+      "sha256": "7b29f6c716883d430c1b241bcadc31e1d753754585b8e7a9acca2c216e785631"
+    },
+    "project/FaithfulBlockGaugeNonvanishing.lean": {
+      "bytes": 5676,
+      "sha256": "679e9be4ac8fe407c9504dd6652d96f85cd401a91beaa65dda3fb3e357e6724e"
+    },
+    "project/FaithfulFlatFromSplitPieces.lean": {
+      "bytes": 3744,
+      "sha256": "5e0c116aa05f6bc0e7df35d36bba131a9a51054a667d30d96c49551aeb847e0d"
+    },
+    "project/FaithfulLinearRelationBaseChange.lean": {
+      "bytes": 3655,
+      "sha256": "c4eca5add50b274393feeb3e51afbc01b3369848b246ea06bdfa6436110db128"
+    },
+    "project/FaithfullyFlatCandidateCoaction.lean": {
+      "bytes": 7093,
+      "sha256": "410063f4c7210dd6feb81695f5db8563825e8af710e48421a14a99973ef27d23"
+    },
+    "project/FallingCompositeFilterIdentities.lean": {
+      "bytes": 4268,
+      "sha256": "9d61b7132620499e7b0d858b6f26e0359fcdc12c18447390982169d3603d371f"
+    },
+    "project/FallingCompositeSymbols.lean": {
+      "bytes": 3630,
+      "sha256": "9499fc4bcc5c1743b61719417e5f72be4733adf0607d56251a79a22dea2f4b42"
+    },
+    "project/FallingLogJetArithmetic.lean": {
+      "bytes": 5309,
+      "sha256": "bf181da9b21667179118375d067cd3c39e382b0ec786f835f99ad1b0b98ec796"
+    },
+    "project/FallingLogNormalizationBounds.lean": {
+      "bytes": 3868,
+      "sha256": "ce71b674a5bc2bfc663cb7127b79764a0d0ce44eb1dde333c9f52831954ceaa6"
+    },
+    "project/FallingNewtonExpansion.lean": {
+      "bytes": 3465,
+      "sha256": "abb28ffc766c99ec55a87aa41d93264b03d7f92493f54700a90cdda00793304d"
+    },
+    "project/FallingSymbolIntegralDilations.lean": {
+      "bytes": 4459,
+      "sha256": "5af5c4790ce56833d3494570c06b650936f54fae299a084766d8fd5143698a9f"
+    },
+    "project/FiberCoactionBaseChange.lean": {
+      "bytes": 2704,
+      "sha256": "99441bd245a205c19a39f65118dcfc347f43a540134cc3bdce8db41435547361"
+    },
+    "project/FiberCoactionCoassociativity.lean": {
+      "bytes": 5427,
+      "sha256": "04512887269d712a5171c75e73b5bcf1e0760dfa5fd6bd255a3a477ed146e1c6"
+    },
+    "project/FiberTensorChart.lean": {
+      "bytes": 4042,
+      "sha256": "cde32ffb577507f3058c59ffd4385d020f777c1f09fc0821234d440d5e9e983a"
+    },
+    "project/FiberTrivializationEquivariance.lean": {
+      "bytes": 1749,
+      "sha256": "d4ac66db22856eb1896a51777700e1e3cbc344243ba9e98b625fff74776e9c6f"
+    },
+    "project/FiberUnitComparison.lean": {
+      "bytes": 4688,
+      "sha256": "ed0202c5cd12d66ea44ef2f9822fdae9ac3c2eb7eff5509a186c7c64ca5c599f"
+    },
+    "project/FiniteAlgebraImageScalars.lean": {
+      "bytes": 1621,
+      "sha256": "c1aebae1816506944a5de281b3f84e568f10c266d3cc1045511f8eeba389bb5b"
+    },
+    "project/FiniteAmplitudeFactorialArithmetic.lean": {
+      "bytes": 1732,
+      "sha256": "df8516972d6bcde2861eae0dc3bf1b13ba3ba500c52a6b8f9699e2c2cb98f81b"
+    },
+    "project/FiniteBasisConductor.lean": {
+      "bytes": 1851,
+      "sha256": "f91ea745504d605a709635e2aa7b41f43ae7c5a50a3e46cc620c03ad5695603e"
+    },
+    "project/FiniteBlockUnitAssembly.lean": {
+      "bytes": 1562,
+      "sha256": "80971583f2d351847dda1e9963c0dfdf12e909a19190af1557777b4ff69bc18e"
+    },
+    "project/FiniteCoefficientDetection.lean": {
+      "bytes": 2517,
+      "sha256": "e818449d2e21b0697efc35e391dbbfd3e32adc88cadc94ecc55a471eb5266a03"
+    },
+    "project/FiniteConnectionScalarElimination.lean": {
+      "bytes": 1182,
+      "sha256": "5e02517f7907c7557c8ecd58f3a6b9b9c071b55fa3d1e0f924fc8a800c94e04f"
+    },
+    "project/FiniteDiagonalBinomialInverse.lean": {
+      "bytes": 4072,
+      "sha256": "29f9eb0a180a54325a7819edfcb3d3f042a9da79c8d0a8fc963a5abc92c31acf"
+    },
+    "project/FiniteDifferentialPresentation.lean": {
+      "bytes": 5970,
+      "sha256": "25008c7386bc640f80ec83a9aaf8a48bb443822b8b24a0f927cff33632b42fca"
+    },
+    "project/FiniteDifferentialProjectivity.lean": {
+      "bytes": 1840,
+      "sha256": "277c9e15e9a4318ab94ef0c45f6af39ee32121a540833e025dd90aca2138717b"
+    },
+    "project/FiniteDimensionalRationalRatio.lean": {
+      "bytes": 2719,
+      "sha256": "a1d0679890847d3feda289b487bb3a8747690745213b50c09d28fb06e25b57a3"
+    },
+    "project/FiniteFamilyRationalRatio.lean": {
+      "bytes": 2741,
+      "sha256": "af5dc7aab1be40b08c8439b9d6d8722c372291021457c1a9753d2c545eb30946"
+    },
+    "project/FiniteFieldUniformConjugateBounds.lean": {
+      "bytes": 2468,
+      "sha256": "e73e94aae987802ec008461fc7b33f73387ee5514788d09ceeabf51d04b90b38"
+    },
+    "project/FiniteForcingArithmeticClosure.lean": {
+      "bytes": 5377,
+      "sha256": "6c40d12eca3b1d1742df4987bce009bb3ead5457f8638d841c47ca5c8b7be7ac"
+    },
+    "project/FiniteForcingEulerPresentation.lean": {
+      "bytes": 4033,
+      "sha256": "2d69f69b676b91f13e7bdabd87a0222685b262afa03f3b39c452a3df4c426b7b"
+    },
+    "project/FiniteForcingJetSolutions.lean": {
+      "bytes": 4082,
+      "sha256": "70c0ef4bdbb13ce600360b52c0bb10db00ae89a96fd04653bdc4033dd53ca878"
+    },
+    "project/FiniteForcingSolutionReconstruction.lean": {
+      "bytes": 3199,
+      "sha256": "39951f6e4157dd1d086e86fe0b767d1b934e4488198d5fd4d608aa18a67e90f3"
+    },
+    "project/FiniteFrameCombinationDenominators.lean": {
+      "bytes": 3182,
+      "sha256": "f211dc6c0f0951f9aa0952cfdf67411f02ff6efb87ae5344395646ce7597ab86"
+    },
+    "project/FiniteLaurentConstantCoordinates.lean": {
+      "bytes": 3743,
+      "sha256": "1af897188ecb2cdbb3c9d8e1167557322a71f45246282a29d815846e393e90c5"
+    },
+    "project/FiniteLaurentEulerPresentation.lean": {
+      "bytes": 3941,
+      "sha256": "c16c15fa3a1398e53d527a0c2584ef236c1b9060200d270ef4647be1da25c8b4"
+    },
+    "project/FiniteLaurentForcingArithmetic.lean": {
+      "bytes": 2288,
+      "sha256": "3dfca47260b28d93223c01270e257eac49f3235c4239e83214e4e9c48418aad4"
+    },
+    "project/FiniteLogBaseIdentification.lean": {
+      "bytes": 2250,
+      "sha256": "1dd429e9517bf2de33f46db40adcf286ec71ec8c6648f067f490f2375ab0b27d"
+    },
+    "project/FiniteLogLaurentTranspose.lean": {
+      "bytes": 7457,
+      "sha256": "fee21855d99e3a83f3b439ffbce065babd660455ae4a8eb5d1143d1c7e8beeb8"
+    },
+    "project/FiniteLogMatrixExponential.lean": {
+      "bytes": 2361,
+      "sha256": "4f06919806e4eee8875b77d700a7ca729b4e94391f15fd75e2323cbc4e1c4956"
+    },
+    "project/FiniteLogMatrixExponentialEquation.lean": {
+      "bytes": 1554,
+      "sha256": "ca6c0ffad487433ee39643483b20dbb8f80a15b19729967728e732e0553253db"
+    },
+    "project/FiniteLogMixingDenominatorTransfer.lean": {
+      "bytes": 2520,
+      "sha256": "2642efdb378d768653fd293901422aef71651fcb33070f43ca4e7fd194638e69"
+    },
+    "project/FiniteLogSystemScalarODE.lean": {
+      "bytes": 3793,
+      "sha256": "ac1108170d0e87d819e5f035bc971709cb24cb60caf6589fbd16a3543f70fc99"
+    },
+    "project/FinitePrimeRateBound.lean": {
+      "bytes": 2161,
+      "sha256": "4d530ff2501f4737457b6253b7cd496a32756a22efe7cf898881804d72d9a7a9"
+    },
+    "project/FinitePrimeWeightedBound.lean": {
+      "bytes": 2334,
+      "sha256": "511a3733b74e7f114f92b8a7af89ec313e500d1047f980589323640b2ecf6b3e"
+    },
+    "project/FiniteRationalCoordinateClearing.lean": {
+      "bytes": 2331,
+      "sha256": "9ae3b28c2fd0234830bd5e236b075607abe1825a05d88f634f2273cd41e38748"
+    },
+    "project/FiniteResidueValuationTest.lean": {
+      "bytes": 1993,
+      "sha256": "2d1383beee1ccdb855080e91e4395ca0b63319b7579fc8374cfacf95713c31a8"
+    },
+    "project/FiniteSourceArithmeticFieldMap.lean": {
+      "bytes": 3476,
+      "sha256": "df095618606b8e41a21a9d292ff9c580aae9470982c9fc55d73cd687761de347"
+    },
+    "project/FiniteSplittingActualSolutionArithmetic.lean": {
+      "bytes": 2183,
+      "sha256": "79e268b3cd68d7c80fe4a18a1a82efd99d6c3f3132df2e8a30e73509ecdf454e"
+    },
+    "project/FiniteSplittingArithmeticFrame.lean": {
+      "bytes": 3594,
+      "sha256": "4e80aeffff4de17f492bc217649cf624e4667ef12ddb7b64bda0d12aa046c766"
+    },
+    "project/FiniteSplittingUnfilteredFrame.lean": {
+      "bytes": 1712,
+      "sha256": "fddd1877ce417b0e6bfc79ccc8328331a9d48d0fc9887946c2c0c4fd20842fb9"
+    },
+    "project/FiniteSubspaceCoordinateChart.lean": {
+      "bytes": 4605,
+      "sha256": "e1e1e047e64af1ecf13c5754be085e755108a33f546ec26de72004264d38a894"
+    },
+    "project/FiniteTypeGeometricDomain.lean": {
+      "bytes": 2255,
+      "sha256": "d5d0e37444bcbfcbdc259ad849d518bc65d0ba72d4da5472b43a94ed34b53378"
+    },
+    "project/FirstDerivativeDependence.lean": {
+      "bytes": 3722,
+      "sha256": "9cbc09017267d4e649adf06c9dd2d80bda37831bcac4a96744dbd2d2ab5812b0"
+    },
+    "project/FixedExponentBaseRow.lean": {
+      "bytes": 1421,
+      "sha256": "db9ccc8190b0f341df110f34b09ebb26d38dd76cb79a51687b84f961067edd8b"
+    },
+    "project/FixedMatrixRationalChartBound.lean": {
+      "bytes": 3558,
+      "sha256": "7255641e4720daf7349e624b2c8ce2f33d8f970bb359b8c3d79cef97db012d94"
+    },
+    "project/FlatFromFinitePieces.lean": {
+      "bytes": 1957,
+      "sha256": "f38aee28389fc5a053c7e438c009d6db74f2fc33a578138d4983ed9f4dfd9103"
+    },
+    "project/FlatRegularChartLift.lean": {
+      "bytes": 2743,
+      "sha256": "3ec31de4133293ea786918e2be198b9dceb211aa098f5232bda72f41a4eac7da"
+    },
+    "project/FocusedFourierNormalizationCore.lean": {
+      "bytes": 39051,
+      "sha256": "f28a4523ee5aa15a8efb5e554521c23e330d5aeaf34a491c0a31f3a1deff7457"
+    },
+    "project/ForcedCompanionJetEquivalence.lean": {
+      "bytes": 5457,
+      "sha256": "df5619b8a6a835cc4c911435c8bc7037a770c34f4cbcd75b6096e6536153a622"
+    },
+    "project/FormalAmbientDifferentialField.lean": {
+      "bytes": 4361,
+      "sha256": "996ccc48b67229e3587f316060083884d4af54c148da098ba39a39cb0e129cc4"
+    },
+    "project/FormalBaseChangedFiberUnitLift.lean": {
+      "bytes": 1598,
+      "sha256": "6beb18b5304e0a98c17cadbda5c331fe63ae90baee5366969cfd5b5cbcda50bb"
+    },
+    "project/FormalBaseChangedScalarUnitLift.lean": {
+      "bytes": 2052,
+      "sha256": "26885aece53cdc04216a2f3627063401dd1c9e4bd50e05c85e11a57ee0726973"
+    },
+    "project/FormalCandidateCoaction.lean": {
+      "bytes": 4981,
+      "sha256": "ed5a19b5fee1220404dcdbaf858d4d1120724d8b62dbd4cb0adfa7760621b304"
+    },
+    "project/FormalCandidateEvaluationTypes.lean": {
+      "bytes": 1389,
+      "sha256": "1925730ab27676eddca2095fe900909b1f322b2cd65c1ae2f6528e9185aceb61"
+    },
+    "project/FormalCandidateExactFiber.lean": {
+      "bytes": 2297,
+      "sha256": "583971192d94fd27e70331fc5b6f8c1206e9a2b21202a83b0c543c8db8cf83ff"
+    },
+    "project/FormalCandidateExactFiberCompatibility.lean": {
+      "bytes": 1605,
+      "sha256": "4fd92cf3f627afdce9676e1371e9257807d19cfb79ded9eda1f185bbb46f1a4e"
+    },
+    "project/FormalCandidateFiberUnitLift.lean": {
+      "bytes": 2577,
+      "sha256": "17e875334f2f5b72238b1ba87aa9c52accba9892c5bf140121a6d87b54d49a75"
+    },
+    "project/FormalDomainFiberUnitLift.lean": {
+      "bytes": 2124,
+      "sha256": "9fdb0363a22c3f0d4ed525c91a7ecc46074df844245c1f26a9229ceba7e9204e"
+    },
+    "project/FormalEvaluatedFiberUnitLift.lean": {
+      "bytes": 1982,
+      "sha256": "cd0a80aa17ad58ea73665acae5b7d4e5c42f4eaa966d2b23f325f9b8757ff901"
+    },
+    "project/FormalFundamentalMatrix.lean": {
+      "bytes": 4982,
+      "sha256": "d6bc348a763570dcc4963062e59cd0db586a965446088640f47bbb0d7475ae28"
+    },
+    "project/FormalFundamentalMatrixUnit.lean": {
+      "bytes": 2005,
+      "sha256": "7737ad3c9c1cfad1c186fc71b6ed3b67707cc524d9d3219e84bd710618e5ac7d"
+    },
+    "project/FormalMatrixLogRemoval.lean": {
+      "bytes": 7671,
+      "sha256": "d6ce77c114aa36b7e79f24b97965d7523d58c7f7915d495c56c6741ff6b3b3fc"
+    },
+    "project/FormalOrdinarySolutionUniqueness.lean": {
+      "bytes": 4436,
+      "sha256": "964eb3ea6b4b42a7d9b283633ed4afe6835be86ff8da945ee682aeb95feff476"
+    },
+    "project/FormalPolynomialImage.lean": {
+      "bytes": 3458,
+      "sha256": "eb65b49087e8f0f114be5ee9d6c78076c9547f0e81d77ed7c8d443a2a2b370af"
+    },
+    "project/FormalPolynomialRelationBasis.lean": {
+      "bytes": 1273,
+      "sha256": "40a68b08c7ed587a94b2445bbbc61eafd2ce6128c864018cdbe09dd5eb58dcd6"
+    },
+    "project/FormalPowerSeriesArithmetic.lean": {
+      "bytes": 3216,
+      "sha256": "3ef6956574583da3f01c8c31907b19994510b76a3ec37d2b8697736e5691e803"
+    },
+    "project/FormalSeriesFiniteJets.lean": {
+      "bytes": 6312,
+      "sha256": "c623f9f82017b382805528d0055953bbff6f154ba42451ea8c542d5a3e74c9f7"
+    },
+    "project/FourierAmplitudeGeometricGrowth.lean": {
+      "bytes": 4920,
+      "sha256": "cc48ad3388badf3a487f68d6cfb9a101f60b3ccfb6438ae6592deadae7bb862a"
+    },
+    "project/FourierConstructedCompanionFrame.lean": {
+      "bytes": 4242,
+      "sha256": "def9faa3e16e6046639d448ff41744397d101e76605fbf7bd5fd9f727bdcc4ed"
+    },
+    "project/FourierFiniteExponentArithmetic.lean": {
+      "bytes": 2256,
+      "sha256": "de6c9ce1cae3673c8e2a91a8b42d183fa0ded0433a9d17e3a13b4c4684af651b"
+    },
+    "project/FourierFiniteTwistedAmplitudes.lean": {
+      "bytes": 2572,
+      "sha256": "afb092990aabce8aa835db4a021c5c6d219878c555f17042d837901925cedabf"
+    },
+    "project/FourierFrobeniusCoefficientField.lean": {
+      "bytes": 6053,
+      "sha256": "00c6d8a2e1aa56fd3f4da2819a32220fdf51c6075672bf3741364b7bfe2dd350"
+    },
+    "project/FourierIndicialBoundary.lean": {
+      "bytes": 2877,
+      "sha256": "12a8d78327c7eacf0fa5db656ce4354325b36b6ac38a87ffdebde68010d51b56"
+    },
+    "project/FourierIndicialTwistedAmplitudes.lean": {
+      "bytes": 7514,
+      "sha256": "fffb78f2d38b05612519090a5c38fc39a292f210c1d3a28e2fde48781680c9aa"
+    },
+    "project/FourierIntegerDenominatorSteps.lean": {
+      "bytes": 4809,
+      "sha256": "47790b58c14dcb827bfde8c39a84e4accc1d4e7de86e00b1324d59c954865e29"
+    },
+    "project/FourierIntegerResonanceBasis.lean": {
+      "bytes": 4503,
+      "sha256": "fb4105e97cd78887bb45c18da000d1873a8af58540e4136206aa6c1fbb2578ac"
+    },
+    "project/FourierLaurentRealization.lean": {
+      "bytes": 4686,
+      "sha256": "8b3e115330507415dfeaebe9ad0506e3b580d5c64e6d490b9f607b58a9a0fba3"
+    },
+    "project/FourierNaturalResonanceBasis.lean": {
+      "bytes": 4104,
+      "sha256": "83217c0dcbc8bdf1ffe6246613dae67ff903776d407d86bf83bec361a63e647c"
+    },
+    "project/FourierNormalizedDenominatorSteps.lean": {
+      "bytes": 4435,
+      "sha256": "1ad3a831f8a9a8753724a9f34813500907af5f9d1a82e660bceda0bd4d8460ee"
+    },
+    "project/FourierResonanceClassSolutions.lean": {
+      "bytes": 4571,
+      "sha256": "bce6df164b1bc4c9958d531141fb385c029f04078346008c84374bfac6dca399"
+    },
+    "project/FourierRetainedAmplitudeGrowth.lean": {
+      "bytes": 2843,
+      "sha256": "b044e31a238b1667b57ea9642d79ef5cd10669bf22347f18cfd415ef79f0507a"
+    },
+    "project/FourierRetainedArithmeticPacket.lean": {
+      "bytes": 2908,
+      "sha256": "806c37b73cc2e18c26dca0894cdff57a4e234c85ce2161bf1feb436875d63851"
+    },
+    "project/FourierRetainedDenominatorSteps.lean": {
+      "bytes": 5021,
+      "sha256": "9db6eb8038c89bba838f7930ed30f5acc229296c77ecafba83dc306f145b2f32"
+    },
+    "project/FourierTriangularCoefficientSupport.lean": {
+      "bytes": 4176,
+      "sha256": "ccb849ebf4b5dca21d3e32bcc1435542b8154130b3538f746df379e18a83fed6"
+    },
+    "project/FourierTriangularScalarEstimates.lean": {
+      "bytes": 4345,
+      "sha256": "636f592a131ed9d6391412b5c39de5101e628e053686736e25496d9d10c881d8"
+    },
+    "project/FourierUniformConjugateGrowth.lean": {
+      "bytes": 6137,
+      "sha256": "e098601723d29bac5cc118f50827a63eb8dc67f74494f00890ed8a80ed867237"
+    },
+    "project/FractionPolynomialTransfer.lean": {
+      "bytes": 4432,
+      "sha256": "7e0d48551539fbe0c1cd7ea4e0737c6a567f6fb4a69404aa8942c93917be0337"
+    },
+    "project/FrobeniusActualJetDeterminant.lean": {
+      "bytes": 3588,
+      "sha256": "77fff14e5849d77250863c5875c56cd06417a2db48620268e947c1a4c6094c8c"
+    },
+    "project/FrobeniusAmplitudeBlockIndependence.lean": {
+      "bytes": 4887,
+      "sha256": "62a0c9cdd8826251064895c1327a6cd40ab5e1b920185ee746586993d9bc01e7"
+    },
+    "project/FrobeniusBoundedLogSize.lean": {
+      "bytes": 4886,
+      "sha256": "0fef603e64239c6536142bb98bc6a41babd9f427aa4cd90f3a9fc7958a0ce85c"
+    },
+    "project/FrobeniusCompanionFilteredArithmetic.lean": {
+      "bytes": 5294,
+      "sha256": "f7d805f70d396c5a5689d8deaa79058f749ea12f859bf212531b49f50cd3a746"
+    },
+    "project/FrobeniusDifferentialInverseBound.lean": {
+      "bytes": 6690,
+      "sha256": "2bfc27832e45e6f52ab20cdf8b8b4418ac9f18ede14d0f36983a9e671f218c23"
+    },
+    "project/FrobeniusDifferentialRatioBound.lean": {
+      "bytes": 5920,
+      "sha256": "d6924c3c449074139f4f9699819a0cb09bf5e50ba1fe4bcd60ef218223d5f9d6"
+    },
+    "project/FrobeniusFactorialDenominatorStep.lean": {
+      "bytes": 3084,
+      "sha256": "08e233b92fd252c6c927452af5671291b7fffb3fbf6222ca2819aef3c5f2b38a"
+    },
+    "project/FrobeniusFallingLogFilters.lean": {
+      "bytes": 2552,
+      "sha256": "a673bf360d404fdcd6360309f3467678119002afa5c582b600cc822edcb39040"
+    },
+    "project/FrobeniusFormalSolutionDimension.lean": {
+      "bytes": 5123,
+      "sha256": "102479936909dd7f14bf9ab40c0ec11ebfbc4044b614da9da15eb770e9461da1"
+    },
+    "project/FrobeniusFullCoefficientRealization.lean": {
+      "bytes": 3732,
+      "sha256": "b9db6d4dfd9d394414c00d5d9ca0b31bd86aa30dd0dd7c1c09420b9d5156f755"
+    },
+    "project/FrobeniusFullLaurentRealization.lean": {
+      "bytes": 5611,
+      "sha256": "0994626138f04df4a3e3366f1746596dda266696d8dd8a5f3f278bc135b312f4"
+    },
+    "project/FrobeniusHermiteJetSeparation.lean": {
+      "bytes": 4969,
+      "sha256": "eb22a6812c862e4841c1d834b49cd0fb384ee6168e21daaeaadc5f41ab254ecb"
+    },
+    "project/FrobeniusIndicialDenominatorPower.lean": {
+      "bytes": 3346,
+      "sha256": "f4f8bcffe1ef36d133af196e591b4cf033ea2cd6fc4db0eaa7699552f5a6c6e1"
+    },
+    "project/FrobeniusIndicialLargeIndexBound.lean": {
+      "bytes": 4090,
+      "sha256": "ff733c33b419c51b86b146f2b1d2bd08879e04f3577e7925840a07f8b4d8c1a1"
+    },
+    "project/FrobeniusIntegerLiteralBasis.lean": {
+      "bytes": 6848,
+      "sha256": "3a259af8a2e454a46d69e30ce73d6238b98f673b2b67345a81c4cf16512b9e8b"
+    },
+    "project/FrobeniusIntegerResonanceBasis.lean": {
+      "bytes": 5273,
+      "sha256": "a5eba31fb9aa1a5c8876f1392cb635add257a55d443b5100e41ca00f97919eed"
+    },
+    "project/FrobeniusIntegerResonanceIndependence.lean": {
+      "bytes": 3604,
+      "sha256": "99540d2b440a821f50321c0e423d15b122ef0fabd1f850070aa5fa849be6fa3c"
+    },
+    "project/FrobeniusIntegerResonanceSpace.lean": {
+      "bytes": 6800,
+      "sha256": "ca266454843ce429493349999645e6a37ab4ac794b3bf094b0992c126f2bbc49"
+    },
+    "project/FrobeniusIntegerResonanceSpanning.lean": {
+      "bytes": 4661,
+      "sha256": "1a112233c0405137bcfca395a5e01f2a24d2135928fc2b5feb6e256ae74c872e"
+    },
+    "project/FrobeniusIntegerShiftEquation.lean": {
+      "bytes": 4415,
+      "sha256": "9db87af4e8b34f032391571bf1f631831ad7f515251e7f6e59419f3ace3665dd"
+    },
+    "project/FrobeniusIntegerShiftIndependence.lean": {
+      "bytes": 5433,
+      "sha256": "28875152d33a292f23cd1546699e33fca0f2546ef78953335735ca470691ae6a"
+    },
+    "project/FrobeniusIntegralDenominatorStep.lean": {
+      "bytes": 3487,
+      "sha256": "eac88694681a38e1452dacb84bffdf7b14da1f02e7e892a678b40b74843d63e8"
+    },
+    "project/FrobeniusLaurentCoefficientTransport.lean": {
+      "bytes": 6754,
+      "sha256": "f583a42c2f1e28b3f29834562bff45c6e2256f2f9a0d04e7855c010ba7543d23"
+    },
+    "project/FrobeniusLeadingJetMatrix.lean": {
+      "bytes": 2963,
+      "sha256": "35548e77ac14ae09886fe8fadcf96b274e698af974577012dfac50e5119a798d"
+    },
+    "project/FrobeniusMajorantTools.lean": {
+      "bytes": 4143,
+      "sha256": "bb6afea9188f624c689d4023de844a57e92a71b0488aa9ec4581cf7e406850df"
+    },
+    "project/FrobeniusNaturalResonanceBasis.lean": {
+      "bytes": 5097,
+      "sha256": "9d1de566a6bf9cca31b3b7a30efd99c5135a024b1b168866f9500699e11b5e2a"
+    },
+    "project/FrobeniusNaturalResonanceIndependence.lean": {
+      "bytes": 4447,
+      "sha256": "2a9b66a3d0a5865ca7e58ef2176ae090489f9d0b1291415987649ee26a07a9dc"
+    },
+    "project/FrobeniusNaturalShiftCoefficients.lean": {
+      "bytes": 5123,
+      "sha256": "d565c547a3f2d6bd3f2a35deb80594921b49a2b765c46df0d878472cbd8aaf0b"
+    },
+    "project/FrobeniusOperatorBaseChange.lean": {
+      "bytes": 4096,
+      "sha256": "2ddb109008c15e684778b7816babeba78c1325608adf8f6b7b27cb98ded3b0d5"
+    },
+    "project/FrobeniusRecurrenceFieldDescent.lean": {
+      "bytes": 4894,
+      "sha256": "6842e56455a3f60df914437ae92b3c8831ab0bfcf13e288801e338ed8dd4b0dc"
+    },
+    "project/FrobeniusRepresentedCoefficientDetection.lean": {
+      "bytes": 3862,
+      "sha256": "5db2c71c486be512363eabfbbe1cdbe0e48ba945e178d307ed9c4b327933eebf"
+    },
+    "project/FrobeniusResonanceCoefficientUniqueness.lean": {
+      "bytes": 4057,
+      "sha256": "9bad8554058b2a6618f6f4bab0285baaf7f83c4d28201b2ca164afe2441dcbe8"
+    },
+    "project/FrobeniusRootSeeds.lean": {
+      "bytes": 7241,
+      "sha256": "0e82cd82f011c5b85587e310e98639c7839c432db5f6c7a1b8f76760e0161cdb"
+    },
+    "project/FrobeniusScalarRatioBounds.lean": {
+      "bytes": 4483,
+      "sha256": "9f8189a8b268107159bc8a162c51b916f7e18a67d2295f510796000dcee5f822"
+    },
+    "project/FrobeniusTriangularRecurrenceMajorant.lean": {
+      "bytes": 5087,
+      "sha256": "01e1f87b7e81e9e67270449e7b62b50d55a2c2507a31d195c9472a879a38ab8d"
+    },
+    "project/FrobeniusUniformIntegralSymbols.lean": {
+      "bytes": 4542,
+      "sha256": "4d671e1e912964f31fb6e7a835e5330678a7283b29f02d7c271dfd0895f3f60d"
+    },
+    "project/FullArrayStage53Embedding.lean": {
+      "bytes": 2652,
+      "sha256": "a973b0fb3f9596c94d0836e5d0dc69bbe7f118475ceec367244995626594d4db"
+    },
+    "project/FullArrayStage53Solutions.lean": {
+      "bytes": 3361,
+      "sha256": "86289e9214efd0578611c78006702c025cd719448f275ecc0024a965742331fd"
+    },
+    "project/FunctionalIdealAnnihilatorTransfer.lean": {
+      "bytes": 3686,
+      "sha256": "c1d755b14ff97338e9559fe946d57f27bb95b1d8b8284be8146ef29c1f55f888"
+    },
+    "project/FundamentalConeCounting.lean": {
+      "bytes": 3735,
+      "sha256": "7ad2189772fec34d34a1930a234bb5eba759b42a7cb83660d4b6fd1b8f7be78e"
+    },
+    "project/FundamentalMatrixConstants.lean": {
+      "bytes": 3552,
+      "sha256": "71f30b34c9493e1da3baba2855f2e1298024088165f80b0879bcc28d14858451"
+    },
+    "project/GaloisNonsplitFiniteExceptions.lean": {
+      "bytes": 1759,
+      "sha256": "bdf52ff2a3528b6171c041ec17bf8dd4a91426a5e161ddde915e53de9bcf0e6e"
+    },
+    "project/GaloisNonsplitPlaceCertificates.lean": {
+      "bytes": 1729,
+      "sha256": "febe253cdf76fb3fb1b5d2a9f38a5cf13e374f7d2f536cf67d50f8ef0173c4fc"
+    },
+    "project/GaloisNonsplitPrimeDivergence.lean": {
+      "bytes": 3538,
+      "sha256": "ca466dca403f6a834faba676c4086dbd09041644d4a9a9d3723e8f45ac4bceec"
+    },
+    "project/GaloisPowerSeriesProduct.lean": {
+      "bytes": 2020,
+      "sha256": "ee0d4b77c3e1a74424d7a848a47beac4e1d15bb7cfa186a2d0ce01eb22ec3765"
+    },
+    "project/GeneralStrictEMinimalNonvanishing.lean": {
+      "bytes": 9060,
+      "sha256": "e685709cd0e91ff40c83b38a5430d7f5f4c0cb005ab253956e8e72cce0f66c15"
+    },
+    "project/GeneralizedClearedCompanionJet.lean": {
+      "bytes": 5678,
+      "sha256": "a6c8524cf7cef0fa0f51040058efe78de7dd6f1f0ce95fcdd9a02729d3b6bf77"
+    },
+    "project/GeneralizedLogFourierArrayTransport.lean": {
+      "bytes": 3342,
+      "sha256": "e65eb2cefeab6955b11a38db8a484388cdd2367e43b4933450aae9a7760f695e"
+    },
+    "project/GeneralizedLogLaplaceDerivativeIdentity.lean": {
+      "bytes": 2106,
+      "sha256": "8d797d30ef77fbfbce004664ada7f9276d84585fc1623e99b81a909b168ea6d2"
+    },
+    "project/GeneralizedLogLaplaceFieldMap.lean": {
+      "bytes": 2808,
+      "sha256": "5a296a6ebfea6239c1b44dfd6d8c5ad56f706bdaf2c0a2242585e7df909014c0"
+    },
+    "project/GeneralizedLogLaplaceFiniteKernel.lean": {
+      "bytes": 2521,
+      "sha256": "3898cd158ea322a75d077cb736f653025a8ca75b8e1dff76655c26ea7c1b9de2"
+    },
+    "project/GeneralizedLogLaplaceKernel.lean": {
+      "bytes": 2317,
+      "sha256": "a3cd0e794dfa57fd40aa399c7d73777d581a594e30db13fbd9133e2911b62ff3"
+    },
+    "project/GeneralizedLogLaplaceLinear.lean": {
+      "bytes": 2424,
+      "sha256": "fc53ac6b61934e9f7c5c968d7f04478e0431d9bb22da6c0911eb4ba483dc57b0"
+    },
+    "project/GeneralizedLogLaplaceNonintegerImage.lean": {
+      "bytes": 2219,
+      "sha256": "25bfc674ab33e3489e0afe501b72b0fe9cde708c3b880d12776f86d041c1a8d3"
+    },
+    "project/GeneralizedLogLaplaceTransform.lean": {
+      "bytes": 1422,
+      "sha256": "4c26c300785661cff983eaa09e9dcc6c835d251c59a71da8b3c8d5b7b9211ac7"
+    },
+    "project/GeneralizedLogLaplaceZIdentity.lean": {
+      "bytes": 1152,
+      "sha256": "3438db79b058095007f1094e97e54dd685149b502eafddca0157248b23a310ac"
+    },
+    "project/GeneralizedLogLaplaceZeroImage.lean": {
+      "bytes": 2206,
+      "sha256": "0a697c85bf62cd275e8fad41f7b031ac21c33c58fe45559e507606a8f033c89a"
+    },
+    "project/GeneralizedLogOrdinaryJet.lean": {
+      "bytes": 3553,
+      "sha256": "8860db1acacaa38e8d48112927d78ffcb9f73d6d2b470933535b127e90862625"
+    },
+    "project/GeneralizedLogOrdinaryProduct.lean": {
+      "bytes": 3134,
+      "sha256": "8a92f7b94f40aa310e8e60428e33a255c0d64dae117affdb94c946d343a75b0d"
+    },
+    "project/GeneralizedLogReflection.lean": {
+      "bytes": 4950,
+      "sha256": "7b683ca35a2af315bca362f082ee576fa02811c6acf539bc4b9e25d2a0889c47"
+    },
+    "project/GeneralizedMonomialEulerTransport.lean": {
+      "bytes": 4701,
+      "sha256": "b0cdadbc83941019ec60cb03f1dbae2737f87bd799343a915705161c59ae0672"
+    },
+    "project/GeneralizedOriginalEulerTransport.lean": {
+      "bytes": 4001,
+      "sha256": "06bb537fe27c79a3f07424378b02e61ec844542dc8af620e49bd82c37201b8c6"
+    },
+    "project/GeneralizedReciprocalGauge.lean": {
+      "bytes": 5299,
+      "sha256": "eaabf652b6b7764537af65218c886aa3e0ba1636d57e06b01a6780602bb0513a"
+    },
+    "project/GeneralizedReciprocalResidualRecovery.lean": {
+      "bytes": 2058,
+      "sha256": "2ea98fe716e5f30fad3f19db737f317b65a0c4d1926e2098a8167d864e3d9346"
+    },
+    "project/GeneralizedReciprocalSourceIdentity.lean": {
+      "bytes": 4764,
+      "sha256": "cd07a51ff0c1a5613c9addf41565f4756d63192ec6eff633f5abaf1d524badfa"
+    },
+    "project/GeneralizedSourceReflection.lean": {
+      "bytes": 4143,
+      "sha256": "97ce95c5e28cae851fc5b3bc56e2c3c5be8d6b902351334cbb7406d999e789b5"
+    },
+    "project/GeneratedEntireLaurentClosure.lean": {
+      "bytes": 4204,
+      "sha256": "1dd8a7789923ce5318495cecd4e32dcd4e392396670fa75269c9c334fd430b51"
+    },
+    "project/GeneratedEntireLaurentField.lean": {
+      "bytes": 4996,
+      "sha256": "e3433c5711e1ba495a29635acbce3a95e99889a4fd20a6ab5b80a5d8a83b22cd"
+    },
+    "project/GenericCoefficientUnitClassification.lean": {
+      "bytes": 956,
+      "sha256": "5835709ec9c94bbda4421ae56034cff108f610a0d46d8259324d372f241de949"
+    },
+    "project/GenericExactFiberNumericalDescent.lean": {
+      "bytes": 2753,
+      "sha256": "5d9c7826b80441a66f437f31891d871bf63136a10082127a943fc761811a231f"
+    },
+    "project/GenericFormalInverseValuesDescent.lean": {
+      "bytes": 3589,
+      "sha256": "d3ecbab203703ef58ad749e241a5e4dbd447c471e7a9659c02a923b08e539927"
+    },
+    "project/GenericFormalUnitNumericalDescent.lean": {
+      "bytes": 2580,
+      "sha256": "828a4731e29895c92f8dc56043859f5cbdfe4fa2c8521e00a115b0d26a993376"
+    },
+    "project/GenericNumericalScalarDescent.lean": {
+      "bytes": 2860,
+      "sha256": "879143a22aa1c9624ea7627d2a8d526ac01206efb3148040cd5cecbd020b7533"
+    },
+    "project/GlobalAnalyticLogFrame.lean": {
+      "bytes": 5410,
+      "sha256": "77e27d907b0889db3171245a4c2d30bfe54dc2942a6349f5a722be8da50f6e23"
+    },
+    "project/GlobalClassBaseEquation.lean": {
+      "bytes": 2391,
+      "sha256": "7bd505a05d1d97396f35b6176bd31a8db8a2041875759a4ec5b0e052dd5fd825"
+    },
+    "project/GlobalClassResidueSpectrum.lean": {
+      "bytes": 2967,
+      "sha256": "90b4b56dfc18320598c9adcae85bb6dfef1f0aff8a80996ee1447118fd002b3f"
+    },
+    "project/GrowthCutoff.lean": {
+      "bytes": 3617,
+      "sha256": "b51bd8c66b77a505b68b0894452bbeffec82c3aca51632c4c12da5070d3e0d23"
+    },
+    "project/HigherDegreeResiduePlace.lean": {
+      "bytes": 3756,
+      "sha256": "46058c195e385033db83c40ef4f14a3e5e196596132710b65dd1bc98e2ec6543"
+    },
+    "project/HomogeneousDehomogenization.lean": {
+      "bytes": 4444,
+      "sha256": "78aeddee7f96c870e6477ea71f009a4e165b2e3a81324486b14d15dc7f8b7c29"
+    },
+    "project/HomogeneousLiftingFromLinear.lean": {
+      "bytes": 3506,
+      "sha256": "9a28e7ab0ef72253876be7d434d72160ab654737159061ecbfc144af89284082"
+    },
+    "project/HomogeneousLiftingReconstruction.lean": {
+      "bytes": 6806,
+      "sha256": "4d13586452fb3a252cf535725f496e45da347ff0fc193d5bafa1501d4a15d915"
+    },
+    "project/HomogeneousLiftingWordSpan.lean": {
+      "bytes": 5014,
+      "sha256": "eb8e97383151655911a5964c67ec69c56ab2faa73e2bb45dc2931b74023d60e0"
+    },
+    "project/HomogeneousSourceFrameArithmetic.lean": {
+      "bytes": 2197,
+      "sha256": "3812ecaef716182f3dfcd2e5b658af8c23aabb7c4cc5e26d586f8b789b82f8e8"
+    },
+    "project/IdealClassCounting.lean": {
+      "bytes": 3459,
+      "sha256": "3be5df2959fe483f25da619599c9942c209474f67cba2387c745ac2b7f54f885"
+    },
+    "project/IdealNormCoefficients.lean": {
+      "bytes": 3536,
+      "sha256": "c0bf56647dcc20c2750b3bfcabe3bafa16fd10cb3885f5562a9202875b871296"
+    },
+    "project/IdealNormCoprimeProducts.lean": {
+      "bytes": 3304,
+      "sha256": "f2156d03ad2b421c2d720a1641f094aa20af705d14fbe48c1879c11d8746a6f6"
+    },
+    "project/IdealNormDirichletBound.lean": {
+      "bytes": 2544,
+      "sha256": "a1a31c074af2c38e948cd9678c07206c6ee0c685dbf11ab9af867930d4e0de58"
+    },
+    "project/IdealNormEulerBound.lean": {
+      "bytes": 3615,
+      "sha256": "a15b02c6a8bd2fc3b508b181ba7ec1696a0769f294d84c011e57e4101f3145e5"
+    },
+    "project/IdealNormPrimeLowerBound.lean": {
+      "bytes": 3145,
+      "sha256": "dcefbc35fcb11ee8369302492acb15702078e4ccda95493bb34b0bff679f3ff0"
+    },
+    "project/IndependentPolynomialRowOrder.lean": {
+      "bytes": 1352,
+      "sha256": "fd6c259728f7a4b38b883cebd706407adebdbe0443d753c5151671d3972ddfb3"
+    },
+    "project/IndicialBinomialRootTransfer.lean": {
+      "bytes": 3607,
+      "sha256": "51e4088764dd27db1b2632ffdcd085bebc0ac25ae027844b9452212084d1ad09"
+    },
+    "project/InjectiveDerivationPullback.lean": {
+      "bytes": 3234,
+      "sha256": "cfb9a29b660fd06ee9795dee1fb89e522e0c855a6ad6a2e40c09cf23ab1c256c"
+    },
+    "project/IntegerBinomialSharedInverse.lean": {
+      "bytes": 3249,
+      "sha256": "e2e0e3d088974c963d85ba53a2eace2077f9918dc253ca041a47ad4faf55eb9b"
+    },
+    "project/IntegerClassAlignedRepresentatives.lean": {
+      "bytes": 1663,
+      "sha256": "6c35696b0c46aba4e50b5653a3e9345772f3fab371ecb0c71f519150d766b1fb"
+    },
+    "project/IntegerClassSeparation.lean": {
+      "bytes": 3042,
+      "sha256": "987f25c1f7f177270a9e02d8f802baa87f627f1caddba9cb8e10d7b9fbefcbe6"
+    },
+    "project/IntegerClassSharedNormalization.lean": {
+      "bytes": 5120,
+      "sha256": "9391dca0c47f6e4d49548457ea737101a03d74cd063422a9ee3d946f5f94bc12"
+    },
+    "project/IntegerClassShiftedFrame.lean": {
+      "bytes": 2061,
+      "sha256": "d7932b07ea6a8703188f867404a2b6573965f8a6abbdd6797d7248c61c369a4c"
+    },
+    "project/IntegralClearedDualColumn.lean": {
+      "bytes": 2606,
+      "sha256": "fe4de05a135ec9d9b2d39590e31e88523fd7593ffd76efc557d3e6c3fd9245ee"
+    },
+    "project/IntegralCommonDualMatrix.lean": {
+      "bytes": 3297,
+      "sha256": "af2261b350cf384a68a549c987ae2b8987d9bedb74a4e7c79e025dca2f4afd69"
+    },
+    "project/IntegralNormDivisor.lean": {
+      "bytes": 2474,
+      "sha256": "d8d102beb01ecd9304033ab2bfd9fa76c03a6cfd39f0c8a0f7ce2e157a454f58"
+    },
+    "project/IntegralNormHouse.lean": {
+      "bytes": 2716,
+      "sha256": "d72e102c49b4d1860fbce51d9a86f439a2ede3468ae34ed9d1d8d017d84e64d8"
+    },
+    "project/IntegralPivotNormClearing.lean": {
+      "bytes": 1715,
+      "sha256": "23b87630294ee26b801b972a47a6bfdeb7ae7564e1e5264985b5034e332a3407"
+    },
+    "project/IntegralPolynomialForcingArithmetic.lean": {
+      "bytes": 3441,
+      "sha256": "cd96670b90b81173d0ce1159b65cdc3e2fa6de689fe4e120aab8baab7b313513"
+    },
+    "project/IntegralRationalMatrixClearing.lean": {
+      "bytes": 4893,
+      "sha256": "60a340f5cee4735226792b65732f590308abb2b0dc144fece47b5a5899cf3385"
+    },
+    "project/IntegralTypeIIPade.lean": {
+      "bytes": 14089,
+      "sha256": "cf2d1dac0e47e9f445af34b1fc480b1bc47d8c5c9072d1dfadfa0fe0a5e1c252"
+    },
+    "project/InvariantDescent.lean": {
+      "bytes": 9262,
+      "sha256": "03dc816071875979faad527a894603542b2db1421e4e17728e3c5bf6e0e1043b"
+    },
+    "project/KummerPrimeSelection.lean": {
+      "bytes": 1909,
+      "sha256": "53c31a647cec3cf5e3bd0f6e7a41ecbf2302be611b5b4b31632fefa5ce6f2ca2"
+    },
+    "project/KummerResidueCertificate.lean": {
+      "bytes": 2801,
+      "sha256": "d550f34d74aadda34b75cedc0fb4dedd9e871b2f46591a990cf0e34ef75cad92"
+    },
+    "project/KummerSplitPrimeCount.lean": {
+      "bytes": 5099,
+      "sha256": "4198c1930d6a1ef154d7bfc56e75e9fdf19ed82a4aa7ef2e6411974e598adb33"
+    },
+    "project/LaurentCoefficientExtension.lean": {
+      "bytes": 2725,
+      "sha256": "f72a45ee38ff7143f751932403d45069ce3928e7dc9d2e2deb570b67113e786a"
+    },
+    "project/LaurentDerivativeConstants.lean": {
+      "bytes": 1715,
+      "sha256": "e3621c6b54355704780e45ee14de93f8af19d5a8e903cd576fdf1e2e6907f89a"
+    },
+    "project/LaurentDiagonalGaugeArithmetic.lean": {
+      "bytes": 6166,
+      "sha256": "631fc25fed45f674e396e644d0b473cdc9726a5a1dd937bbe0571b2e9e8499ac"
+    },
+    "project/LaurentEulerConstants.lean": {
+      "bytes": 2174,
+      "sha256": "f42001db82a69fd73252cf0982813633e45e3eed9f0d2fe04ffff7275073db7b"
+    },
+    "project/LaurentEulerDerivation.lean": {
+      "bytes": 3229,
+      "sha256": "08347bdd3f5c5ddc920ff0109d1ccb1439f201c3592c9202a8565a779fa5d9e3"
+    },
+    "project/LaurentForcingEulerAugmentation.lean": {
+      "bytes": 3662,
+      "sha256": "9f8439d3f7c308fde9f0415beb4332bb9444c7f1924a9a798656ac7008c56432"
+    },
+    "project/LaurentForcingShiftArithmetic.lean": {
+      "bytes": 1333,
+      "sha256": "9c36595ff6f154ba55ccb64a33d5f2a06fa3b66743389a670c57109cd97a403e"
+    },
+    "project/LaurentFundamentalComap.lean": {
+      "bytes": 2452,
+      "sha256": "4cae2ddba6c3c9f0788f9fd118b67adcdcb7905f97445cc8478acbd4487cf1c1"
+    },
+    "project/LaurentFundamentalSubspaceBasis.lean": {
+      "bytes": 3236,
+      "sha256": "58c80bf5b53255b430e2a1bbfcabfe95f676667daafcbc16317bfe757497a784"
+    },
+    "project/LaurentIntegralScaling.lean": {
+      "bytes": 1200,
+      "sha256": "92be713570088f801bbd0481d3483cf0622de93d486159b173fd5b357977825b"
+    },
+    "project/LaurentLogBase.lean": {
+      "bytes": 4172,
+      "sha256": "fc5e0aba982bbcc32283785f41a7eb023cf8c8449af314111cbed386a3a46d13"
+    },
+    "project/LaurentLogBasePoint.lean": {
+      "bytes": 1734,
+      "sha256": "3407746221295f9eed24af1e910e33aadaf11ff4ae29640f88e00134cab11b9c"
+    },
+    "project/LaurentLogBasePointKernel.lean": {
+      "bytes": 5628,
+      "sha256": "2af1541b9b503e972818a1134a6f185d220f3fcee6b641d37dd603bfa0a40854"
+    },
+    "project/LaurentLogDerivation.lean": {
+      "bytes": 3421,
+      "sha256": "4ac15ffa767aabe5c7fcda6f8dacf5acc2fbbde8506f2b3be380cc38d1d94fe0"
+    },
+    "project/LaurentLogLeibniz.lean": {
+      "bytes": 2133,
+      "sha256": "e816feae3c9df07ad9af8054efcc9482f1518fedd12b2c2b2f152a0d88b71dc6"
+    },
+    "project/LaurentLogOperatorBridge.lean": {
+      "bytes": 12437,
+      "sha256": "10c72fc8a9b5dd1c1b7e87440d6a0a7c850331bb07af46ebbf90ba241a248783"
+    },
+    "project/LaurentLogPolynomialFiber.lean": {
+      "bytes": 3737,
+      "sha256": "c1bc538802bb2a83ab7006191bb4a99add5d5ba43c71b2b5307b46096410ed5c"
+    },
+    "project/LaurentLogSeriesEmbedding.lean": {
+      "bytes": 9332,
+      "sha256": "69469393b3a286829863c293047d8f3c8077ba955fe1d181ae2e3f25345f667b"
+    },
+    "project/LaurentLogSimplicity.lean": {
+      "bytes": 5236,
+      "sha256": "3942a4f45eb27e5d5967fbe2e51f981952984ed9584fa0cc38038e587186e316"
+    },
+    "project/LaurentMatrixPrefixCancellation.lean": {
+      "bytes": 1843,
+      "sha256": "1c155e14caaae19f6254b03bb4d1e8a8e405180fd4c7d7af9083924dc5783c35"
+    },
+    "project/LaurentOrdinaryDerivation.lean": {
+      "bytes": 4558,
+      "sha256": "8b0dfb3f8a8847b33f4ee7b96afebe4c7323be57db509dfbcde7a48178923be0"
+    },
+    "project/LaurentPolynomialCoefficientSwap.lean": {
+      "bytes": 4126,
+      "sha256": "1e47d8873a2b837883b9f7445033ea13b63c2401f11fc4b8faf55b1ed5d7103b"
+    },
+    "project/LaurentPolynomialIdealDescent.lean": {
+      "bytes": 7072,
+      "sha256": "e8a9962bdd7ec8a289cf39fd6d2d09900efb5afcb7d3af68fdb1f8efae7e7867"
+    },
+    "project/LaurentPrefixProductArithmetic.lean": {
+      "bytes": 4086,
+      "sha256": "9a9a104b0d6bc44838698e21f8165256fe0cb2831a3ffb24b265d9ba1df5df53"
+    },
+    "project/LaurentRationalBaseChange.lean": {
+      "bytes": 6670,
+      "sha256": "0d0e3ebe4b77a04235048f8e2a5762224153fd3939dfa383af1e36ecd14b192b"
+    },
+    "project/LaurentRationalDescent.lean": {
+      "bytes": 2708,
+      "sha256": "e6192bcf2332b00cf64111dbaa9eacd6106203b6167fc01a10e53cde78024e44"
+    },
+    "project/LaurentStableGraphDescent.lean": {
+      "bytes": 2298,
+      "sha256": "40518cb4d0574a4314924064411164a3dfd67f2c7b16b97dedcb3eb0baa3f8e7"
+    },
+    "project/LaurentStableSubspaceDescent.lean": {
+      "bytes": 2229,
+      "sha256": "453c877e474aa657d695c0bacbcb17920c0345df855aeb43eae52bd3ef5fa507"
+    },
+    "project/LinearSummatoryLSeries.lean": {
+      "bytes": 2834,
+      "sha256": "d4df4db7a5c45ae08eddba5576f2c062e51e4dc0aee808c4bb30c45c3ace0f9f"
+    },
+    "project/LiteralLogFilterCoefficientExtraction.lean": {
+      "bytes": 3332,
+      "sha256": "bb7bdff2ca1e96b1899834c595171f4e2c7d27f641561aa9425533350e95cc84"
+    },
+    "project/LocalMinorCokernel.lean": {
+      "bytes": 7626,
+      "sha256": "a977b73f3150be7177406b1e9e50783829355567afca48832bfe64c1151ee7f4"
+    },
+    "project/LocalizedBasePointFiber.lean": {
+      "bytes": 2608,
+      "sha256": "d616bb8beea44e00615fd7668635612caea0a0e7f703249c6d8f7c854e726aaf"
+    },
+    "project/LocalizedRelationFiber.lean": {
+      "bytes": 3311,
+      "sha256": "ab3bdaee7b2dd49a049ef5c4ad354b7c91be0bfc515944b7ce266c24edc65e51"
+    },
+    "project/LogDerivativeNilpotent.lean": {
+      "bytes": 2588,
+      "sha256": "cd588435afd8304b1084c379f53e5abfed56637401196b81a6bdb2894cef55f7"
+    },
+    "project/LogDerivativeSolutionSpace.lean": {
+      "bytes": 2618,
+      "sha256": "2b5c1a336e2d23097c159bf73d15b515d81102de85c084d6afec96c51aa6a578"
+    },
+    "project/LogFilteredFiniteJetArithmetic.lean": {
+      "bytes": 3478,
+      "sha256": "f9112394ca05bfb2c132c15338e267da93456c52de979cf672ea284f18c4d1f8"
+    },
+    "project/LogFiniteJetCommonDenominator.lean": {
+      "bytes": 2207,
+      "sha256": "ed0c45bed2ff8187cf4c1c7885f2e215429d85da8d2d704d8c42b83425ec3f84"
+    },
+    "project/LogFirstOrderLeadingUnit.lean": {
+      "bytes": 4840,
+      "sha256": "d05b483b1bb1712e6c773bd3bf7bcc6de9a3618c1b17b23f7599743f007f441a"
+    },
+    "project/LogFrameConstructedInverse.lean": {
+      "bytes": 2214,
+      "sha256": "4aced587e74ea6052b7e532e16dcfa174eaaebdba71891f59b4f72b7d1cc006c"
+    },
+    "project/LogFrameDeterminantDifferential.lean": {
+      "bytes": 6044,
+      "sha256": "69ff71d29e8fc4433c7b6e88352d08d6a0c80e9acae3b0ac2bcff220b9c72dc8"
+    },
+    "project/LogFrameFilteredDenominators.lean": {
+      "bytes": 1815,
+      "sha256": "b8c19b8792a4198a101b29d8af855ec7504abb3e51154949ee120c7119a60507"
+    },
+    "project/LogFrameFiniteBounds.lean": {
+      "bytes": 2709,
+      "sha256": "231b6153ca53e8352059821f25f054e43ec9d53ca8a8806ce0b598ed906f27dc"
+    },
+    "project/LogJetLCMDoubling.lean": {
+      "bytes": 3108,
+      "sha256": "6a3cf669598699492ee34f88d824a6ac8170850ea1b02f9070b292db175c663c"
+    },
+    "project/LogJetLCMExponential.lean": {
+      "bytes": 2456,
+      "sha256": "f9207a48e578aa43bb6270deb49b4d90f60dffa81ce3f573e61641022e7ebf44"
+    },
+    "project/LogLaplaceFactorialNormalization.lean": {
+      "bytes": 3389,
+      "sha256": "ea0c7846d2c8494cb000becc14819be3f0f7f30ca721b6a2b4dc94fe99caf99a"
+    },
+    "project/LogMixingFallingInverse.lean": {
+      "bytes": 2715,
+      "sha256": "8b6a8546c64200dd6a7f740db76f3e5ac98e80051db5015c5e0a78e80133ecbc"
+    },
+    "project/LogMixingIntegerModes.lean": {
+      "bytes": 1897,
+      "sha256": "1452ee5bdb26ee52baedff4b381eb6f0ae353413dda6647802c8106d2a9c0b6a"
+    },
+    "project/LogMixingLaurentAssembly.lean": {
+      "bytes": 2213,
+      "sha256": "67214aec3a3e43d7e7be46e801a73a4c070acac16b0deb0272c9633e4c2b18fe"
+    },
+    "project/LogMixingModeImage.lean": {
+      "bytes": 2361,
+      "sha256": "e933dac7424e3194778ccc282d1a37319b43dba874074c36c7a1f5d9d142a796"
+    },
+    "project/LogMixingModeIntertwining.lean": {
+      "bytes": 2880,
+      "sha256": "8584b068e5eb72879421abc681279e12f02cfc05cb9829c2d5b01173f987ac74"
+    },
+    "project/LogMixingModeKernel.lean": {
+      "bytes": 2091,
+      "sha256": "26d40d232f4915ff506783a8619da79ca68cfe5c8458e5db4d0a26758ca99608"
+    },
+    "project/LogMixingModeLinearity.lean": {
+      "bytes": 2449,
+      "sha256": "5de18c8138b64c3d01621d59f4bc8c269a2524756b886bf5c4d3eec69880ad03"
+    },
+    "project/LogMixingModeOperators.lean": {
+      "bytes": 3277,
+      "sha256": "614d9859dd3e665776be21bd02d5e94871e0e91601164b6e8c108881fd27df26"
+    },
+    "project/LogMixingNonintegerImage.lean": {
+      "bytes": 1198,
+      "sha256": "b79cd8782e53597c5d72ee54e7552e587fb47c71891f86d64c3e60be1f9abd48"
+    },
+    "project/LogPolynomialConstants.lean": {
+      "bytes": 11372,
+      "sha256": "fb46a5aec223e6d0582c9204dc62d0af5d190d98cc7608d458c3ed54377bf001"
+    },
+    "project/LogPolynomialPrefixAlignment.lean": {
+      "bytes": 2970,
+      "sha256": "59807584caeb661191b7da449e47ea4577ba12509af8dbbb6d6bfcdc82da773f"
+    },
+    "project/LogRationalConstants.lean": {
+      "bytes": 8352,
+      "sha256": "854afb0de59d7e26a4ee7964f9c151af1ce81893f96f0e8d6218ddd876b5aac6"
+    },
+    "project/LogSeriesGaugeArithmetic.lean": {
+      "bytes": 2709,
+      "sha256": "e59de37d66ecdeeb35c95a9acb3dccb2dfc11d2d0cf165dd46b68b79dee26d50"
+    },
+    "project/LogSolutionConnectionIntertwining.lean": {
+      "bytes": 8008,
+      "sha256": "0643190f88fa0a7b763b9cb81c71365c9287e0f41e2a1032fcd2728c0c6a79dd"
+    },
+    "project/ManuscriptBaseSimplicity.lean": {
+      "bytes": 2451,
+      "sha256": "92cb565d4ec6a5b86ff8b559ca577a8781a49763ec8f93e1196421fcb3155206"
+    },
+    "project/ManuscriptCandidateFiberUnitLift.lean": {
+      "bytes": 1348,
+      "sha256": "a93d9e6c1e26b481d8b5da1418e062dd3642513504802c0ec972c8f0be008c7b"
+    },
+    "project/MappedBlockScalarRow.lean": {
+      "bytes": 1711,
+      "sha256": "4ea9235b807f797905d3dae77c240142e3b68802cd4d8ca62e11cea59eb42dd2"
+    },
+    "project/MappedIndicialBinomialArithmetic.lean": {
+      "bytes": 5184,
+      "sha256": "60bfbd2785b226bd1d0e169acb1ba62d0922e9e96f9136048290e5220cba4b60"
+    },
+    "project/MatrixCandidateSurjectivity.lean": {
+      "bytes": 5711,
+      "sha256": "c50c4729f32ecfde2844c3b085b108fa33d4d9d41cf89b89c924e0609fa0ba97"
+    },
+    "project/MatrixCandidateTorsorCriterion.lean": {
+      "bytes": 3142,
+      "sha256": "f24d750b1576742b96cccb13c728c7ec1f1690ea1efb99d040a9bd0b792a0025"
+    },
+    "project/MatrixCokernelLocalization.lean": {
+      "bytes": 2977,
+      "sha256": "b26f5c1df697f50df5265ec4cb8e3c1972ca9fd0d103d26fc67554027689b2a1"
+    },
+    "project/MatrixDiagonalGaugeDivided.lean": {
+      "bytes": 6785,
+      "sha256": "11b4fe6c1dddd0fe209d61ad2f55fe6c7faa5a950e0f37860dbdfba8e883d8d3"
+    },
+    "project/MatrixDividedEntry.lean": {
+      "bytes": 2506,
+      "sha256": "ad66a811c61dde0bd8e3c281e8f13a314ba5234e4d99a513fa5ff2ddf40b5c75"
+    },
+    "project/MatrixDualBinomial.lean": {
+      "bytes": 5073,
+      "sha256": "5fb1f80e6c52e7b3d6b6c25bb81c876b72ecce37bf90858817260191512291d2"
+    },
+    "project/MatrixFiniteDifferentialPieces.lean": {
+      "bytes": 5579,
+      "sha256": "1f0eadd801927799979ad2359083834c75f9fbdc0e2bd138b7b3ddc36b8d8d53"
+    },
+    "project/MatrixGeneratedCandidate.lean": {
+      "bytes": 3564,
+      "sha256": "c8cce50e0576bf3a287ed7193b3f14078c6153a0fd6906bc1c26138bb0ccba4d"
+    },
+    "project/MatrixGeneratedChangeBasis.lean": {
+      "bytes": 3047,
+      "sha256": "88c38837db434b394d456e0431374933944498088ff6f754800710569331931f"
+    },
+    "project/MatrixGeneratedDifferentialAlgebra.lean": {
+      "bytes": 5933,
+      "sha256": "4343d25acd67d84d514f67f0e2a52144baebe99a6c8794ff58e7c57170c35b17"
+    },
+    "project/MatrixMinorBaseChange.lean": {
+      "bytes": 1893,
+      "sha256": "9f2b6f000da884895ab5369363aad214951defbc90402bb4273d8c7fa7bbb343"
+    },
+    "project/MatrixPolynomialDifferentialGauge.lean": {
+      "bytes": 15236,
+      "sha256": "437fa398ddf99f6171771986b6fe3fbf916ebef3ca42b0490dee3f09fee90cb1"
+    },
+    "project/MeromorphicContinuousEnvelope.lean": {
+      "bytes": 3442,
+      "sha256": "425fe67cb11564ed426b3a979a745dda573e9b85cdc5166f493f88aee12a654b"
+    },
+    "project/MeromorphicOriginRemoval.lean": {
+      "bytes": 3018,
+      "sha256": "ffd7a943c787af6c91388873c59386a50a548bd121a53ecc0de6f4e203f968da"
+    },
+    "project/MinimalCompanionPowerSeriesClearing.lean": {
+      "bytes": 2584,
+      "sha256": "2ae79fd25d4939bc996f37024eeddab98b74dceec66f8db2e2fc694f94225b1a"
+    },
+    "project/MinimalDifferentialCompanion.lean": {
+      "bytes": 4604,
+      "sha256": "99691d7919e1abdc18962f95e819315fef0e828e8b0025266e07cf53eb10300e"
+    },
+    "project/MinimalLaurentOrdinaryContradiction.lean": {
+      "bytes": 12509,
+      "sha256": "86ba9b91abbeeb0256d2a982db208939f5dafd23487c4dbf952e9f242b8bc801"
+    },
+    "project/MinimalPrefixRemainder.lean": {
+      "bytes": 2370,
+      "sha256": "a519fc7afd3168676fb2942eb9e40e5889028082c87f9fd7033c29cb1e2ae469"
+    },
+    "project/MixedCoactionBaseChange.lean": {
+      "bytes": 3465,
+      "sha256": "14512587301b0340258c9453572bf9e65fb287faf7452088d17d9e37dd07d8b8"
+    },
+    "project/MixedCoactionLaws.lean": {
+      "bytes": 5064,
+      "sha256": "c6c01473a1443939d599c7664c60cdd3d6c400bb024685d2c65e00c10cc47152"
+    },
+    "project/MixedRelativeTensorDerivation.lean": {
+      "bytes": 7113,
+      "sha256": "de1ff2b4ed481bee973566dddf9d52339d1dcb9d4af7951c9b34fe3c49cb0a5f"
+    },
+    "project/MonicRootPolynomialEnvelope.lean": {
+      "bytes": 5462,
+      "sha256": "5d2c7cceab014747bc114ce0dce7f0474e790425713c1e56548fc394fa4e3000"
+    },
+    "project/MonomialEulerPresentation.lean": {
+      "bytes": 5027,
+      "sha256": "df87ca75008c413ab6f9085abe6bbe8cfd0d232369ce40020ccd0d9e34846976"
+    },
+    "project/MonomialEulerSolutionTransport.lean": {
+      "bytes": 3134,
+      "sha256": "c3a27400d3e776a18f8ab397dcf8f6fb1a48a3fe89eab67ef10dff9f9223fec6"
+    },
+    "project/NaturalBinomialSharedInverse.lean": {
+      "bytes": 3103,
+      "sha256": "dfddddfe68b51ce521910f166cf0510d0b50ebe25b6dae76f92f4376bbc33ca9"
+    },
+    "project/NaturalClassRamifiedExponent.lean": {
+      "bytes": 1239,
+      "sha256": "5efe3ce6c5bfbe6f3d18a71590b6521206ec428678071b67109c04c9080c1525"
+    },
+    "project/NaturalResonanceLogMatrix.lean": {
+      "bytes": 4296,
+      "sha256": "c5af32116323465184e35e444933077168ebe100f4891d596f610dd815d87ab5"
+    },
+    "project/NaturalResonanceStrictLogFreeRow.lean": {
+      "bytes": 2789,
+      "sha256": "52b2e82eaf87713d85044664af4078d7e28c24a66525069eaba7472dbca2143a"
+    },
+    "project/NegativeOnePrimeCertificates.lean": {
+      "bytes": 1641,
+      "sha256": "01ec4dce818252cd3e61755f18e721e8312aa3986e4b5da0e7d82430234413f8"
+    },
+    "project/NilpotentMatrixExpDerivative.lean": {
+      "bytes": 3159,
+      "sha256": "e1db5915883f47c627fbcd425a0d3a3d860b079747e3723579a9ef80a930f357"
+    },
+    "project/NoInfinityFiniteAlgebra.lean": {
+      "bytes": 2167,
+      "sha256": "4bb7a796588cdb27b297c5949a736829ab503f80cc9202f416e70e19180fcfa3"
+    },
+    "project/NoetherianDifferentialBase.lean": {
+      "bytes": 1757,
+      "sha256": "c2e2f874ca4e46d530a4938e5d76ad2f0777aeed1040991ad5c80c54d3832e6e"
+    },
+    "project/NonsplitFactorSelection.lean": {
+      "bytes": 2584,
+      "sha256": "35788c85f4c057c74ad6ce3302b60a6565a81067a2e370b9aaeac055f932a156"
+    },
+    "project/NormalizedChartBasisFactorization.lean": {
+      "bytes": 2481,
+      "sha256": "ee9920dd7c70b4e0b76a479b3b1fc58a4951d014a80c63eda0f849cdf5ec8932"
+    },
+    "project/NormalizedChartScalarExtension.lean": {
+      "bytes": 5487,
+      "sha256": "a28bf61617c5f1c1041841f977a9d26072f080c84a2bac5d809c9036a84d089a"
+    },
+    "project/NormalizedFallingShift.lean": {
+      "bytes": 1858,
+      "sha256": "e9fbccbc9669c2f2e077178e3991868b717eec5894375ab2e0bdc742f378680c"
+    },
+    "project/NormalizedLogPrefixArithmetic.lean": {
+      "bytes": 1022,
+      "sha256": "35020a17f974b42c7323de5b24ed7181f366c9bfadb8c222bcad079b393cd06f"
+    },
+    "project/NormalizedLogPrefixTransfer.lean": {
+      "bytes": 2098,
+      "sha256": "dead70ff0e0a706e80d5b125f630a563dcc03515fd4868d6ad7600f7c9f4808c"
+    },
+    "project/NormalizedMixingMatrixBound.lean": {
+      "bytes": 3653,
+      "sha256": "a61ea71a656693ba7713f331709ccc603d32549f374dba8e5e6c281773d77c73"
+    },
+    "project/NumberFieldHousePade.lean": {
+      "bytes": 7591,
+      "sha256": "1745c583ac9f614231db2f84c77d467ee92766572cbe80b62b578e9a93a5e32e"
+    },
+    "project/NumberFieldPolynomialPrimeObstruction.lean": {
+      "bytes": 1367,
+      "sha256": "4f814c47a5a0a9e3581ef470df7439b866569c28ae97a8157ece07b941c031b9"
+    },
+    "project/NumberFieldPrimePlaceExistence.lean": {
+      "bytes": 2332,
+      "sha256": "f58e064e56ab00d75c8b03919ec0189b5718919a82991de6d2d2fa043e87c794"
+    },
+    "project/NumericalCharacter.lean": {
+      "bytes": 10137,
+      "sha256": "67fbe3f299c211fdea8b017ff9147f3b7d2cca7c39b674af825faf82b7e12096"
+    },
+    "project/NumericalScalarUnitDescent.lean": {
+      "bytes": 1249,
+      "sha256": "d3b4ad11cade62a0f47d55942bf34a1b6e35d40ae349b2dc6469a5add16dd0df"
+    },
+    "project/OrderedMomentCyclicFrame.lean": {
+      "bytes": 5511,
+      "sha256": "4096d50877bf2b77c2d40c5c3d159d2321dde02c3abc5604a950ba1ad79abb15"
+    },
+    "project/OrderedMomentGaugeAction.lean": {
+      "bytes": 2638,
+      "sha256": "9d295bd76bd97b6e79eaa1b83a4a57d37c8cfdb79577ab5be6dc3290a6d5c217"
+    },
+    "project/OrderedMomentGaugeDerivative.lean": {
+      "bytes": 3089,
+      "sha256": "326916df30a1eeb2e233668f97d854e9861d2914018db3bfd68f6805362801c4"
+    },
+    "project/OrdinaryActualScalarGerms.lean": {
+      "bytes": 6163,
+      "sha256": "50bafcc806860fde845126a0379aa538a931dd899023e637a5126116ee0d450e"
+    },
+    "project/OrdinaryAnalyticODETransfer.lean": {
+      "bytes": 6941,
+      "sha256": "f74e70bb98a1e3a76f3b55e8c3a4ef9bb8c72bc5e25b575b08757c4cfb601d70"
+    },
+    "project/OrdinaryBorelDerivativeArithmetic.lean": {
+      "bytes": 5297,
+      "sha256": "894ef69659301962b85736c2b13e8ff94fd454e5211d4943f35ad8da1c040b93"
+    },
+    "project/OrdinaryBorelFieldDescent.lean": {
+      "bytes": 5123,
+      "sha256": "c836a86a58d2ee5ab971442587971b020f35ff984eaca40a3c684a59abdb056d"
+    },
+    "project/OrdinaryBorelJointData.lean": {
+      "bytes": 1426,
+      "sha256": "75450246a8696fa754a5705baed634315673b14eeab9389889e6f18c1c82fac9"
+    },
+    "project/OrdinaryBorelLaurentRelation.lean": {
+      "bytes": 5789,
+      "sha256": "ea63f38c49592d1212df37c9e2f6592549b3181e7e0caadd7281c9ac72e6f455"
+    },
+    "project/OrdinaryBorelMinimalCyclic.lean": {
+      "bytes": 4752,
+      "sha256": "128b9a8bb567c6ec3566fcda060d4fce1575b3edb65afc1d3a01357d5cff7d02"
+    },
+    "project/OrdinaryBorelReflection.lean": {
+      "bytes": 6662,
+      "sha256": "3d11f1a715177befa7423dc85d611e0911f328589b1cb24b2a3004222dd5f810"
+    },
+    "project/OrdinaryCovariantJetInterpolation.lean": {
+      "bytes": 6090,
+      "sha256": "c39f5c88f08c437dd0510393884e5efb6abdb4addad07680423b6851f5501dd4"
+    },
+    "project/OrdinaryDerivativeCommonArithmetic.lean": {
+      "bytes": 5671,
+      "sha256": "1e60f2725d753d78d80d9875728000b6c21981c31b5d875e53b1e67d3ad4335a"
+    },
+    "project/OrdinaryDerivativePrefix.lean": {
+      "bytes": 661,
+      "sha256": "91ef2be28092bbad94ca3dca1d61ed24f2fb919ce16393ced9b46e1a1eba596e"
+    },
+    "project/OrdinaryDerivativePrefixArithmetic.lean": {
+      "bytes": 3005,
+      "sha256": "a61baa219c5221c28b9d65133ce85e73b93f7480ae81632bc8a49eaadba2ea1c"
+    },
+    "project/OrdinaryFourierArithmeticReduction.lean": {
+      "bytes": 3664,
+      "sha256": "7a865d73a7702d1925eb90715ec87e325d46b5b5cf113d66161cd9b3fecfa5e3"
+    },
+    "project/OrdinaryFourierSourceHomogenization.lean": {
+      "bytes": 1563,
+      "sha256": "b30f43b139b6595955807c917c64fba569842f4ab84b1c878de19f2fcff88def"
+    },
+    "project/OrdinaryFourierSourceResidual.lean": {
+      "bytes": 4309,
+      "sha256": "7da75470c08ca43b6cf64ab543715c09383bcd05b860656425a8d4255dfeb59b"
+    },
+    "project/OrdinaryGermAlgebra.lean": {
+      "bytes": 5864,
+      "sha256": "1b3d4b2709affd196af4ffbe318c7e6294879d749e40e420a5a3595db89b8bb3"
+    },
+    "project/OrdinaryGermDerivatives.lean": {
+      "bytes": 2537,
+      "sha256": "308bf997c4996ac3c54b120543712b7665b0f04af4af1e8944dbb7eaa2677177"
+    },
+    "project/OrdinaryGermDiskExtension.lean": {
+      "bytes": 6462,
+      "sha256": "f9946e9304b0a5bb54df07540cb7db1aceee8914a86de622d1ba711a5505c1a1"
+    },
+    "project/OrdinaryLaurentNoPole.lean": {
+      "bytes": 6200,
+      "sha256": "82d7e017c85eb44110a65318e0a452836fec58f5b2918b5aa9e24de790a407bf"
+    },
+    "project/OrdinaryPointBasisRangeStability.lean": {
+      "bytes": 2252,
+      "sha256": "ff365e9d833f9217e8d46fece9825b53768f50c26136f736687f92b18cf1a0ed"
+    },
+    "project/OrdinaryPointCompanionScalarFamily.lean": {
+      "bytes": 5488,
+      "sha256": "cbf20e3d1073475aaa575664f3bf32b22819495c1a772e7f30aaf5bad464563f"
+    },
+    "project/OrdinaryPointConnectionDenominators.lean": {
+      "bytes": 6522,
+      "sha256": "37a77ef87318f4158128838e40e3306b170fa9492af9ceda9460377379ab9a98"
+    },
+    "project/OrdinaryPointFundamentalArithmetic.lean": {
+      "bytes": 4116,
+      "sha256": "b56a98a1c00c572172f7a6c65302923e81600b4c27ba03516137fc065d68994f"
+    },
+    "project/OrdinaryPointFundamentalCoefficients.lean": {
+      "bytes": 6945,
+      "sha256": "747317cf10a282fb3de773940643fc919d1196efcbb5aeb09c215ac3d421da5e"
+    },
+    "project/OrdinaryPointHouseBounds.lean": {
+      "bytes": 8839,
+      "sha256": "88e421bfdca1d61320c30b17ec2daf23c030bcbccf08ea32a617cde90a808f63"
+    },
+    "project/OrdinaryPointHouseGrowth.lean": {
+      "bytes": 5142,
+      "sha256": "8597c4671885bfed068ed12219959b1f52055be0f75090706ca301741589afd6"
+    },
+    "project/OrdinaryPointInvariantChartFactorization.lean": {
+      "bytes": 3260,
+      "sha256": "273bc6ed0518fd8106c6c18fb1a49751d26dc9e0f7611e330402c0f6b6650750"
+    },
+    "project/OrdinaryPointJointArithmetic.lean": {
+      "bytes": 5786,
+      "sha256": "29c8306a413df719a0d5f3a776211fb5fc736745ded8ea4a2b3ac02b078127ce"
+    },
+    "project/OrdinaryPointLaurentFundamental.lean": {
+      "bytes": 1931,
+      "sha256": "73387ae7efd26f03d8e7f4966ab53fefc344ef488c3f65316a918c9f54b543b6"
+    },
+    "project/OrdinaryPointMatrixSystem.lean": {
+      "bytes": 3601,
+      "sha256": "02de16c4588610ef32c2b5c6253c87bdd121e7c394130f0117d7d93708e7a9a7"
+    },
+    "project/OrdinaryPointPolynomialIdealGauge.lean": {
+      "bytes": 10263,
+      "sha256": "33bef5e1bb350e289991ac0b4daf3f4de90cf80a20545d3cb9f5c5e8bb9a40b2"
+    },
+    "project/OrdinaryPointPowerSeries.lean": {
+      "bytes": 4047,
+      "sha256": "7cb2174e84875b82c3787a831ea29b03c55b7dcfb857cfa87250303f6908c4df"
+    },
+    "project/OrdinaryPointRationalEmbedding.lean": {
+      "bytes": 5293,
+      "sha256": "fe1a265e56b57b338a8049c2fc4bd2821b7fd5a888ae3ba83f00e60acc1caca4"
+    },
+    "project/OrdinaryPointScalarIndependence.lean": {
+      "bytes": 4525,
+      "sha256": "5903066ac886b32faa34d8bfab1a41d4419e5ed55edadfd4ca7b31a5c0d1f4c6"
+    },
+    "project/OrdinaryPolynomialLaurentNoPole.lean": {
+      "bytes": 3863,
+      "sha256": "d0777b399d07e793e4f5a89982c783d46031b903a8ce62f428f59292f42a067a"
+    },
+    "project/OrdinaryReflectionValuation.lean": {
+      "bytes": 2625,
+      "sha256": "c6795edac049c3e5d5b1eff3953c297c4b4ec2d95f9f958ff81921e596a217e6"
+    },
+    "project/OrdinaryRegularDenominatorClearing.lean": {
+      "bytes": 6537,
+      "sha256": "3e4a4e92ab5625365a996654c529dc29fb8f59db825b532d0dd33993d87b22d6"
+    },
+    "project/OrdinaryRelationCyclicDichotomy.lean": {
+      "bytes": 4971,
+      "sha256": "9efd6204a62946e14bd5da5542a41d5de82eb794020d87824aa85e3581e30fa1"
+    },
+    "project/OrdinaryScaledProductInitialZero.lean": {
+      "bytes": 3732,
+      "sha256": "6d21cdc0944beaa15f785bda6b4037ca0aa6f7d4de32b1b9355f82fbd2f4cce4"
+    },
+    "project/OrdinarySeriesInverseGerm.lean": {
+      "bytes": 3111,
+      "sha256": "53209b266e4c2d8d8b8b131f5e711b03adf8697620ffc3f7b685f83e94da4b6e"
+    },
+    "project/OrdinarySignedBorelEquivalence.lean": {
+      "bytes": 2179,
+      "sha256": "80c7329c7775ba377e40e35597d12c5fc6c33f36b403f56a901a816dfe817997"
+    },
+    "project/OriginRemovalGrowth.lean": {
+      "bytes": 2517,
+      "sha256": "19bb00d9b580777a58c663d5161ed9d632c0f7e1bddc6d9017b11c17eedb72ea"
+    },
+    "project/OriginalSourceAugmentedIdentification.lean": {
+      "bytes": 5213,
+      "sha256": "8bef51e0ee2b32a4c9cbcffbbf75913e52139891a307fd8bc10917123ff57dd8"
+    },
+    "project/OriginalSourceLaurentEulerPresentation.lean": {
+      "bytes": 3591,
+      "sha256": "da6ddaa418ee54e94b9889ae1761db8b13387e794630a9fa038c7ebf4d528719"
+    },
+    "project/OriginalSourceLaurentUnitPresentation.lean": {
+      "bytes": 2501,
+      "sha256": "0d515ef7c87440582b854da0bd75da0915cbb10698d0116482e16ce8a9be7118"
+    },
+    "project/PVAntipodeLaws.lean": {
+      "bytes": 5255,
+      "sha256": "bf5eed7c8a09829c3605eeb82996d9e40f1df35dcac32c19a18a1c22eadb12a1"
+    },
+    "project/PVCoassociativity.lean": {
+      "bytes": 10148,
+      "sha256": "5b94797290b9db72dda7d0cef198ad5a6c0214b97d68060dba61328056bcdaa9"
+    },
+    "project/PVConstantAlgebra.lean": {
+      "bytes": 5400,
+      "sha256": "0940d22d404c9b8988be9aba5d85cae6c2800cd304d63ed6b710a55fcefcda00"
+    },
+    "project/PVConstantBialgebra.lean": {
+      "bytes": 3781,
+      "sha256": "ab2c40549e326c0ea169cc2afbd14c99dc4f0daeba4ae175bb258a452228faca"
+    },
+    "project/PVConstantComultiplication.lean": {
+      "bytes": 5425,
+      "sha256": "c0a74e75644381d2a7625dc725d23ea392f1ea430f0e812eea532a44898949d3"
+    },
+    "project/PVConstantFlip.lean": {
+      "bytes": 3080,
+      "sha256": "215e59f1e4b016c06407dba4a65fe91b2fc6df1846d5dcf2065ce62c7658d1f5"
+    },
+    "project/PVConstantHopfAlgebra.lean": {
+      "bytes": 2490,
+      "sha256": "7afb217f1c28510913bd278c413ce7540bc5cfb5de3da2cffc141db8923398e7"
+    },
+    "project/PVConstantInjectivity.lean": {
+      "bytes": 6209,
+      "sha256": "573e3a1dbc1e9f13bed26ed607a8926b7d4eb99c2659c897a8b8aa1e977bf442"
+    },
+    "project/PVConstantSurjectivity.lean": {
+      "bytes": 6053,
+      "sha256": "09eadb1194fb14804d9867000e4346b6ebc53e05a6e006fad59c26e6e1ef1312"
+    },
+    "project/PVFourfoldChart.lean": {
+      "bytes": 2477,
+      "sha256": "ee8dde31edd023f2e98078f9a1e7e1f48b4644d4e1b0457880f62680567370ac"
+    },
+    "project/PVFourfoldLinear.lean": {
+      "bytes": 1116,
+      "sha256": "aa2ae2194c6c2cab272d7e712c2c9a3d714f79fffa90fe3d99333a8a5050d0f4"
+    },
+    "project/PVLeftCounitLaw.lean": {
+      "bytes": 5522,
+      "sha256": "c7edb85449eeda3b9176b411d3c34c3b9f72cf7ec0ae281675990eff36eb7fc7"
+    },
+    "project/PVRightCounitLaw.lean": {
+      "bytes": 5343,
+      "sha256": "c6c3832350704c3fed7ce24890e410a34f25e9ea80055a9003c671fa736b0067"
+    },
+    "project/PVTransitionConstants.lean": {
+      "bytes": 4678,
+      "sha256": "9aa5876fe016b0e2afb9814102acc3d94102cff9ab7efea93b84c91c93ab2323"
+    },
+    "project/PVTripleChart.lean": {
+      "bytes": 3074,
+      "sha256": "17408c2aae6300f0043dcdf6ba2389c02d2e78367aa4d306ecf1244c483cdd0b"
+    },
+    "project/PVTripleDifferential.lean": {
+      "bytes": 4051,
+      "sha256": "6e0fd392d1a7222710710571b2e6a093273b346b890dec9e55cd9ca1845e4539"
+    },
+    "project/PadeCoefficientPrefix.lean": {
+      "bytes": 968,
+      "sha256": "0071df749dcda8e5c232e8d1c19fdf3c64dcea680a4945af41860a752227ec33"
+    },
+    "project/PadeMapPrefixTransport.lean": {
+      "bytes": 4148,
+      "sha256": "a88b3bdf8e5635e2645e88bafaae820d13dae1ed131cf3c586309369c2d898e8"
+    },
+    "project/PairingBaseChange.lean": {
+      "bytes": 9575,
+      "sha256": "74341490f9e6585d578c32371d59ee721d0c36dc4b076f490eb1b43ca4860eb5"
+    },
+    "project/PairingUnitLift.lean": {
+      "bytes": 6641,
+      "sha256": "5130ee0d38c06040b88464f019f6b23bab3f4a56dd0c6eaf6cabde434beb7933"
+    },
+    "project/ParallelForcingCompanion.lean": {
+      "bytes": 1936,
+      "sha256": "f01bd2581c0951fc68ca5509bec60ac32b288b2a7ab080b47ff05bc076704188"
+    },
+    "project/ParallelForcingIndexedAction.lean": {
+      "bytes": 5116,
+      "sha256": "ff644b48b9098238cb62c3c73d0432d758853d7730b9ce0a537ef6edf27cac5f"
+    },
+    "project/ParallelForcingMappedAction.lean": {
+      "bytes": 3240,
+      "sha256": "78b289eca8c654b2b219b0347847e417a1df81af8cec82b1a71279934540ad6e"
+    },
+    "project/ParallelForcingMomentChain.lean": {
+      "bytes": 1168,
+      "sha256": "89b23b505d8580d7959d25e0c8911d2151e0f159f6f6f94d216391411b34509f"
+    },
+    "project/ParallelForcingMoments.lean": {
+      "bytes": 2918,
+      "sha256": "afe6e58cd3a9ed4f9d097ba1009411a7a9ab98f40c2fcbdab9ad37e4934857e7"
+    },
+    "project/PerfectPairingCyclic.lean": {
+      "bytes": 6690,
+      "sha256": "b227398d25a7cd8d6f2606b416b0d0c68182622a6912724077186e8a428611ab"
+    },
+    "project/PicardIngredient.lean": {
+      "bytes": 6276,
+      "sha256": "9c1fa09fdec8f9ed1b77b676fffc7b212e5fc2a3e591b44dc90e883d933311ec"
+    },
+    "project/PointedTorsor.lean": {
+      "bytes": 7165,
+      "sha256": "5ca36b062afbe1dc3328b416225511d8cc79cd02a8168df21215b24698a3553c"
+    },
+    "project/PoleClearedConnectionArithmetic.lean": {
+      "bytes": 4023,
+      "sha256": "6df9419ea91ba03dbdb7d332fab833c1d45447e0350f566db39852f6dee150d4"
+    },
+    "project/PoleClearedConnectionGerms.lean": {
+      "bytes": 4040,
+      "sha256": "83ba7a962cae13d854de3c855546f9d77b595f10792b9e6b73b1088cfe9553d8"
+    },
+    "project/PolynomialClearedCoefficientRecurrence.lean": {
+      "bytes": 5405,
+      "sha256": "40c693d7553f78accb23e8518a04193ecd5fd697ca9e5ee5652acf8211bceaf6"
+    },
+    "project/PolynomialCompanionFace.lean": {
+      "bytes": 1882,
+      "sha256": "b3cdde71ec76727bb047e8cde0d546504e5e85b07d408c68eed044abec14044c"
+    },
+    "project/PolynomialConnectionClearing.lean": {
+      "bytes": 4933,
+      "sha256": "a5bbecb9c68254817afada4bfd93266840c5a8149f3f49309558b7b72b1cdccf"
+    },
+    "project/PolynomialConnectionFaceRecurrence.lean": {
+      "bytes": 8204,
+      "sha256": "059d2de19ff1ba783547934287091d837bc6425a505e0c6b1690d3409654f830"
+    },
+    "project/PolynomialDegreeReduction.lean": {
+      "bytes": 4819,
+      "sha256": "2704efec47305d1dcf2254bd7ec0768bdfe054846d2d9a28a438887d870a31fb"
+    },
+    "project/PolynomialDifferentialOperator.lean": {
+      "bytes": 15430,
+      "sha256": "b42d2e398a61991f914e0f9d6ef2833bdc214f180c22a1da5b352c2b87ba65a8"
+    },
+    "project/PolynomialDifferentialRightInverse.lean": {
+      "bytes": 9963,
+      "sha256": "cb92bcbc6437fff8913a3d4937ee2de67aad43cae4ff119cd886068c9b524034"
+    },
+    "project/PolynomialDifferentialSubring.lean": {
+      "bytes": 3216,
+      "sha256": "86e5aa1bd327cb7850c293ccd7b20e4e42fcd9cce855f60c0fc35633fb8d8834"
+    },
+    "project/PolynomialHasseMapBridge.lean": {
+      "bytes": 2861,
+      "sha256": "83cfbfc4acdc953b5cf6cf7ecca6a4e4e63bcfaca0c0c6ffdd7bbc921367242b"
+    },
+    "project/PolynomialHassePowerDivisibility.lean": {
+      "bytes": 1747,
+      "sha256": "8fd93ec7cf039aec6da3f3781e09786d5531221fbe3a5e51636cbabda5b6c83c"
+    },
+    "project/PolynomialIntegralCommonNorm.lean": {
+      "bytes": 3581,
+      "sha256": "ce587fd860dd72903adcd62a2dc25b7ccf56a76db63019a4c5bf32e6e5d35a38"
+    },
+    "project/PolynomialIntegralCommonNormHouse.lean": {
+      "bytes": 2041,
+      "sha256": "f90e16adf34c637e62d58236ff923910534f61f6c2028687ce93e51e79b27cdb"
+    },
+    "project/PolynomialLogFrobeniusNonzeroAmplitude.lean": {
+      "bytes": 2791,
+      "sha256": "5f52cd9a0e770f7d56364d0d573c92bf852ef0916726ac23ff4debde1dfbeae6"
+    },
+    "project/PolynomialLogFrobeniusRecurrence.lean": {
+      "bytes": 46,
+      "sha256": "c7f635caafbc77cd5e1f5404821ab71dae1f081e6f47fd77330374cddca5c43f"
+    },
+    "project/PolynomialLogFrobeniusRecurrence_r0002.lean": {
+      "bytes": 13992,
+      "sha256": "6923414ea8b5c78032318d97b04e6e893cf66856971819b10b08e8979903d6a6"
+    },
+    "project/PolynomialLogFrobeniusRingEquation.lean": {
+      "bytes": 8687,
+      "sha256": "3ad4e89ca0e5f9c74b351b349944fe1d1251c67a1e157f460a7304f4fab78e12"
+    },
+    "project/PolynomialLowerBoundary.lean": {
+      "bytes": 2668,
+      "sha256": "95a6e4808a9e9e6d64f97dfb3b333ee7cbb41b596a47209e0ed0a44aaf165bda"
+    },
+    "project/PolynomialNonresidueValuation.lean": {
+      "bytes": 2845,
+      "sha256": "4b6ccedfd9d0bc06d91cbb4bd1cc49b836a929a5f102689376fbc937e222a87a"
+    },
+    "project/PolynomialRelationFiber.lean": {
+      "bytes": 4070,
+      "sha256": "b79b7a709e7a3a3d50b04416e866b95b5ebc213fae40d0c219bdad5c945e5bb0"
+    },
+    "project/PolynomialRelationSpecialization.lean": {
+      "bytes": 1795,
+      "sha256": "a24b308008ec1436f846b5e49465bc30db2c973881aff0d0a587c114f34ddc43"
+    },
+    "project/PolynomialRelationSplitting.lean": {
+      "bytes": 5515,
+      "sha256": "f83d301491939d85cf74ff2ea49e6c6fac818b7db8a0220c4cdb448be372d116"
+    },
+    "project/PolynomialResonanceBudget.lean": {
+      "bytes": 7551,
+      "sha256": "85f38577af75b5179e80099903e63b7f5f549a5e4726cd5686b052f688f69a2e"
+    },
+    "project/PolynomialTailAnalyticPreparation.lean": {
+      "bytes": 2765,
+      "sha256": "036d878746f0adc56866b259521ec92f3ec31a97417429f73804587d079ea1f0"
+    },
+    "project/PolynomialValuationGauss.lean": {
+      "bytes": 6674,
+      "sha256": "b0bd3f306f5683fdf461cc7182c4e5d34511c59e68c59692cb405a8c2d4cefa6"
+    },
+    "project/PowerBasisConductor.lean": {
+      "bytes": 4455,
+      "sha256": "30d465253786ef04ce14813265e015c42ef0f067e7deac9630b7c3e1a200cace"
+    },
+    "project/PowerSeriesEulerPochhammer.lean": {
+      "bytes": 5421,
+      "sha256": "6bb973fa10112a65cb9589604c9f0e5df86c60d578a443e128c02345e26447af"
+    },
+    "project/PowerSeriesInverseIntegralPowers.lean": {
+      "bytes": 3428,
+      "sha256": "e7800cbd53028a2b1450722d405f9a8e581fc92e6092ceca7b10274af05b3e11"
+    },
+    "project/PowerSeriesMinimalPrefixRemainder.lean": {
+      "bytes": 1957,
+      "sha256": "521fbf46ea347ee717f6d7f211c0640d5a4e4042822ac2520b368359a6b6bc4e"
+    },
+    "project/PrescribedComplementBasis.lean": {
+      "bytes": 4680,
+      "sha256": "eba550730ea54e5fc4c2af1f3d286a155157e395234eaeab312cc243b375a2df"
+    },
+    "project/PrescribedRegularCyclicRow.lean": {
+      "bytes": 9088,
+      "sha256": "5c6cb95ca9214a404052cf9c9af01f3eddde37a99fb5ad5527195ce2d04793e0"
+    },
+    "project/PrimeAnalyticErrorBounds.lean": {
+      "bytes": 2908,
+      "sha256": "021f142f400829ec7aa072486f8a7fedb9652518e03105755533b43188de8873"
+    },
+    "project/PrimeComplementConstraint.lean": {
+      "bytes": 2813,
+      "sha256": "00144e834e2eff0234190d454ddd1ff681bc18c9410ffd0fc8805b715fdb8954"
+    },
+    "project/PrimeProductDenominatorObstruction.lean": {
+      "bytes": 2197,
+      "sha256": "00ac5992bdb03208e90bb065cb317564dd4b8b4a9ac68794e623c72ac035b57c"
+    },
+    "project/PrincipalIdealCounting.lean": {
+      "bytes": 4045,
+      "sha256": "2f01c36f7f65881c9dcd1ce0d0fb311d75871bbd5d6dabe426596148ebed45b4"
+    },
+    "project/QuadraticNonresidueValuation.lean": {
+      "bytes": 2336,
+      "sha256": "508e9b68bf40d8ae0f8e0809a3afe5cef391ee89a1882cb2ef00a111ffc46f04"
+    },
+    "project/RamifiedBaseDifferential.lean": {
+      "bytes": 7932,
+      "sha256": "b7ff6f07ed6e0a49234bbdabe43d327626876692da3f42119dd8a5d574f6fb89"
+    },
+    "project/RamifiedBaseManuscriptODE.lean": {
+      "bytes": 2585,
+      "sha256": "a8168f99da54ad4060a3e8581e3061408d2b5dec1e8229d852f86b2b7956bb13"
+    },
+    "project/RamifiedBaseMatrix.lean": {
+      "bytes": 7504,
+      "sha256": "a371e6d6681cd7de6c1ac8b44c5621c82c798caea8967ccf80ed47bdccf688bc"
+    },
+    "project/RamifiedJetDeterminant.lean": {
+      "bytes": 1804,
+      "sha256": "d7f65a4056013d17631a5bd6d5dc856412b306b3bc1e5a6095417cfcb311b6e6"
+    },
+    "project/RamifiedScalarEulerEquation.lean": {
+      "bytes": 3070,
+      "sha256": "0038dff9151a6a4dd1e29a831e994dd53874f673a7174766f7e040ff59ec7a7c"
+    },
+    "project/RamifiedTwistedJet.lean": {
+      "bytes": 2098,
+      "sha256": "ab1fbcbb91c76282dfd9bf32564769b5330fd30a1794bd8f3c87fbd2c7b98dfb"
+    },
+    "project/RankOneNoInfinity.lean": {
+      "bytes": 2840,
+      "sha256": "f00349252ec83baf3ea69294ee6e6217b01be62610c828aa8d320482c1127351"
+    },
+    "project/RationalCovariantJetInterpolation.lean": {
+      "bytes": 4965,
+      "sha256": "55b0cc1ef33aaa5d524c92f4de91e28120e1f30d11b1ed8cd08527ac4a93be46"
+    },
+    "project/RationalCovariantRow.lean": {
+      "bytes": 3410,
+      "sha256": "aa25d6bd3f9d10ce8e064f0b0d05ef9c353d743c0557e40998c0dccfce03c8db"
+    },
+    "project/RationalDerivationExtension.lean": {
+      "bytes": 8979,
+      "sha256": "a1a7b59df1bf51a98b31275040709feda7f5bf221ccebf5efe2de962dd07cd04"
+    },
+    "project/RationalEulerLogComparison.lean": {
+      "bytes": 4155,
+      "sha256": "193ebe03d9f33ffe61322ede63ab2619fea8749c9ade1beb4ced4f9705aff44e"
+    },
+    "project/RationalExponentRamification.lean": {
+      "bytes": 2002,
+      "sha256": "8b179430ae1dc4d13da06fd26e82a9028b0cb746df7b14df7356c59739d0c346"
+    },
+    "project/RationalLaurentConnectionTransport.lean": {
+      "bytes": 2212,
+      "sha256": "7ab7e1fefa1ff04a687478f43094c93ea49e87648d0383a65a11daaee7197607"
+    },
+    "project/RationalRamificationWeights.lean": {
+      "bytes": 5432,
+      "sha256": "c00f1f9e9ef77302a0cbb296a0ac5b4db52d99f68fdf093f7428bf7e60bf44d9"
+    },
+    "project/RationalRelationKernelSpan.lean": {
+      "bytes": 7431,
+      "sha256": "3076216f5e8d2a3bb72fd22c126e95a5f91ca2e627434ef4bb34d06e4aa112e9"
+    },
+    "project/RationalTwistedTopDerivative.lean": {
+      "bytes": 1994,
+      "sha256": "33f356206d2532eb406fd038202df0371832c6cbc36f2831b83ca71bcb37620d"
+    },
+    "project/RealPartPolynomialGrowth.lean": {
+      "bytes": 6757,
+      "sha256": "e5c4c343bc7117d085f9272f7bce86895437408f8641ec7253acdb7eade5f17b"
+    },
+    "project/RebuiltFinalNumericalAudit.lean": {
+      "bytes": 606,
+      "sha256": "cfc67c58cc07b08619343dcf1485ae4349233657d97c70a71818d64a715f3875"
+    },
+    "project/ReciprocalArrayFieldMap.lean": {
+      "bytes": 3053,
+      "sha256": "97c4e492c6c251cbc1f89fb399bc220e9115b93e4a06531ff354e74a77796981"
+    },
+    "project/ReciprocalFourierIndicialBridge.lean": {
+      "bytes": 11586,
+      "sha256": "c2e28967ae66b112fb85d688e49aef3ac782b1764ec87c7db2f19dc75927edde"
+    },
+    "project/ReciprocalGaugeCoefficients.lean": {
+      "bytes": 4318,
+      "sha256": "b159cff2cd5da51fec41afe4781a76867f6f7d654347730042395e0867d62456"
+    },
+    "project/ReciprocalGaugeIndicialKernel.lean": {
+      "bytes": 6581,
+      "sha256": "a9abca8857e859e7ec1d46bc1d8a3619f1deb36a4a2a0eb25d03200396817e30"
+    },
+    "project/ReciprocalGaugeLaurent.lean": {
+      "bytes": 5947,
+      "sha256": "f31912a2ef922b67b0a4959c82437040155d8c951bafbe437cd8a8059bbc0079"
+    },
+    "project/ReciprocalResidualLaurentForcing.lean": {
+      "bytes": 2935,
+      "sha256": "5a9e26d0a3be31e08cf50f6e5d548ad6c7840e4761ea99a2ded699ec716e1393"
+    },
+    "project/ReciprocalSourceActionIdentity.lean": {
+      "bytes": 2928,
+      "sha256": "daa8fa4c119ace5ab69bb24b939b7d74446895d0908eab1348a7a2bef0a17c55"
+    },
+    "project/ReciprocalSourceArray.lean": {
+      "bytes": 5230,
+      "sha256": "812eb820a3c113144d031312a1b1183344a25ed5164c28ddd57f7d8d107dc1ba"
+    },
+    "project/ReciprocalSourceEquation.lean": {
+      "bytes": 7525,
+      "sha256": "3ca990803c07aec92ebb4bfd3d55c7e0ae3a2903769d77e60f0f221b5ed8d78e"
+    },
+    "project/ReciprocalSourceIndicialBoundary.lean": {
+      "bytes": 5396,
+      "sha256": "93be009a8c6cab92356588cd7dfbf46e04eddb60277ffe1e4fe2045f8688692b"
+    },
+    "project/ReciprocalValuationDegree.lean": {
+      "bytes": 4895,
+      "sha256": "39c68331a9a7625671835906ed186f4537c8ac64a2bfbbd95abfaa3f12fb72a0"
+    },
+    "project/ReciprocalValuationFuchs.lean": {
+      "bytes": 5167,
+      "sha256": "1e083e69735653db10176fed48924baa323959b9651af2d2a61605cb3dec6860"
+    },
+    "project/ReflectedFourierOrdinaryBridge.lean": {
+      "bytes": 5385,
+      "sha256": "597b4156af42cb70d07041521683c43414a96068b41254c67e37134b79327b0a"
+    },
+    "project/ReflectedGeneralizedCompanionJet.lean": {
+      "bytes": 2421,
+      "sha256": "afb5844cf117485e1b62b690b9ad19b7ecc2b9dbbdb5ffc00c73e7982d167909"
+    },
+    "project/ReflectedResidualConstantAssembly.lean": {
+      "bytes": 3195,
+      "sha256": "c202b7880da232817f7570359eda15c715553700f4868e5bbf3fd8d81d181f8a"
+    },
+    "project/ReflectedSourceResidualIdentity.lean": {
+      "bytes": 3791,
+      "sha256": "a2efad3e9a21aa4a5ff3ed3a643cf563c42fa3e66d69549e51bd65448814eb29"
+    },
+    "project/RegularClearedDerivative.lean": {
+      "bytes": 3307,
+      "sha256": "bc23f64c4fca393ad4ebb0c8ef793f004c38373c22bc64db18b40ad0d5fd086d"
+    },
+    "project/RegularCompletedRowCoordinates.lean": {
+      "bytes": 2866,
+      "sha256": "594c8047adf5192dbb68dc15e6add7bf0e14cece7fe86e94e272692f87ee8235"
+    },
+    "project/RegularEulerFieldTransport.lean": {
+      "bytes": 4731,
+      "sha256": "1be7ae6011a1c87a0813a80d8ad1e3e3c0b4c3509578e2f881e737159213e244"
+    },
+    "project/RegularEulerLogGauge.lean": {
+      "bytes": 3901,
+      "sha256": "d0c4302c8037b43edd043cd7dcd941c43297c32d8a603fcb92ccf098e747b2a4"
+    },
+    "project/RegularEulerResidueArithmetic.lean": {
+      "bytes": 2847,
+      "sha256": "1e6cb45d22ce6fe81941210cedc815adcc2cbd300399f8185a2ac4dd3b340c7f"
+    },
+    "project/RegularIndicialBinomialArithmetic.lean": {
+      "bytes": 5031,
+      "sha256": "fd6f8ef1cf3fbd4ec1a8e39cc650b6eaa959741a0556cfa63477a5adda2e13e8"
+    },
+    "project/RegularLaurentDeterminantLeading.lean": {
+      "bytes": 1805,
+      "sha256": "a9ab6f71b667a17eac9405aebf93fd9ec6d121eb56ff5cb24c8ad343d1517340"
+    },
+    "project/RegularPolynomialConnectionFace.lean": {
+      "bytes": 5963,
+      "sha256": "3c2742e8d09ac6a76bee10f101670504122633b793670c64b578d653e9946b9b"
+    },
+    "project/RegularRepresentation.lean": {
+      "bytes": 9817,
+      "sha256": "f8047877f0cbf0a6ee6f1c24beea5b9df5fd33063e01c1ccad09ee12082efcdc"
+    },
+    "project/RegularResidueArithmetic.lean": {
+      "bytes": 4043,
+      "sha256": "67674f38252f8e6f233d68d7b8f24e08704c38465eb096f865727f832761acf1"
+    },
+    "project/RegularResidueFallingRows.lean": {
+      "bytes": 6189,
+      "sha256": "3c728b5199284d529bca542ee997e4e13b70ef9e3e681d2e113e2f49c882fffe"
+    },
+    "project/RegularResidueFieldMap.lean": {
+      "bytes": 2459,
+      "sha256": "66ec953596aa1365323a44c0a7b01b040f761a64df72b61de6a92693fb9930be"
+    },
+    "project/RegularResidueIndicialRoots.lean": {
+      "bytes": 4081,
+      "sha256": "687aea59a221ed80cebc3e92f450e969a73d9a5cd908a269b07b6b4fa31ce72e"
+    },
+    "project/RegularScalarGaugeFieldTransport.lean": {
+      "bytes": 3579,
+      "sha256": "439a51fb18b4c5ff28253977361516993d6ea2e8895995c6075c2c33beabb3f8"
+    },
+    "project/RegularWeightedCompanionSupport.lean": {
+      "bytes": 6031,
+      "sha256": "1f770867f8bc28b38595fc43c96225e27176df5843bebfa1478323e54697cc4a"
+    },
+    "project/ReindexedBlockDifferential.lean": {
+      "bytes": 2122,
+      "sha256": "bfe1d5b95d9415a6bc0eecf6a976a6604ff2c58ec36374e0c89f2616e91d2273"
+    },
+    "project/ReindexedBlockUnit.lean": {
+      "bytes": 2214,
+      "sha256": "2edc19eb0cf2ac0be202603f59433af8b9cf44ceb0ec4396a0a8d984796c123e"
+    },
+    "project/RelationQuotientCyclicRank.lean": {
+      "bytes": 5613,
+      "sha256": "2e6d0f0fe914a277152224bc4248816fd88545d928b4b13259c71eca968fae0d"
+    },
+    "project/RelativeClosedPolynomial.lean": {
+      "bytes": 2497,
+      "sha256": "b143115bd33f8916410c6d5e70bb8ed28caad4876e2100d92fc5f804beb85306"
+    },
+    "project/RelativeTensorDerivation.lean": {
+      "bytes": 5624,
+      "sha256": "f5fc5c4a8fa401682df9efbb1bbb3d3c827a96d0d9ddb4b81cae840e205b5304"
+    },
+    "project/ResidueEigenvalueBinomialArithmetic.lean": {
+      "bytes": 2670,
+      "sha256": "8b13c8022eb2da8aa801d0b2cca8e66ec4e4c6f04bc86f50f9f34eedf0632002"
+    },
+    "project/ResidueExponentRationality.lean": {
+      "bytes": 1173,
+      "sha256": "1a2bf7c8bffac309884e052a9b56d886bf21af9131e11cbaa0e13c3b5fd023d3"
+    },
+    "project/ResonanceFiniteLogFactorization.lean": {
+      "bytes": 1403,
+      "sha256": "cc60586df9945980850ffa1fecae5f7754679d6d18f36c12aa827c0761296cb1"
+    },
+    "project/ResonanceLogCoefficientFactorization.lean": {
+      "bytes": 2248,
+      "sha256": "4d51f72cbf8bbbe57b8ee2f928ac82b09f6de594d2a158475e35b562de258cee"
+    },
+    "project/RestoredActualFrameAudit.lean": {
+      "bytes": 259,
+      "sha256": "fa8aa28b488e9cb3f80416a17c84be38defda9d105144ff0ef66f53bbda3db1e"
+    },
+    "project/RestoredArithmeticLiftingAudit.lean": {
+      "bytes": 588,
+      "sha256": "9a95211be272ae2b7c07bbc9ee9e544024bb61d234840dbfabd38db6bb4af564"
+    },
+    "project/RetainedActualCommonField.lean": {
+      "bytes": 3473,
+      "sha256": "601129d30e1f4c47e8c393cfcf99f73eb7433086b270928b0823aa2443d64d89"
+    },
+    "project/RetainedAmplitudeExactDescent.lean": {
+      "bytes": 3187,
+      "sha256": "e4e9fbc1ae315caf23a4ae7ab9e080b118d4075d71e4f1f42db313a3621f6064"
+    },
+    "project/RetainedCoefficientActualODE.lean": {
+      "bytes": 1038,
+      "sha256": "399bc5c12f2325197de95761f8f65bfb0e9fdcb7f440092b5c27457923573c77"
+    },
+    "project/RetainedCoefficientAnalyticRealization.lean": {
+      "bytes": 1992,
+      "sha256": "37ab37fb89e138071817eb447cdededca3a7c082329ef6c16be65f23bd9af674"
+    },
+    "project/RetainedCoefficientODETransfer.lean": {
+      "bytes": 1170,
+      "sha256": "8b42f6e3df3bbf26a311422fa0c588705233734fa56f840a4130b4a28cdf5d7b"
+    },
+    "project/RetainedCoefficientStrictArithmetic.lean": {
+      "bytes": 1288,
+      "sha256": "159a63d110a703f4a607d56491eeda23c968fbd3972961b043f07b5313c13936"
+    },
+    "project/RetainedCoefficientStrictEFunction.lean": {
+      "bytes": 2102,
+      "sha256": "c8b503515e3e2eb9dd4198a3130c1e315a046b71aa447667d2d761882884e30a"
+    },
+    "project/RetainedCoefficientTaylorSupport.lean": {
+      "bytes": 1555,
+      "sha256": "020d2ad208c6cb5a01b0242342ccf65db24fbf17bece953fdd22273e6ae4cd5d"
+    },
+    "project/RetainedFactorialArithmetic.lean": {
+      "bytes": 3265,
+      "sha256": "19de99d765b22e52b249239d80c3d0e671a1976ba54572a6822df7b78eeb75b2"
+    },
+    "project/RetainedFamilyPreimageArithmetic.lean": {
+      "bytes": 4701,
+      "sha256": "8232e12f1155495ab35decbb121a06733f2a17d690d34c745d1918078915f58d"
+    },
+    "project/RetainedSourceTower.lean": {
+      "bytes": 2663,
+      "sha256": "6d721ce930074d562c7de16007e838d5acc65a46441b0d84185bf1bf6f422f5d"
+    },
+    "project/ReverseBorelPolynomialODE.lean": {
+      "bytes": 2036,
+      "sha256": "4a0660aa91a60f86f20329aad46fc4a3658dba85e25d1cfe29853d58e6133ecf"
+    },
+    "project/ReverseBorelRecurrenceCore.lean": {
+      "bytes": 9121,
+      "sha256": "85444af11a81b643797d78666852dd2f39db980d4be75fe940a24243f91627a2"
+    },
+    "project/RingExpressionGrowth.lean": {
+      "bytes": 6324,
+      "sha256": "47c2726d12fe4a17c7e2d3f1a830503e208162ce773b37c6c293f07fbc60a0a0"
+    },
+    "project/SameCompanionEulerGaugeConnection.lean": {
+      "bytes": 5592,
+      "sha256": "69b2b69507d78df422c9588d7b5e0af1a879a2acc7d6a90e69c4c50581b97419"
+    },
+    "project/SameCompanionEulerScalarAction.lean": {
+      "bytes": 5091,
+      "sha256": "8e5c50acd5865586c16cd49933b3a990b5c5875eb5d0a22af25cc92b81802c79"
+    },
+    "project/SameCompanionLaurentShearTransport.lean": {
+      "bytes": 8243,
+      "sha256": "19467226b1d77b83ef0178357a47e0d1be80713c45c333e0bd46505b9618f7e8"
+    },
+    "project/SameCompanionPolynomialRows.lean": {
+      "bytes": 4328,
+      "sha256": "2cc17bea096a3e9094740344cb644f50017e716e7fff490914f6deb7ca128dda"
+    },
+    "project/SameCompanionPowerSeriesJetTransport.lean": {
+      "bytes": 12249,
+      "sha256": "4d8de1cab54b972abbc68a633993cd74c42697ba4cb21a40844bc2a089c1838e"
+    },
+    "project/SameCompanionScalarSelection.lean": {
+      "bytes": 4102,
+      "sha256": "d6cd14870c568cbea57cd665234e99ae1084cfb12c64d955869bd04900df5f23"
+    },
+    "project/SameCompanionScalarTuple.lean": {
+      "bytes": 480,
+      "sha256": "3702401d6c09d5e5f15cdb61d70dc97eec27bbb4442cb8a44cbb22e2f2f097b8"
+    },
+    "project/ScalarEulerCompanionLogJets.lean": {
+      "bytes": 5002,
+      "sha256": "541d11085d7e10e6f794a21071dd55d1cb10a1ef942b400eb5de122e7955e4e9"
+    },
+    "project/ScalarExtendedCanonicalUnitLift.lean": {
+      "bytes": 1968,
+      "sha256": "ba281d955a6666c4807c8f77b32009b3db6e11fa6ada7fd3f4e6cc915ddbbbea"
+    },
+    "project/ScalarExtendedRegular.lean": {
+      "bytes": 4637,
+      "sha256": "d9afb1127560fa09bf18b70aa9bb62ee3d7f8bbe73a7d5c3822ee72c219de9ff"
+    },
+    "project/ScalarGaugeConstructedArithmeticFrame.lean": {
+      "bytes": 3687,
+      "sha256": "ecd3f0355eb41bb9870752ccea627d46126c4072fe5c04a697f0bc0f94858d50"
+    },
+    "project/ScalarGaugeExponentArithmetic.lean": {
+      "bytes": 4937,
+      "sha256": "3d23f62c30876ee6ef5db7511a263c9702f623b1d695fb9f2482ff84f895c994"
+    },
+    "project/ScalarIndependenceFromJets.lean": {
+      "bytes": 2076,
+      "sha256": "46231f5e5ce05de5ca7469fe8d15d825ab1c4b3d57b06ef8a20b8bb364815d0b"
+    },
+    "project/ScaledLaurentLogLeibniz.lean": {
+      "bytes": 2323,
+      "sha256": "ad319f3f06b96b5ef49522d756f9d082dcba28f3c8d4439619c6f01aca4f1958"
+    },
+    "project/ScaledLaurentLogSimplicity.lean": {
+      "bytes": 8608,
+      "sha256": "d034b7de17eb362fd27dd3edb2e9cbf7c9fa94bf6fae561d6e2960f6df7e32c4"
+    },
+    "project/ScaledQuotientHasse.lean": {
+      "bytes": 4539,
+      "sha256": "a2c9fc13cdd5ebe0d8209357d14720163257a75b0ea22dc6946f85f9efcd7fd0"
+    },
+    "project/SelectedActualAnalyticGerms.lean": {
+      "bytes": 3591,
+      "sha256": "fcd99e38f60411ff0557c19b66c80e0a5f5253fd958d2765f5c0b1d8049445f1"
+    },
+    "project/SelectedActualPathContinuation.lean": {
+      "bytes": 3704,
+      "sha256": "490719cc2d3589586f25078f442418745cc7c3ff9ee725013091b59988ca6bf1"
+    },
+    "project/SelectedAmplitudeSourcePreimages.lean": {
+      "bytes": 3194,
+      "sha256": "eb8c9b23643e77f9d19495767b1a357f69f3d9f948a8db05e6f3c0427e248b8a"
+    },
+    "project/SelectedAnalyticEulerData.lean": {
+      "bytes": 2897,
+      "sha256": "1d541d28624641521e2983dd149c4f18e6639bbd777e6d95f8ce345704884d63"
+    },
+    "project/SelectedAugmentedSourceEulerArithmetic.lean": {
+      "bytes": 3649,
+      "sha256": "8e974272d1acca366ed056338b702e863b09fe9d3d5d9cc59347437c0762860b"
+    },
+    "project/SelectedConstructedTwistedAmplitudes.lean": {
+      "bytes": 3179,
+      "sha256": "21642993de6d88fefbf2daaae4f392bb1ccfdc421a4deba915fb22452f70e3d0"
+    },
+    "project/SelectedDifferentialShearData.lean": {
+      "bytes": 4081,
+      "sha256": "ec7c851033e751ab49bb288e8286393e2dbbeb55903a6e7e2154120cbb8f9d7b"
+    },
+    "project/SelectedEulerPowerSeriesCoefficients.lean": {
+      "bytes": 11140,
+      "sha256": "ca3c5fa3a61cecc8865da3d9baa48e1bcb13081c908ac08a20307af1aced3c86"
+    },
+    "project/SelectedFiniteLaurentForcingArithmetic.lean": {
+      "bytes": 1186,
+      "sha256": "f05adb00e044acc67d239d7be6ca68c4abe1ed1089e1efd7a5db2a0a87ba5f67"
+    },
+    "project/SelectedFiniteLaurentUnitEulerArithmetic.lean": {
+      "bytes": 1825,
+      "sha256": "e2a67ca26badc499e4eb98c0a48950ea6099c2dbb07d7d29d6e8812da28bce95"
+    },
+    "project/SelectedFirstNuBoundaryData.lean": {
+      "bytes": 3440,
+      "sha256": "38600d2a210cb81ff45abc3916fd27cf23f8e63d8688fb7c81978794f55c56ac"
+    },
+    "project/SelectedFourierActualNormalForm.lean": {
+      "bytes": 1426,
+      "sha256": "f5eb0d6d443d4c49326c44fc5ea0ccfca657320d7f1c5b22ffd77ac6e844e3c8"
+    },
+    "project/SelectedFourierAmplitudeField.lean": {
+      "bytes": 1857,
+      "sha256": "dc10f98f4256c2075d489ceb368a6ba00e787962a164da07a71c1c6ad9b8726d"
+    },
+    "project/SelectedFourierAmplitudeGrowth.lean": {
+      "bytes": 1769,
+      "sha256": "cb475ecd2df65ff29fcf0cbfff3f587b75aae2b32905443f6dbee56e0e9fa413"
+    },
+    "project/SelectedFourierArithmeticFrame.lean": {
+      "bytes": 1963,
+      "sha256": "dd592cd819472dcd248b4a4cb30d1313c90df74551a3d561f4ab31fc2f0b4d12"
+    },
+    "project/SelectedFourierBlockIndependence.lean": {
+      "bytes": 2616,
+      "sha256": "e9d768b2aa99310ebb3d2c0176623e1ae3c148973b85ffe828499623db3a50ff"
+    },
+    "project/SelectedFourierDenominatorSteps.lean": {
+      "bytes": 1787,
+      "sha256": "9a621914b50ee83be1f6e0fe89309a09137b4e842227dd7807bf34b682f46283"
+    },
+    "project/SelectedFourierExponentArithmetic.lean": {
+      "bytes": 4747,
+      "sha256": "aa27f29afd25e16b639ea25b794edf5391a57545fec00776e9b806365cbd1d6c"
+    },
+    "project/SelectedFourierFormalDimension.lean": {
+      "bytes": 3424,
+      "sha256": "e81bcf5d7c37ed4da97d70e80e3f098bff93f583f3a1a96b287b02c649ae40a0"
+    },
+    "project/SelectedFourierIndicialFactor.lean": {
+      "bytes": 4623,
+      "sha256": "4ada62e71085dcd059732d668863af63145ccf0177fe21d5b510812505eeabae"
+    },
+    "project/SelectedFourierIntegerBasis.lean": {
+      "bytes": 1739,
+      "sha256": "0dd48c5a0ab531bc685af07e6b7b3d57822314343f6d1ac7b7a0a38bed5b6a43"
+    },
+    "project/SelectedFourierJointBinomialArithmetic.lean": {
+      "bytes": 3267,
+      "sha256": "3d9be7cfd6afb2d2835365d36aac07e2e678f851d3853f59f413a40571a9199d"
+    },
+    "project/SelectedFourierLaurentRealization.lean": {
+      "bytes": 1771,
+      "sha256": "c48c044078956447a519d029ab4a27c1ee5ddabae9837d7a3921c91628d54b2b"
+    },
+    "project/SelectedFourierNaturalBasis.lean": {
+      "bytes": 1736,
+      "sha256": "018ecd72bdcc69ec9ce4a2c7e2eae9df55d28421e2cbd93bae0f5f711aa49a37"
+    },
+    "project/SelectedFourierRationalExponents.lean": {
+      "bytes": 6952,
+      "sha256": "28e0d13b69b784fa92bd2534b4ce8c09b6d5431f28441387b8863621db773071"
+    },
+    "project/SelectedFourierResonanceSolutions.lean": {
+      "bytes": 2006,
+      "sha256": "282e3c8f9359eafc3baddb63fc6098fc56e30994be63ad5bad265774ea19768a"
+    },
+    "project/SelectedFourierRetainedArithmetic.lean": {
+      "bytes": 1682,
+      "sha256": "5add243708f22bc213a05633f2e77bb81851f9d02602662b78935a45183bfd6b"
+    },
+    "project/SelectedFourierRetainedDenominators.lean": {
+      "bytes": 2152,
+      "sha256": "861672f45e61ee60fa3ca1568708f96b11ff48a3ba94f32407a2bd1cb9e5a54c"
+    },
+    "project/SelectedFourierScalarNormalForm.lean": {
+      "bytes": 2751,
+      "sha256": "15e607e86d6b7ad6c5c95852930804637854ad56da97db041183cce779c8fc70"
+    },
+    "project/SelectedFourierTriangularEstimate.lean": {
+      "bytes": 1837,
+      "sha256": "d6147c92079daa019d9d374f7d43d9d51bffc7f7bca81bb490f7ed1160d11561"
+    },
+    "project/SelectedFourierUniformConjugates.lean": {
+      "bytes": 1783,
+      "sha256": "6eaa8ad777f013d9975b3173e69d1795dc7fa7c755f3698294dccc531853ea6e"
+    },
+    "project/SelectedFuchsSourceData.lean": {
+      "bytes": 4525,
+      "sha256": "0f8622b60959f7ff13d2d3a02ef5d43ae2323efe39e575a22da9ceaa05b5267d"
+    },
+    "project/SelectedIndicialRootArithmetic.lean": {
+      "bytes": 2253,
+      "sha256": "547ffb94f4375e8ecc72d760cdb43e38915467058f224e0c8fec0ea5c599f07e"
+    },
+    "project/SelectedNormalizedMixingBound.lean": {
+      "bytes": 1661,
+      "sha256": "f14ee5346bebbf897355292c9cb275db34d2f172e9a652b6913b56a9f465d80c"
+    },
+    "project/SelectedRegularCompanionData.lean": {
+      "bytes": 3607,
+      "sha256": "d085280176bc4cb0a1aa457f868989639a0a5c64f0e30b2a2a6779036a1da3e0"
+    },
+    "project/SelectedRegularResidueArithmetic.lean": {
+      "bytes": 3736,
+      "sha256": "69ebba8c817234b1119efaf49e53467b8aca231bd10c2faeb0f9f14154810634"
+    },
+    "project/SelectedRetainedAmplitudeDenominators.lean": {
+      "bytes": 2753,
+      "sha256": "ba3e4c96217d5bf23c3c64750c8fd76ceccd14e0417e147b33e464eb5de0b9eb"
+    },
+    "project/SelectedScalarFieldMapTransport.lean": {
+      "bytes": 2980,
+      "sha256": "abc97816fa1bf4e78d5fd7f2c38d71584e4e1bf2fc56bd0839824d05057b1db5"
+    },
+    "project/SelectedScalarLaurentAction.lean": {
+      "bytes": 464,
+      "sha256": "b2c37ae5d2c9cbe26b239de0e208524a139767a51a92c20ad75a6ea2f2c06e3a"
+    },
+    "project/SelectedScalarPowerSeriesTransport.lean": {
+      "bytes": 1300,
+      "sha256": "fe8733c3d8261b70bbb171035a34e289e1f28fecf635e59c852910acba636048"
+    },
+    "project/SelectedSingularConnectionArithmetic.lean": {
+      "bytes": 4929,
+      "sha256": "513667ab2eb69a65f1c1c5d1a1f59f7ba05a05d65965c8c182da68763c5494a2"
+    },
+    "project/SelectedSourceBoundaryArithmetic.lean": {
+      "bytes": 1817,
+      "sha256": "d8d83c598c4bfa13b567f60d7e17635e0322c3b6e044f22be7ae6f85f20c167c"
+    },
+    "project/SelectedSourceForcingArithmetic.lean": {
+      "bytes": 2677,
+      "sha256": "d93ba8b2db307fa510a8e5241b758ed00b78ca18bf5fd13cc230703fd1e0d2da"
+    },
+    "project/SelectedSourceRootBinomialArithmetic.lean": {
+      "bytes": 2813,
+      "sha256": "26ee49b8c88720d6557a8aa804923d237a6b155f90d667d1aa25fa247688608c"
+    },
+    "project/SelectedTranslatedScalarFamily.lean": {
+      "bytes": 5487,
+      "sha256": "c89585723a47399ca2132b30bd147852ab8fb877b46db9ed7a263770d5fe457e"
+    },
+    "project/SeparableReductionExceptions.lean": {
+      "bytes": 3309,
+      "sha256": "41990da09fe39ad0feac9337949726ade17784492da9b5573bb7e8528e0bd829"
+    },
+    "project/ShiftedDifferentialFrameCoordinates.lean": {
+      "bytes": 1363,
+      "sha256": "7551c11e92eb89e644cb8214d9cbd837339b4244ec66ff3f29959f527412faca"
+    },
+    "project/ShiftedPolynomialDerivative.lean": {
+      "bytes": 2879,
+      "sha256": "7e34e21d40bace7979cc749c19a720dbf45958126d9ef923baa53f0edfa49282"
+    },
+    "project/SignedInverseLaplace.lean": {
+      "bytes": 6344,
+      "sha256": "5202370af410e5d2f2fa18185eeeca6e98baa419c175f32bf6e0904a39b16929"
+    },
+    "project/SignedInverseLaplaceKernel.lean": {
+      "bytes": 3080,
+      "sha256": "6c58332f62ae37cac87395734a67e0c34a4caa05f10142d4c8c9345d113d6abd"
+    },
+    "project/SignedInverseLaplaceKernelConverse.lean": {
+      "bytes": 4919,
+      "sha256": "82699d941a8cf86f4f6c9b9e8d21d1a033db43f9508e8a6dbb23013ae363d59c"
+    },
+    "project/SignedLaplaceBoundaryCoefficients.lean": {
+      "bytes": 6559,
+      "sha256": "a8c24f51cc8f4b4f41ea75ee7217373a8ce718105cf6f8ab1b40f17677693c01"
+    },
+    "project/SignedLaplaceExplicitBoundary.lean": {
+      "bytes": 3921,
+      "sha256": "ba6d938685fa6bf1ec08f3f59d3b6e63b3b519708123be1bf9705019f5417b02"
+    },
+    "project/SignedLaplaceFirstNuBoundary.lean": {
+      "bytes": 5756,
+      "sha256": "f2b3ce5c496063b931b84bc075c5426cf63abd9dfd03a541eef9945003f21005"
+    },
+    "project/SignedLaplaceFourierAttachment.lean": {
+      "bytes": 5474,
+      "sha256": "559c0af5b5fdda359ff521c9c0052ed4df81d0c1422ac1fb087c7b9f6565fd87"
+    },
+    "project/SignedLaplaceMicrosolutionEquivalence.lean": {
+      "bytes": 2224,
+      "sha256": "0f8cba8e420e731d16f882af984920f81f7215224974f94e4a69dc76b4ca94fd"
+    },
+    "project/SignedLaplacePolynomialErrorAttachment.lean": {
+      "bytes": 2652,
+      "sha256": "d1f6b60e689b42835bdc1311b6305443f708a3a99fd4d2793e54e03e07209b50"
+    },
+    "project/SimpleFieldBinomialDescent.lean": {
+      "bytes": 1842,
+      "sha256": "f2c834dd95f1ec8589b295736391acd1e141a0b114f21e57d8b738ae03320301"
+    },
+    "project/SingularConnectionLaurentArithmetic.lean": {
+      "bytes": 2783,
+      "sha256": "7bd7b7cbea60fc0c2bc035db653e1f7dc80581dfdf4e8e30224ca7fa2225947b"
+    },
+    "project/SourceEulerMatrixFieldMap.lean": {
+      "bytes": 3985,
+      "sha256": "3cd8c9e6d8e2f6ec26aea40fe5d24685d3f685d4d62440749ab7f22d4695743d"
+    },
+    "project/SplitPrimeEulerLogBound.lean": {
+      "bytes": 3587,
+      "sha256": "187491cf5999f5ff3e84822eec8b2cf7e545bf4460913d37e6825fc44bedfac2"
+    },
+    "project/SplitPrimeNormCertificates.lean": {
+      "bytes": 3397,
+      "sha256": "e061b7bae706c47ce49dc41d2e9ba6f06e9b1fb09264a34dba790da7e9b3b07a"
+    },
+    "project/SplitSeparableFactorCount.lean": {
+      "bytes": 1889,
+      "sha256": "3dd2a10750ce453788bf60304d3617110edb508d08b665aa99e86c077e2e391b"
+    },
+    "project/SplitUnitRetraction.lean": {
+      "bytes": 3223,
+      "sha256": "cfc8655628ac494ec21d764dfbf7586618d95ba8af358b9c19535848514cbfcb"
+    },
+    "project/Stage14ActualAnalyticODETransfer.lean": {
+      "bytes": 11710,
+      "sha256": "d6c54005efb4ce64c5acd47f2fc46d71725ad2df172c25398cf06b030fce5f0e"
+    },
+    "project/Stage14FiniteDifferentialClosure.lean": {
+      "bytes": 5538,
+      "sha256": "1543629c078fb0fbfadbe671de728f4ea61002a2630bba92a9ed7ea56fbc03c1"
+    },
+    "project/Stage14LaurentPolynomialODEClosure.lean": {
+      "bytes": 6343,
+      "sha256": "cc7c8a96bc8dc23a0a2b64e5a92035cc020ba651991e27cd81c563a8461fe732"
+    },
+    "project/Stage14OneSidedArithmeticRecovery.lean": {
+      "bytes": 5238,
+      "sha256": "d659462e2f3e966afb2729df2e8dd21e7f22e0c86b4c197f9ad92c98d39bbb66"
+    },
+    "project/Stage14OneSidedEntireGrowth.lean": {
+      "bytes": 5407,
+      "sha256": "972edc5ee4267c67ef357006b5ed8727c1d8143d281fdc3f9111af06767733af"
+    },
+    "project/Stage14OneSidedOriginGrowth.lean": {
+      "bytes": 7751,
+      "sha256": "2f1fa2298a2460e6c9d73966ddaaa1e9159cbde73a50f78e22f144104bba502b"
+    },
+    "project/Stage14PolynomialScalarODEClosure.lean": {
+      "bytes": 5362,
+      "sha256": "454a0cb7cf106e2dbea9b57972455fffc624569ec164bd9160d5468b2f07d5c0"
+    },
+    "project/Stage14RationalOrdinaryDerivation.lean": {
+      "bytes": 3109,
+      "sha256": "7daf2905105858ae09fafa245670690bf8132362a2c2020f54940f18529999e6"
+    },
+    "project/Stage14ScalarODEClosure.lean": {
+      "bytes": 6082,
+      "sha256": "9c731795134dfbf23abb110fb74276bd646e1c940f381983b4fcafc881595f8e"
+    },
+    "project/Stage14StrictERingClosure.lean": {
+      "bytes": 5082,
+      "sha256": "c24aad80a40028bae49cf1b4ea4b69ecabc188dc2413190f6525bcbc4a6f5c25"
+    },
+    "project/Stage15DeterminantNonvanishing.lean": {
+      "bytes": 6252,
+      "sha256": "076b34363e51fad1675ef6ba7d30c41e05465d5618b032c5ee52f4700f1362f8"
+    },
+    "project/Stage15DifferentialDerivativeClosure.lean": {
+      "bytes": 3217,
+      "sha256": "077ecf141c2b98a15817ecff44b2a37b0124d5025171ed13517767e92c25d695"
+    },
+    "project/Stage15FirstOrderNonvanishing.lean": {
+      "bytes": 6675,
+      "sha256": "9977281fef92e7ff363f3e77a7fb1194a7c1fec560a287fe03fdde5b0beff818"
+    },
+    "project/Stage15RationalJordanBasis.lean": {
+      "bytes": 2799,
+      "sha256": "f76c42b3941ac33b9a339dcacec070d85467aefd02341a91f0d0183edfdfc6cb"
+    },
+    "project/Stage15RationalJordanDecomposition.lean": {
+      "bytes": 4877,
+      "sha256": "fbb43a56ce355cc78396bfbb236d86e5507303c1fc4d8e1f37b2b1fc99c86c53"
+    },
+    "project/Stage15RationalMatrixConjugation.lean": {
+      "bytes": 2651,
+      "sha256": "7ddfcd6cb2df98dd1b4516ab39cd0f633031473203e3dd7019b832b6403f0406"
+    },
+    "project/Stage15RationalRamifiedFundamental.lean": {
+      "bytes": 5765,
+      "sha256": "b71455858bf4004fcbf46ff23ac0727ba17faf6d9a0a2dafcf9d2a3daeb004e5"
+    },
+    "project/Stage15StrictECoordinate.lean": {
+      "bytes": 2120,
+      "sha256": "20b31cac1fb976d8c4685c92038d8f379d602c321a55ba65910c8feaa48f6536"
+    },
+    "project/Stage15StrictEDerivativeArithmetic.lean": {
+      "bytes": 1491,
+      "sha256": "a0074ec0e85f0c2fe998a8b898e6805fd99f0d2b85398d79aab13310966ee2ec"
+    },
+    "project/Stage15StrictEDerivativeClosure.lean": {
+      "bytes": 2618,
+      "sha256": "17d81c2c30a4051a22f2485a8a655208934f0235e4bbdbf0228f2ce69d921900"
+    },
+    "project/Stage15StrictEDerivativeSeries.lean": {
+      "bytes": 2072,
+      "sha256": "e58c7092d92d5a3c13a92d10a0aeba6720351cc44d0e74f8093a619701d6f9fe"
+    },
+    "project/Stage15StrictEDeterminantClassification.lean": {
+      "bytes": 5873,
+      "sha256": "f9f08afeba1357deaed4a6a4728d611d5e9440d2e78d4adec446533252497bf9"
+    },
+    "project/Stage15StrictEEulerClosure.lean": {
+      "bytes": 1797,
+      "sha256": "f8d5e0db4e071d08b97027c0c35e9803811cc43c30967996440f90435ea0056e"
+    },
+    "project/Stage15TwoSidedDeterminantClassification.lean": {
+      "bytes": 9855,
+      "sha256": "10d54c48fb6441bfe968097cfc3c2cb49b1d14a31e77779aa3b8850a6b77638a"
+    },
+    "project/Stage16AlgebraicCoefficientField.lean": {
+      "bytes": 1767,
+      "sha256": "66c2939e3432ae13041af0d2984908be0d014ec022e826e6549353e8c2450ce7"
+    },
+    "project/Stage16LaurentMatrixClearing.lean": {
+      "bytes": 3241,
+      "sha256": "cb0eb85b6e987033a3fe4af5638fc33d1c19ca58e42932eb293900ab97b073f2"
+    },
+    "project/Stage16PuncturedEntireLocalization.lean": {
+      "bytes": 10215,
+      "sha256": "2ac9efab756d5a47987b621a162c12843f313219a0c91c49ec7916eb52a5011b"
+    },
+    "project/Stage17ArithmeticFrameODE.lean": {
+      "bytes": 7468,
+      "sha256": "95d3d4d786160965e6b233836683a2ef4fcf7403157d8392fa84d53fef4c5f9b"
+    },
+    "project/Stage17ArithmeticPowerPullback.lean": {
+      "bytes": 4858,
+      "sha256": "3f90cc1fb097d19372ce8205d9c38d51788991e63e2ea0fa67129b63549ed9da"
+    },
+    "project/Stage17ConstructedFormalFundamental.lean": {
+      "bytes": 9376,
+      "sha256": "f0d925e66816f6663179807f7f2c4d58b9b695b11e186b0cd9748edbed756ece"
+    },
+    "project/Stage17FormalBaseUnitData.lean": {
+      "bytes": 484,
+      "sha256": "e2397c28053c463f1e9a6cf8d70ac2a356bc23fe1dea6e61ac4ed40261f2ce41"
+    },
+    "project/Stage17FormalEulerTaylor.lean": {
+      "bytes": 4397,
+      "sha256": "4faf3acccb18b33a0475c44dc83311cedbd19e6f220a2b29e38b9b16849327e4"
+    },
+    "project/Stage17RamifiedLaurentCoefficients.lean": {
+      "bytes": 7785,
+      "sha256": "8702b07417fae8631839cfea09071c15340befd6759a889cd20c5c000834f3a8"
+    },
+    "project/Stage18ArithmeticEntireFractions.lean": {
+      "bytes": 3311,
+      "sha256": "05c42df7b89dd8a6676c5c34b0b4c431c97a54d9ff7d689079054dee8a207cc2"
+    },
+    "project/Stage18BoundedArithmeticLocalization.lean": {
+      "bytes": 11329,
+      "sha256": "cae4287c7e576cfde7afbe7227264040d8ed04a5b827ba8a3274a67defeab195"
+    },
+    "project/Stage18LocalizedArithmeticUnitClassification.lean": {
+      "bytes": 4849,
+      "sha256": "03e977c7d2ac4f87946d2f52ba331339d9a5800e665b57f91878a9fbc7ca4731"
+    },
+    "project/Stage19GeneratedArithmeticRealization.lean": {
+      "bytes": 16665,
+      "sha256": "d5ec4dedd235fcc618881b1e25599fe4615af54ed7dea9a2876b420a0403ee35"
+    },
+    "project/Stage19GeneratedLaurentRange.lean": {
+      "bytes": 2621,
+      "sha256": "eef189db888c29b99f2e0fb37339d5e13d142532cdfd152c87a3654b7a12e0ea"
+    },
+    "project/Stage19GeneratedUnitClassification.lean": {
+      "bytes": 6311,
+      "sha256": "9c967ff5e9f2323b00f43eb0de47cb0d6b8ef7ff9e1208b4a828ae004332237e"
+    },
+    "project/Stage19RamifiedFrameUnits.lean": {
+      "bytes": 4903,
+      "sha256": "b76149fda877baa91935e4d84416edfc321a99eb11081020de05aeaf2f74d7c4"
+    },
+    "project/Stage20ArithmeticFrameLifting.lean": {
+      "bytes": 6032,
+      "sha256": "aac64b777d9bc4769eed61c04dac35c8492d83a5d5f41812a9b04c7445364028"
+    },
+    "project/Stage20TwoSidedVectorization.lean": {
+      "bytes": 2826,
+      "sha256": "4eadaf96bc719c99f22dc745174822e887f162c4f4b56639ed372b79c7cae8ef"
+    },
+    "project/Stage21ActualSolutionValues.lean": {
+      "bytes": 6901,
+      "sha256": "840f497e81b475eef11fe7659c5a3d7a8dc43dbbca3cc84d2a993f1d76cdd68d"
+    },
+    "project/Stage21ActualSolutionVectors.lean": {
+      "bytes": 3688,
+      "sha256": "9867208320b80c4b3da7a4c910c29285dafa27fc77c977438fe12774fe1f1ff2"
+    },
+    "project/Stage21ArithmeticSolutionCoverage.lean": {
+      "bytes": 5572,
+      "sha256": "022e0f76e6d777e63546f476f89f8d15a4fed558ba3122a6cacab753e8ef0374"
+    },
+    "project/Stage21RealizedLogEvaluation.lean": {
+      "bytes": 12070,
+      "sha256": "0cd5b5c24d2ed0e6f52572beefc2233c3bf3fa1143134c918036c8cbd90244ea"
+    },
+    "project/Stage22FiberUnitNumericalDescent.lean": {
+      "bytes": 3665,
+      "sha256": "05fdd0e01bb05db00a0ee6f08d098759cf9787661d3bf381317e55effdf3c73d"
+    },
+    "project/Stage22FormalCandidateEvaluation.lean": {
+      "bytes": 4449,
+      "sha256": "cdcf61a971ed568ccce9ae81616c21554715c023b1fa844c86ccba93c9a90a73"
+    },
+    "project/Stage22NumericalUnitPreimage.lean": {
+      "bytes": 1645,
+      "sha256": "5e741612b24df0afc0d831a17e9acbad6920e880ec63ee388f3060a011127114"
+    },
+    "project/Stage22PolynomialImageEvaluation.lean": {
+      "bytes": 3574,
+      "sha256": "6b9f9167cf9e0feba481cc1d8d07d550cd9d9961d0e7ef6007c1a54ab48134fa"
+    },
+    "project/Stage23ActualCandidateKernel.lean": {
+      "bytes": 4403,
+      "sha256": "dd948a4a58d0da9cacbc5d594c7de3c24fbc9184dd1f0f55d553f982c6b0106a"
+    },
+    "project/Stage23ActualFrameFiber.lean": {
+      "bytes": 4824,
+      "sha256": "c95839a87011dbe6f8e2981265179ef5d28f2293371a6cb0e85d0faf5ff4ac58"
+    },
+    "project/Stage23ActualPolynomialLifts.lean": {
+      "bytes": 7978,
+      "sha256": "3db0d6b3a200bb21aa6121b9bc246d0b6a01f727e1800d425c6545e11cb86813"
+    },
+    "project/Stage23AdjoinedInverseLocalization.lean": {
+      "bytes": 5938,
+      "sha256": "74bebff8db8e196c29387e84a8e3c217d21c684b5a8b0e48ddfcc7a7d0730bf4"
+    },
+    "project/Stage23ArithmeticFrameNonvanishing.lean": {
+      "bytes": 3118,
+      "sha256": "8fd5fc1476fbf28594fed4975c5273a27ee5caca2712a553efa189657ad27f15"
+    },
+    "project/Stage23EntryAlgebraPresentation.lean": {
+      "bytes": 4525,
+      "sha256": "d3aa64f8061274f89b93262c50ae9d487e3a8d29f0f8b5dcdea8b94334e7f48e"
+    },
+    "project/Stage23EntryKernel.lean": {
+      "bytes": 5876,
+      "sha256": "2fd58dd0078bee36ff92134c071f8c5d8ffba914de7ac77ca994d41309abecb0"
+    },
+    "project/Stage23ExactFiberEvaluation.lean": {
+      "bytes": 3529,
+      "sha256": "e9d60db192b240e70d1ff81148789e689a26769040c08314f003f66e710ccd05"
+    },
+    "project/Stage23GenericCandidateRestriction.lean": {
+      "bytes": 1895,
+      "sha256": "e2b0e7c9b9006b4260131a5f1fc6f26be8483f02ae0fee61b19b5e2fa3f76833"
+    },
+    "project/Stage23LocalizedCandidateKernel.lean": {
+      "bytes": 1690,
+      "sha256": "ea859110013294b305406acaa34564d4f2bce4a8ae752a09798a8c3153784f6e"
+    },
+    "project/Stage23RamifiedEntryEvaluation.lean": {
+      "bytes": 4584,
+      "sha256": "4c0488b0ee771e203952a13d5ea97766f895441026ed2d64fb6efa2d6c74e283"
+    },
+    "project/Stage24CommonFrameValueCoverage.lean": {
+      "bytes": 5057,
+      "sha256": "e6f8ca63760a7afafc9f46283303fbdce60681eae0b9b28cb0d2ced11274afe0"
+    },
+    "project/Stage25AbstractNumericalDescent.lean": {
+      "bytes": 1150,
+      "sha256": "f6fb7f520f4638324947e00b02b94503056f18c7bb0fc8e137b607a05d1fd576"
+    },
+    "project/Stage25ConditionalStrictEUnitClassification.lean": {
+      "bytes": 4362,
+      "sha256": "c89d7358d2e71d65d3030bd7f34d32f6e2a62f40a458b09ae7335c1f9a949668"
+    },
+    "project/Stage25InverseValuesDescent.lean": {
+      "bytes": 2842,
+      "sha256": "b1a3e27f4d3e04678e5bb81e0c67d0ed9356e3d0f1cfe64ec00a9ce21e3d5e50"
+    },
+    "project/Stage26FiniteCoefficientField.lean": {
+      "bytes": 8588,
+      "sha256": "fa10f6d83ba59dc742eeb13935233c01ea74e040131abfa8fcbbf2297c240241"
+    },
+    "project/Stage26ODERecurrence.lean": {
+      "bytes": 5128,
+      "sha256": "d31aebafc8543f3212de83f664d0d4420f4170b77f4d07cd2a7633f2c395ecc1"
+    },
+    "project/Stage26ODERecurrenceCoefficients.lean": {
+      "bytes": 3474,
+      "sha256": "f2d256dc5b8847754f208d3805551314a8a8f4e8e9027f9182a36311700743e2"
+    },
+    "project/Stage26ODERecurrenceSymbol.lean": {
+      "bytes": 4280,
+      "sha256": "e43efad7ec9df62daae98f91f8639a8165f72890720f1847705ff6542447d65e"
+    },
+    "project/Stage26StrictEFiniteCoefficientField.lean": {
+      "bytes": 3893,
+      "sha256": "d861caf293af93f6b8093bf844ca1ecea6393a1066412d8064679bf307e26966"
+    },
+    "project/Stage26StrictETaylorCoefficientField.lean": {
+      "bytes": 6155,
+      "sha256": "be2ccfbaa8455bd9d9cd257ea62e52c29229e5fbb307fa54f53b3fe9ded7f07f"
+    },
+    "project/Stage27ActualFrameAssembly.lean": {
+      "bytes": 6125,
+      "sha256": "5f24c205c522c00cb754c985247a61973bfdb6b13b721814e381f7b048f997c5"
+    },
+    "project/Stage27BlockFrameAlgebra.lean": {
+      "bytes": 3128,
+      "sha256": "d8fcd1e85e6a3e269d4f687506a79d3ac13245146e427f07791191e62fd2476a"
+    },
+    "project/Stage27PerFunctionFrameAvailability.lean": {
+      "bytes": 7112,
+      "sha256": "269a684ffd153b8cb8fddec968687f134712524bbb2a903a302b4c6060baa4af"
+    },
+    "project/Stage27ZeroFrame.lean": {
+      "bytes": 2347,
+      "sha256": "b7937e335092017c7411755c28db93233b15af289a2bbee3cbc9a0dc93d2b4c4"
+    },
+    "project/Stage28CompanionFrameCoverage.lean": {
+      "bytes": 5595,
+      "sha256": "083ddee685d2c4185b95e83de51b282f854ba24d1d4d15912805b04a9a8db5e1"
+    },
+    "project/Stage28LaurentCompanion.lean": {
+      "bytes": 7069,
+      "sha256": "5ee796190f099c19beaee448ae57c8bd09d59ad33dbd7e53da018252d438aeb2"
+    },
+    "project/Stage29InitialNondegeneracy.lean": {
+      "bytes": 11687,
+      "sha256": "91c230b665663e44aeae2ab3b25af149ed8358f51e7f2a12865d2aef655849cf"
+    },
+    "project/Stage30ScalarJetIndependence.lean": {
+      "bytes": 6653,
+      "sha256": "f2ef265d9d3bdaee2a51d09afe5351aa9f5cea1b375115b8cf3300eee7313981"
+    },
+    "project/Stage30SolutionIndependence.lean": {
+      "bytes": 8477,
+      "sha256": "812ca12541afa9a8278f09e1f5e673b804687ba34fd793acb8c90dc41d9209d9"
+    },
+    "project/Stage31RamifiedEntireInjectivity.lean": {
+      "bytes": 1845,
+      "sha256": "6e3dea4e0cbf16b46891c321621ca29c7dfd4743a2ed92ab30dfa443bac2c9c3"
+    },
+    "project/Stage31RationalResidueShift.lean": {
+      "bytes": 3119,
+      "sha256": "ffb72940e9da26caf81f3ba79e3cdce05f9ffe72e2ee34c7a0e01a4027ea4ea4"
+    },
+    "project/Stage32FormalToActualFrame.lean": {
+      "bytes": 9736,
+      "sha256": "e2bc179125b0a32812d872a314beeff1962543dca8f375873d2efce012a146c4"
+    },
+    "project/Stage33EntireJetRows.lean": {
+      "bytes": 5025,
+      "sha256": "49af3976ec929db9763b743d32ce3aa4fd4d5a8ef5e53587b9eefdca7f41a9dc"
+    },
+    "project/Stage33FormalCompanion.lean": {
+      "bytes": 7479,
+      "sha256": "c0faebeb41e033ec56a79cc19911324ba79c99db84759da25e65aed94e0ecf69"
+    },
+    "project/Stage33FormalJetCalculus.lean": {
+      "bytes": 6332,
+      "sha256": "f512caea3b3cd77dcfa27da4f38c61af9a0f368db827e6044c9114bb98592137"
+    },
+    "project/Stage33MappedJetFactorization.lean": {
+      "bytes": 6744,
+      "sha256": "152e920d9b9f17dd0fbc4c5edd083a71a9a35da8c58e0d0fa1fd32a07bd7d6ce"
+    },
+    "project/Stage33ScalarBasisNondegeneracy.lean": {
+      "bytes": 2601,
+      "sha256": "8cda41d1c1f551a998b76fb60a296100d2910f98fd0177890fc75ebcb712ce22"
+    },
+    "project/Stage33ScalarNormalFormData.lean": {
+      "bytes": 1266,
+      "sha256": "454a4cdfa8be41c2edcfd927a0549f47da4551ced51c711b35521552749b9a4e"
+    },
+    "project/Stage33ScalarNormalFormFrame.lean": {
+      "bytes": 5968,
+      "sha256": "1b1592862e48c02f18ccbee6d54d45c6b23cb7bed577743509564308e0e4efdf"
+    },
+    "project/Stage33ScalarNormalFormRowData.lean": {
+      "bytes": 628,
+      "sha256": "64c79b770acba4ad517924f7e4906a8c3ed4dda8dbea47ff1be037a48e426fd3"
+    },
+    "project/Stage33ShiftedFormalUnit.lean": {
+      "bytes": 5265,
+      "sha256": "0401be1da1206bda7561b96634c9b81e2e200e3cf475fbef2536fa70e20bd08b"
+    },
+    "project/Stage34ExactDehomogenization.lean": {
+      "bytes": 4611,
+      "sha256": "640e74e10926cf3006bd6c375f24f28c93ed841246daf89eb0eccb42bcd54bd5"
+    },
+    "project/Stage34PolynomialHomogenization.lean": {
+      "bytes": 4170,
+      "sha256": "8d3cde50e9a07009ddb9f1499c1463ce1562be5c01bf2ed12859e16b2dd09551"
+    },
+    "project/Stage35EntireRelationResidual.lean": {
+      "bytes": 2814,
+      "sha256": "bb975a8cda5bdcc4908d8c05a541ccb126b2a02b84848aa2b3927ce301d8afd5"
+    },
+    "project/Stage35HomogeneousOrdinaryLifting.lean": {
+      "bytes": 4428,
+      "sha256": "1b3f7c9b670a5b147651dc5eb3a40e8a62029685589bfd2c3f95a5338e394340"
+    },
+    "project/Stage35LaurentOrdinarySystem.lean": {
+      "bytes": 6763,
+      "sha256": "aa48fd8416c9334d3af63685ae7a4d524b78d9db2053851fdcacc1d23f3802c1"
+    },
+    "project/Stage38CoefficientwiseIndependence.lean": {
+      "bytes": 2354,
+      "sha256": "a3348d836736eeeebf383e88617c03a978f373995812cd8d3946c3319f8ba49e"
+    },
+    "project/Stage38FormalRamification.lean": {
+      "bytes": 5428,
+      "sha256": "662ec958d1dbcf5be73277baba9f355c7a98efaec7c01326a3882d0d7f2c102e"
+    },
+    "project/Stage38OrdinarySourceTransport.lean": {
+      "bytes": 8501,
+      "sha256": "08c2beb92036e18812a000703dc088e8978d623038891db8cd901f4e1fb71d32"
+    },
+    "project/Stage38SeriesCoefficientExtension.lean": {
+      "bytes": 8100,
+      "sha256": "cb464bee6dce660f307a9b174b5bc001da752271fcb5068e336ba98d44101751"
+    },
+    "project/Stage38SourceDifferentialTransport.lean": {
+      "bytes": 7609,
+      "sha256": "875c6713231918440a9df4f7eb3314aa64682e75d0af9ba12d4d49303746923c"
+    },
+    "project/Stage41ArithmeticMinimalConnection.lean": {
+      "bytes": 1793,
+      "sha256": "066001c2c418eba93a3899e87b1f7338a651a238d467d0c6c9ec518c3d6fa096"
+    },
+    "project/Stage41GeometricEntireSeries.lean": {
+      "bytes": 4582,
+      "sha256": "fc3be7152838813b3aa06a95905408a93e7fa1e4d7b423fc2d9dd698269eaa5a"
+    },
+    "project/Stage41SameSelectedActualAnalyticGerms.lean": {
+      "bytes": 1750,
+      "sha256": "cce5e75e2bb63e8939233ab7d49dbf5eb2477ad55dfe813ad61b83e5a93a601d"
+    },
+    "project/Stage41SameSelectedAllIndicialRootArithmetic.lean": {
+      "bytes": 2200,
+      "sha256": "16bc76aa90ca79c4281aff05a14923aa8671aa82e420db2f09ab0396f7d1df5f"
+    },
+    "project/Stage41SameSelectedAnalyticEuler.lean": {
+      "bytes": 2553,
+      "sha256": "5ea8ca5f286c0625cf1150b0d9701a9c9ea2f3eda92591c46ad3876adde90b87"
+    },
+    "project/Stage41SameSelectedConstructedTwistedAmplitudes.lean": {
+      "bytes": 2372,
+      "sha256": "1d84f3b94d688dd5dab4a5064192c6fb01ee83beb0e44bc7ac67f3ae2efa420d"
+    },
+    "project/Stage41SameSelectedDifferentialShear.lean": {
+      "bytes": 2535,
+      "sha256": "92939ccbbcd2d63ea6f1b180d2fa901ae82f6bea6dd38b76d13328035bebad5a"
+    },
+    "project/Stage41SameSelectedFirstNuBoundary.lean": {
+      "bytes": 1538,
+      "sha256": "d4b3811edd3d9855068239cca622319de0e4ea9ac2c43114511ba9b6dc0dfb91"
+    },
+    "project/Stage41SameSelectedFourierAmplitudeField.lean": {
+      "bytes": 3878,
+      "sha256": "1e90ca5270470d80535803889fa04cae1c463470e62c47e70ad6685e6530c433"
+    },
+    "project/Stage41SameSelectedFourierAmplitudeGrowth.lean": {
+      "bytes": 3992,
+      "sha256": "4e7df76a9a2908101d2b85b9a2bae0e9a6b31ddb7d350bddbf29802162fcda37"
+    },
+    "project/Stage41SameSelectedFourierBlockIndependence.lean": {
+      "bytes": 3037,
+      "sha256": "7760c36353f9ccc335e234a45046a1ec987a68e73ae06d9cf29eb50ba7d27216"
+    },
+    "project/Stage41SameSelectedFourierExponentArithmetic.lean": {
+      "bytes": 2886,
+      "sha256": "318b66557112daab88e2f20f1850e489dd0c6276b4266b47c9b7ab31d8886fa2"
+    },
+    "project/Stage41SameSelectedFourierFormalDimension.lean": {
+      "bytes": 3401,
+      "sha256": "55c43e3ea7bc478568e23938da918837bb48456bd7d21b11439220289ec6b763"
+    },
+    "project/Stage41SameSelectedFourierIntegerBasis.lean": {
+      "bytes": 3755,
+      "sha256": "5d43512cd71e1e3ed1d300d599b671552f97feb0d20aa8b7e9cb44e6443eb424"
+    },
+    "project/Stage41SameSelectedFourierLaurentRealization.lean": {
+      "bytes": 3669,
+      "sha256": "1f0ab8310e4717abf886ceaa1682ebd3320c12ce60bbe6b962b69c579d610afb"
+    },
+    "project/Stage41SameSelectedFourierNaturalBasis.lean": {
+      "bytes": 3592,
+      "sha256": "650aab307031471a32e038fad4ef018fc261f3617d4d071ddfaa3931df364b8a"
+    },
+    "project/Stage41SameSelectedFourierResonanceSolutions.lean": {
+      "bytes": 3251,
+      "sha256": "afdd702684f2fd46d05432a0a062c0b7a5b590da35e300a5b655f0318666b197"
+    },
+    "project/Stage41SameSelectedFourierRetainedArithmetic.lean": {
+      "bytes": 4541,
+      "sha256": "015380f1d6046da7819310cea392ada6dc0b37962680a632904421aa8c0ba8ec"
+    },
+    "project/Stage41SameSelectedFourierTriangularEstimate.lean": {
+      "bytes": 4041,
+      "sha256": "7d471c1f942db20b08be0290d16d7dc94b0eecf5e9811b20755dbac8594db646"
+    },
+    "project/Stage41SameSelectedFourierUniformConjugates.lean": {
+      "bytes": 4106,
+      "sha256": "c8edebc87c69a2ceb0e5b60a687c51f9420ec7d607207cb19ade2f9fc35f2c5a"
+    },
+    "project/Stage41SameSelectedFuchsSource.lean": {
+      "bytes": 1266,
+      "sha256": "ee88d13e6cc37c6c94cde946d0c7aef6b6d80f91ce281d546bc945c31be90988"
+    },
+    "project/Stage41SameSelectedJointArithmetic.lean": {
+      "bytes": 1725,
+      "sha256": "560fffb051753c3a439010b9e5a14f36f95e717f73af8a9a98bc6ffe0e4efeaf"
+    },
+    "project/Stage41SameSelectedJointFourierBinomialArithmetic.lean": {
+      "bytes": 2794,
+      "sha256": "75a82fbeeb6321e133da0ce44ce2390e17afb65171daeda195c6e8c76f46269d"
+    },
+    "project/Stage41SameSelectedRegularCompanion.lean": {
+      "bytes": 1518,
+      "sha256": "bb9422ad1230c122178036b48a8567141bb1b79539d86003e7b8ec695f8637b9"
+    },
+    "project/Stage41SameSelectedRegularPathContinuation.lean": {
+      "bytes": 1777,
+      "sha256": "5dd91c3ee9c7e0b32b20d4a1195d2b9d63e9d89429ccbe795249e021306baa57"
+    },
+    "project/Stage41SameSelectedRegularResidueArithmetic.lean": {
+      "bytes": 2041,
+      "sha256": "0ee97148f19b8fc0a060b14fd6e866e88b1f5f2ed2a193f1f4ed7257aa58b796"
+    },
+    "project/Stage41SameSelectedScalarNormalForm.lean": {
+      "bytes": 5027,
+      "sha256": "daf255a8684e38437f2981f058eb3d516438de34e28a2829e0392a7fdd645e13"
+    },
+    "project/Stage41SameSelectedSourceBoundaryArithmetic.lean": {
+      "bytes": 2500,
+      "sha256": "4e30f8856e5db2f2d5e5038ac27230f880a725cf6d7e20354a3d8f1a1448f12c"
+    },
+    "project/Stage41SameSelectedTranslatedFamily.lean": {
+      "bytes": 1729,
+      "sha256": "dbbcdb97ded976ab0dc1ba2d7f13b5b73574a876fc78a83b24ca87c9c76f6b17"
+    },
+    "project/Stage41StrictSeriesCorrespondence.lean": {
+      "bytes": 4832,
+      "sha256": "c45c8e89dbb141a34a2092e069c647eb4add58e54594ee151388796fbe6920dc"
+    },
+    "project/Stage41StrictSeriesRealization.lean": {
+      "bytes": 8632,
+      "sha256": "0be1eb514d953c2492d98574bccec3671b864879eddf637f5fc385bd3d2a9360"
+    },
+    "project/Stage44NumberFieldHeight.lean": {
+      "bytes": 11399,
+      "sha256": "908d6aa93e5a4de0d77cf448882a9ce34842bdcb9c010ccdee53f74174dcdf1d"
+    },
+    "project/Stage44StrictECoefficientHeight.lean": {
+      "bytes": 7060,
+      "sha256": "dd8e4a6f2c7e4da4d0251433c9dd9655d24f5c5537ad9bbcac86d4b404be4805"
+    },
+    "project/Stage53FourierNormalOrdering.lean": {
+      "bytes": 1577,
+      "sha256": "6c2006b1f4b243b6bce49889d847525caface2b6f3a920cfc003ecbf7fe28011"
+    },
+    "project/Stage53FourierTupleNonzero.lean": {
+      "bytes": 5206,
+      "sha256": "f710d6a1fb6ecc09e7ebc9752d7a74eaa2e6749b7006b55c5246548948e82e1c"
+    },
+    "project/Stage56FiniteFuchs.lean": {
+      "bytes": 1286,
+      "sha256": "26aad23a6f93fec29e38208bcb4a5ab15fd06c1c69b58408eae45318b52109c2"
+    },
+    "project/StrictArithmeticIntegralPrefix.lean": {
+      "bytes": 6619,
+      "sha256": "08c0dfd8602346661b5205360f232dca2a77fee76b6f25c2aba0b5c4b90e40aa"
+    },
+    "project/StrictEAlgebraicRescaling.lean": {
+      "bytes": 3681,
+      "sha256": "8f299ea68bada9a5b45c646d544a5e985b5628b33dbfc40c40dea167afd9f2f7"
+    },
+    "project/StrictEArithmeticClosure.lean": {
+      "bytes": 9120,
+      "sha256": "e7291f378a6079b28f611a335946ea8932fdbc85955aa12789e17adfecd0d013"
+    },
+    "project/StrictEArithmeticSeries.lean": {
+      "bytes": 4731,
+      "sha256": "a268fe4b3c808efbd97b53ba6377ea630fd4a933a0c8ac1752c9529606197797"
+    },
+    "project/StrictECoefficientConjugation.lean": {
+      "bytes": 3209,
+      "sha256": "5060f8f88e7264d5ea33ab32d912ff8a2ad74b5e2398d8c6a6b31b0329563f1f"
+    },
+    "project/StrictEDivisionAtOne.lean": {
+      "bytes": 5832,
+      "sha256": "7a8fb9edd5007ce7cce7e8f05a9de77d864b3c79e1284df2fd385d3593b19167"
+    },
+    "project/StrictEDivisionCoefficients.lean": {
+      "bytes": 9141,
+      "sha256": "1ed9dd891f01765b2ee917c313b8b060a32a7ee1bec6363034f4ec1b4577ff46"
+    },
+    "project/StrictEDivisionODE.lean": {
+      "bytes": 3951,
+      "sha256": "72131fdfea946abce9308e2b38bd7e21943b38cd068cd067b157b82c0a6d151b"
+    },
+    "project/StrictEFunctionDefinitions.lean": {
+      "bytes": 6309,
+      "sha256": "0719e9b04a4d60a3d6789e68990bcc48a4429394299b34d9905bf43a2ea38500"
+    },
+    "project/StrictENaturalMonomialTransport.lean": {
+      "bytes": 2083,
+      "sha256": "e3d468c7877e19b258ee3746a32573dc52d0cd6c6484b25a8343c8ba6d52292d"
+    },
+    "project/StrictEPolynomialCombination.lean": {
+      "bytes": 2354,
+      "sha256": "85ad953988564be692497f101ffe02c0368e42b5330f3e20f1e4645bc2ef89e0"
+    },
+    "project/StrictERescalingArithmetic.lean": {
+      "bytes": 2124,
+      "sha256": "11a78221e844beb32d4f8cdf3d924e77f8dcf9802e8facfe0d9dd90dcb6d35cc"
+    },
+    "project/StrictERescalingODE.lean": {
+      "bytes": 2545,
+      "sha256": "c7f29c567cd8fd81c1d2d1cc6e89614ef3508ff595b1c32264479e9b52b57fb6"
+    },
+    "project/StrictEScalarFunctionClosure.lean": {
+      "bytes": 3686,
+      "sha256": "c1708dfa10ada90794e8733a513ff8827d17620ae2b898771d19f6e9f8c59179"
+    },
+    "project/StrictETaylorRealization.lean": {
+      "bytes": 3295,
+      "sha256": "27da2872de7b7668543a9695832675e536991f3c095d83520ebc8168a0386004"
+    },
+    "project/StrictEValueUnitClassification.lean": {
+      "bytes": 937,
+      "sha256": "fc52dd6f442eeee2c3b24f1e44f8ebc7a503dabb2ae42a288e53cfd15c9bea51"
+    },
+    "project/StrictEZeroSetClassification.lean": {
+      "bytes": 3264,
+      "sha256": "2f2fd05197d5a751f3a9011e70543d591568e49ebbe5d79e28420e916677d916"
+    },
+    "project/SupermultiplicativeEulerBound.lean": {
+      "bytes": 2083,
+      "sha256": "b911831618a3aa3a523b323d03e61139d4d79d6730ba0ea74aafd5879df788c9"
+    },
+    "project/TensorClearedSystem.lean": {
+      "bytes": 8380,
+      "sha256": "88173414eaf71a72ee1f6f717e12514128c96b4bec36c79c3419b6525adcd19a"
+    },
+    "project/TensorConstants.lean": {
+      "bytes": 4411,
+      "sha256": "16139c0ae87f4304336196449b98c315fdbde57d7a30e4e391f63ac174b4da0b"
+    },
+    "project/TensorDerivation.lean": {
+      "bytes": 2092,
+      "sha256": "1b40fb20a44820c2840eedd2c47d8e0be3e68271315e5ab7e88c0548974df662"
+    },
+    "project/TensorLinearization.lean": {
+      "bytes": 3829,
+      "sha256": "c2875e7cc745db28dafec23ba7276b54a65e08362379987e5e3a566018627ba1"
+    },
+    "project/TensorUnitCharacterReduction.lean": {
+      "bytes": 5415,
+      "sha256": "01b68f13f060e94ec92c9c101ebed1c3b00615fdf4c52e3b90d0f3bd4ed44bf0"
+    },
+    "project/TensorUnitFactorization.lean": {
+      "bytes": 4940,
+      "sha256": "a9df1dd0d452f059cb49605f486f48925c4cfd8783e98b9b8afb5c1b96526c24"
+    },
+    "project/TensorUnitScalarProducts.lean": {
+      "bytes": 7651,
+      "sha256": "690397efba7dd9970477a2a652814d3f7c017e26a346d292fc8e8c6d453b27d7"
+    },
+    "project/TorsorChartTarget.lean": {
+      "bytes": 3080,
+      "sha256": "060c1b75b177514ae7c21e2d36ebd361dec009199f75a7403a3f32694c6fb050"
+    },
+    "project/TorsorUnitLift.lean": {
+      "bytes": 5219,
+      "sha256": "db6e7fbedd8bc6555adc6b3b543d380e0d9042ef0cc3ae8c5517082c5e4302fa"
+    },
+    "project/TotalIdealCounting.lean": {
+      "bytes": 3171,
+      "sha256": "3594870183c22adf77c32704aa9e2f915ab0e8f525066aed646146f0ae54a4c9"
+    },
+    "project/TwistedFallingNormalization.lean": {
+      "bytes": 3595,
+      "sha256": "674ec651a006c1dce0d926f6205c763d9afb1b5874bcd8d4163dbc215cb04b6a"
+    },
+    "project/TwistedLogOrdinaryCoefficientBridge.lean": {
+      "bytes": 2122,
+      "sha256": "d03c21b3978be6652ab9a8c26bd3054e8e97c13779cc4581d61b5a50e1e04a77"
+    },
+    "project/TwistedLogStage53NormalOrder.lean": {
+      "bytes": 1982,
+      "sha256": "432a3b3812120e787608032b664e855394b0718e89af35ff0cdb9445991ec34e"
+    },
+    "project/TwistedScalarJetElimination.lean": {
+      "bytes": 1965,
+      "sha256": "e7c7b293cca6999a4b54c99e30fe62fc9f2989ab9e85a96ca4fc7ee2002e8e9e"
+    },
+    "project/TwistedSelectedAmplitudeBridge.lean": {
+      "bytes": 3016,
+      "sha256": "29b6930f3dd42f6bedead8e2d850f7615643af153ce6b6d98ce8b0e204d8c459"
+    },
+    "project/TwistedSelectedNormalization.lean": {
+      "bytes": 2451,
+      "sha256": "2a42e54b780cd4cff1c1608d88adbf3485334c388b9fd65b48baeace39f4751a"
+    },
+    "project/TypeIICommonIntegralMatrix.lean": {
+      "bytes": 4992,
+      "sha256": "734dbede64c60a4e3ad068788041911627aba7110cb931ec58e7c391c9751f10"
+    },
+    "project/TypeIIContactAnnihilatorContradiction.lean": {
+      "bytes": 2673,
+      "sha256": "fce543b2721323f0f4df6f91e9f81306aed0b349901ac2e23dffbd4196f60335"
+    },
+    "project/TypeIIDividedColumnContact.lean": {
+      "bytes": 9034,
+      "sha256": "278f0b55bc56aacd86a407f0cddc2b24e4b4e83d6cd4d257b77af289ccc3a84b"
+    },
+    "project/TypeIIDividedColumnIntegral.lean": {
+      "bytes": 5132,
+      "sha256": "06e15848c28ba47a695c67c6167f58af1bd8213287cc5e804c8e29d4440d1a3b"
+    },
+    "project/TypeIIDualColumnAttachment.lean": {
+      "bytes": 4786,
+      "sha256": "8e0fe2e90e0249d0e56492969c3e10bc51dbb1148335e4d5e3f077142f86a092"
+    },
+    "project/TypeIIExponentialDenominatorBounds.lean": {
+      "bytes": 7746,
+      "sha256": "7cd1ed65cfa4d1fc1999ea4f531b693fa8b8cf155591328f30f21a707da577e6"
+    },
+    "project/TypeIIIntegralLiftDeterminant.lean": {
+      "bytes": 6849,
+      "sha256": "78586c49ddbeacf52ef2a55569bc96829bb65c9223941bac290dae5a54a33cc5"
+    },
+    "project/TypeIIIntegralLiftHouse.lean": {
+      "bytes": 7603,
+      "sha256": "6a2361f3450e5baf6ac37a483f1e7baab6b8214e02f1f6f013b2978ac04fa2fd"
+    },
+    "project/TypeIIIntegralLiftIdentity.lean": {
+      "bytes": 3916,
+      "sha256": "b7e36ff4e237751b232733d764ff2b6b2cffbad97ea76cd7b3648d6c4e73a238"
+    },
+    "project/TypeIIJointArithmeticAssembly.lean": {
+      "bytes": 6181,
+      "sha256": "a2f0764bf119ef18d1d6d0450cbddfee5beb519f07f32fc4482ec2d3d7b3f1ad"
+    },
+    "project/TypeIILiteralLiftRank.lean": {
+      "bytes": 4877,
+      "sha256": "2419c1bb314d7f005422c6d936ba058f75fdac085c5983bd60025224f39053e7"
+    },
+    "project/TypeIISameMatrixDenominator.lean": {
+      "bytes": 8521,
+      "sha256": "e22ea31137230a1ac951217a4c154501fdff9726864037b915b3471ca80ac638"
+    },
+    "project/TypeIISameMatrixExponential.lean": {
+      "bytes": 7262,
+      "sha256": "e1fe6a9a2a68209e2fb0fddbe3a2149cc83b4501a0172f9fba5916b6baa2e0d7"
+    },
+    "project/TypeIISystemExponential.lean": {
+      "bytes": 2055,
+      "sha256": "8a251d574b889d93d25c01315a36938949a08340c9b56c9ca118cec7b3465563"
+    },
+    "project/TypeIIUniformAnnihilatorRank.lean": {
+      "bytes": 3704,
+      "sha256": "21bc198e0c0b90692562a090bf4b4d432845a7496550e7ca2124019463210b79"
+    },
+    "project/TypedMorphismMaps.lean": {
+      "bytes": 985,
+      "sha256": "8bb56f0390e5481255177c26a70ae2675463e3bfd686aed0d60ec02088c28580"
+    },
+    "project/UniformFallingFactorialExpansion.lean": {
+      "bytes": 3211,
+      "sha256": "d36f0b13ea4812e914d414799af160ec1e2a331f6d2a6bba283d67b2ceeb8bba"
+    },
+    "project/UniformPolynomialDualAnnihilatorExistence.lean": {
+      "bytes": 3132,
+      "sha256": "1a9ff40abbe0c6e89eea3eb56cbb6ed63b2e1a5de8b3f63c94b35e71c317e6bc"
+    },
+    "project/UniformRationalCovariantChart.lean": {
+      "bytes": 2494,
+      "sha256": "cf2c76b01612b9d89dd6a65ab5915727e7dd8f695e903097a4fca277b2b00451"
+    },
+    "project/UnitMinorExtraction.lean": {
+      "bytes": 4770,
+      "sha256": "80bd9d6020003bdef0dc792357a9a952eb5eb629f8a6e0711378f0c9bb607e40"
+    },
+    "project/UniversalFormalEvaluation.lean": {
+      "bytes": 16450,
+      "sha256": "7b51fb6bdd027260cc0f50db8c091ff9f3762521fa2e647bfa62bb1dac67309e"
+    },
+    "project/UniversalQuotientAnnihilator.lean": {
+      "bytes": 8941,
+      "sha256": "115b8b511c39158dfd03485f52af360bb39bcca061ebeb3fc9ba1f124659b376"
+    },
+    "project/UniversalRankOneIdeal.lean": {
+      "bytes": 4724,
+      "sha256": "71b5cd73fae5f5a78b27fef7c0afea5b60b2a4d899807e42e454d833899795e8"
+    },
+    "project/ValuationPrimePowerDivisibility.lean": {
+      "bytes": 3269,
+      "sha256": "35d371fb6ca4c301f85f324ab531cb4492df87076499ffaa5724a7a88d0b5f99"
+    },
+    "project/ValuedReciprocalFourier.lean": {
+      "bytes": 3326,
+      "sha256": "9a7b699469666278f9db20a33ad8a080cadedeff4a888ec546b82636498733b1"
+    },
+    "project/WeightBaseChange.lean": {
+      "bytes": 4239,
+      "sha256": "a508dcf81fa745ddace94b631554cf2f11aa4cd53b0934d3b466f99e671f38c7"
+    },
+    "project/WeightSpaces.lean": {
+      "bytes": 9810,
+      "sha256": "85f9a8da58c694ed998e8676734e7605be88f825176e8f1f84872c70b125f218"
+    },
+    "project/WeightedClearedDerivative.lean": {
+      "bytes": 2635,
+      "sha256": "9bd21ca91678ad9fc130901febb7515a76ef2f1ca5c3cfc8cd4ae6b6b67a3a75"
+    },
+    "project/WeightedCompanionSupport.lean": {
+      "bytes": 6612,
+      "sha256": "f99d325c431dac32209fef0bd107005ef1b75fef13aff65c42f02b9230b613e9"
+    },
+    "project/WeightedResidualParallelCoordinates.lean": {
+      "bytes": 3016,
+      "sha256": "fad96d2cd4c64be2c08f51d129fa11a36cd17aba7eac694fe6c3a9c310d7beec"
+    },
+    "project/WholeSystemMomentFrameTransport.lean": {
+      "bytes": 4338,
+      "sha256": "bd8418620704c0e80f834a5bf2b5c33cee342c4df3270ff6e97eaa210c8460a2"
+    },
+    "project/WholeSystemMomentGauge.lean": {
+      "bytes": 4121,
+      "sha256": "592d082e7131a6f71fbeea4618d0b6633d1c87009d533fc4b2c48a2105aa7ce6"
+    },
+    "project/lake-manifest.json": {
+      "bytes": 3518,
+      "sha256": "ba589c111f2edc09e9923dae9c5efc1c397d7716663fad62dd6b9f1d5ba92696"
+    },
+    "project/lakefile.lean": {
+      "bytes": 34637,
+      "sha256": "c6a329bf973344bc08cf2ea97639e85a78685c5e180369958d64f17c722c97a0"
+    },
+    "project/lean-toolchain": {
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    "references.bib": {
+      "bytes": 3827,
+      "sha256": "4ab07aba838dbdaec5ea19d4096fa569e8bd07442206dc1116915551246447ba"
+    },
+    "scripts/check_contracts.py": {
+      "bytes": 6710,
+      "sha256": "052390010e9f36bff7464ed078ab768e6c2e1efecef8a003af5e1233076f2e11"
+    },
+    "scripts/check_package.py": {
+      "bytes": 6653,
+      "sha256": "1374ff529ece9bed33978bc051f8009849a66f69275b3bdaedc32e381bd9b8bb"
+    },
+    "scripts/check_release.py": {
+      "bytes": 1420,
+      "sha256": "b78f7fe946fc91167d7ed95bf0763e451bd341cdbcc083f672560c8ceed5a105"
+    },
+    "scripts/rebuild.py": {
+      "bytes": 13096,
+      "sha256": "e9fc250160a8e6b4a30299d092acdfdb56648541ed2bfaa943e904530fd971ce"
+    },
+    "scripts/setup_dependencies.py": {
+      "bytes": 7425,
+      "sha256": "47b70abd8d1d4657cc7aeeb22e566dc0d0eebe632d74d7065c80413e162ce499"
+    },
+    "scripts/test_checks.py": {
+      "bytes": 5374,
+      "sha256": "00d4e74036295435982fcc83fdb213a0088ccff892df2e56a5dfe51db3910cda"
+    },
+    "scripts/test_contracts.py": {
+      "bytes": 3173,
+      "sha256": "bfc296f7efcf3c00a178adb8081fc796349853bb2221de20466c929a36168b1f"
+    },
+    "scripts/test_environment.py": {
+      "bytes": 3944,
+      "sha256": "cfcea2d7231c2ec53482683215e69ee0ee6bd70db2a6ef1155fb54e2bab46a60"
+    },
+    "scripts/test_rebuild.py": {
+      "bytes": 5521,
+      "sha256": "fb9d354fb865b170156f46996d8faee33c56ac61c17b3099e33e3bf87acb5d96"
+    }
+  }
+}

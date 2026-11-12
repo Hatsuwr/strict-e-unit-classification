@@ -1,0 +1,7 @@
+import ActualStrictEFrameAvailability
+
+set_option maxHeartbeats 200000
+set_option synthInstance.maxHeartbeats 20000
+
+#check @StrictEUnit.actualStrictE_commonArithmeticFrameAvailability
+#print axioms StrictEUnit.actualStrictE_commonArithmeticFrameAvailability

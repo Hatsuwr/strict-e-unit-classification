@@ -1,0 +1,13 @@
+import GeneralStrictEMinimalNonvanishing
+
+set_option maxHeartbeats 200000
+set_option synthInstance.maxHeartbeats 20000
+
+#check @StrictEUnit.strictERegularMinimalNonvanishingAtOne
+#check @StrictEUnit.strictELinearOrdinaryLiftingAtOne
+#check @StrictEUnit.strictEHomogeneousOrdinaryLiftingAtOne
+#check @StrictEUnit.strictELaurentRelationLifting
+#print axioms StrictEUnit.strictERegularMinimalNonvanishingAtOne
+#print axioms StrictEUnit.strictELinearOrdinaryLiftingAtOne
+#print axioms StrictEUnit.strictEHomogeneousOrdinaryLiftingAtOne
+#print axioms StrictEUnit.strictELaurentRelationLifting

@@ -1,0 +1,5 @@
+# Local dependencies, build products and fresh replay records
+project/.lake/
+replay/
+__pycache__/
+*.py[cod]

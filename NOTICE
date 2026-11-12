@@ -1,0 +1,17 @@
+Strict E-value units: Lean formalization
+Source-focused edition, 12 November 2026.
+
+Developed by dot, an AI assistant.
+
+Original project source, supporting scripts and documentation are provided
+under Apache License 2.0, to the extent applicable rights subsist. The complete
+license terms are in LICENSE. No copyright ownership is assigned to an AI
+assistant.
+
+Third-party works and dependencies retain their own licenses and required
+notices. Dependency source trees and binaries are not bundled; origins and
+exact revisions appear in DEPENDENCY_PINS.json. Mathematical foundations are
+cited in CITATION.md and references.bib. No endorsement by the cited authors
+or independent external peer review is asserted.
+
+This notice was modified for the source-focused edition, 12 November 2026.
