@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "release_version": "1.0.1",
-  "status": "PRIVATE_SOURCE_RELEASE",
+  "release_version": "1.0.2",
+  "status": "PUBLIC_SOURCE_RELEASE",
   "change_notice": "Modified for the source-focused edition, 12 November 2026.",
   "source_manifest_sha256": "78df0530c2e6e95057fe0a3a959ae6610a163550244a50c6e84b1d44e0d695af",
   "files": {
@@ -17,13 +17,17 @@
       "bytes": 1192,
       "sha256": "d0e1dd44e7142f9d08a791260a307328b356bfddbab20b870f4db482f33281ae"
     },
+    "CHANGELOG.md": {
+      "bytes": 1254,
+      "sha256": "349eab2fc0c7ddeb01e069bae2922c7a28a212267e2bde84e14f4a3f6e29e6a7"
+    },
     "CHECK_RESULTS.json": {
-      "bytes": 940,
-      "sha256": "2df169fc144022acf064b932e4b6df0931a58c36d4b2029ac98a6b970a84a31e"
+      "bytes": 902,
+      "sha256": "75544a511814d1c06c5ca5169e393e1fe30241c8686e5d0cb6440614daa0ddc6"
     },
     "CITATION.md": {
-      "bytes": 4027,
-      "sha256": "31587b27d4d11e7dab684da64697516fc6c4a925b500c8b8ee724b5543644985"
+      "bytes": 4159,
+      "sha256": "e33f42efd829fce2999b17ce76a2624c4ebfe08f3f7db4715ae3145c02332a58"
     },
     "CONTRACTS.json": {
       "bytes": 153459,
@@ -38,20 +42,20 @@
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     "NOTICE": {
-      "bytes": 789,
-      "sha256": "c4145af88ec95d74f1709a9b2464a0c36aa9a62156f559bd942cdf1e329da4a0"
+      "bytes": 864,
+      "sha256": "07de3b7051ac51213bd801e9aa32b756955afa3ce2ab351a7c3fe2d9e9d43aa3"
     },
     "PROOF.md": {
       "bytes": 8428,
       "sha256": "c20c3f3c1becb72174415fc2475cebf0e02dafb0c40c0bd2d9a678c569825c0d"
     },
     "README.md": {
-      "bytes": 1956,
-      "sha256": "c43cf76e65f454f6fa57872f2c453441ee748b86c0b6a8c9bc8c894f9fb14120"
+      "bytes": 2343,
+      "sha256": "e59560ac02bd3832ba25484222872d2fbd2831adfeb616f77b89da121fc550be"
     },
     "RELEASE.json": {
-      "bytes": 972,
-      "sha256": "9915db3da11d4acfeb8ee8d06e2659a53159ae90d4c097fdd3ee2ef00e4d784f"
+      "bytes": 951,
+      "sha256": "e72ff7ea0bc0057a1df17b4dcd4ce254802fb2a8646d17aad029ce42bb46e92b"
     },
     "REPRODUCING.md": {
       "bytes": 3718,
@@ -66,8 +70,8 @@
       "sha256": "ca058dabf94b56d89f46e8a165e3afee3c5dd923f04c8c693065d8fecea9a2c9"
     },
     "VALIDATION.md": {
-      "bytes": 2257,
-      "sha256": "e2e473c37cb248feee0c8dd57512355063047ee9100c611cc6c2464dce81709f"
+      "bytes": 3133,
+      "sha256": "6a1d51d6e5bc838ddc4ac45ca40b212d639b6aefdb61c521cef3a6bd2f784663"
     },
     "project/AbsoluteRelationIdeal.lean": {
       "bytes": 2460,
@@ -4026,8 +4030,8 @@
       "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
     },
     "references.bib": {
-      "bytes": 3827,
-      "sha256": "4ab07aba838dbdaec5ea19d4096fa569e8bd07442206dc1116915551246447ba"
+      "bytes": 3852,
+      "sha256": "75f2e5046252e7c198d3d69cc916134a7ce49f0de2fa5e82521e47aed9bd065f"
     },
     "scripts/check_contracts.py": {
       "bytes": 6710,
@@ -4038,8 +4042,8 @@
       "sha256": "1374ff529ece9bed33978bc051f8009849a66f69275b3bdaedc32e381bd9b8bb"
     },
     "scripts/check_release.py": {
-      "bytes": 1420,
-      "sha256": "b78f7fe946fc91167d7ed95bf0763e451bd341cdbcc083f672560c8ceed5a105"
+      "bytes": 1376,
+      "sha256": "9da1eacff43531c4ab6102d5aa593f019d233e4c6dff721c679ff231c3f6e940"
     },
     "scripts/rebuild.py": {
       "bytes": 13096,
@@ -4064,6 +4068,10 @@
     "scripts/test_rebuild.py": {
       "bytes": 5521,
       "sha256": "fb9d354fb865b170156f46996d8faee33c56ac61c17b3099e33e3bf87acb5d96"
+    },
+    "scripts/test_release.py": {
+      "bytes": 2593,
+      "sha256": "cab9cfe98cad18989ec6bdba0e88dcd91bf46b01f18eb8e4296e6a9d2e955608"
     }
   }
 }

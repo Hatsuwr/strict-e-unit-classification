@@ -24,8 +24,7 @@ def main():
         'contracts': contracts,
         'offline_regressions': {'run': tests.testsRun, 'passed': tests.testsRun,
                                 'failures': 0, 'errors': 0, 'skipped': 0},
-        'fresh_Lean_execution_performed': False,
-        'public_release_authorized': False
+        'fresh_Lean_execution_performed': False
     }, indent=2))
 
 

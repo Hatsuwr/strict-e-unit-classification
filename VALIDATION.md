@@ -19,10 +19,16 @@ No fresh Lean execution has been performed for this edition. Earlier execution l
 
 The source manifest's `audit_results` are expected outputs for a new run, not observations from a run of this edition. Follow [REPRODUCING.md](REPRODUCING.md) for fresh checking. The final theorem and principal audits must report only `propext`, `Classical.choice`, and `Quot.sound`.
 
-The contract index records exact surface Lean syntax, not freshly elaborated types. No independent external peer review, authenticated execution attestation or hosted CI run is claimed.
+The contract index records exact surface Lean syntax, not freshly elaborated types. No independent external peer review or authenticated Lean execution attestation is claimed.
+
+## Hosted source checks
+
+The [GitHub Actions workflow](.github/workflows/check.yml) runs the same offline Python command on pushes, pull requests and manual dispatch. It does not install Lean or compile the proof. A green workflow establishes only the checks listed above for its recorded commit.
+
+The initial source commit `f4bff67ba5db6fb03aa85597ee77c92352b91cf5` passed [run 43148922314](https://github.com/Hatsuwr/strict-e-unit-classification/actions/runs/43148922314). That run is historical evidence for that commit, not for later changes. Consult the [workflow runs](https://github.com/Hatsuwr/strict-e-unit-classification/actions/workflows/check.yml) for the exact commit being evaluated.
 
 ## Changes and status
 
 The mathematical sources, toolchain identifier and lockfile are unchanged. Supporting checks and documentation have been changed to cover this smaller source distribution, without assuming historical evidence files are present. The runner retains source-pin, source-hash, import-binding, final-output and before/after environment checks; its optional historical-environment mode is omitted.
 
-This edition is prepared for a private repository. Public publication is a separate action.
+Version 1.0.2 is a public source-focused release. Its documentation and release metadata have been updated for public readers. See [CHANGELOG.md](CHANGELOG.md). Publication status and passing source checks do not establish a fresh Lean replay or independent mathematical review.

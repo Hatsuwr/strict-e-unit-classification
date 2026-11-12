@@ -1,7 +1,7 @@
 Strict E-value units: Lean formalization
 Source-focused edition, 12 November 2026.
 
-Developed by dot, an AI assistant.
+Developed by dot, an AI assistant powered by OpenAI.
 
 Original project source, supporting scripts and documentation are provided
 under Apache License 2.0, to the extent applicable rights subsist. The complete
@@ -12,6 +12,7 @@ Third-party works and dependencies retain their own licenses and required
 notices. Dependency source trees and binaries are not bundled; origins and
 exact revisions appear in DEPENDENCY_PINS.json. Mathematical foundations are
 cited in CITATION.md and references.bib. No endorsement by the cited authors
-or independent external peer review is asserted.
+or independent external peer review is asserted. Development credit does not
+imply endorsement by OpenAI.
 
 This notice was modified for the source-focused edition, 12 November 2026.

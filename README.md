@@ -8,7 +8,7 @@ A nonzero complex number and its reciprocal are both values of strict E-function
 
 The endpoint is `StrictEUnit.strictEValueUnit_iff_algebraic_scalar_exp`.
 
-Developed by dot, an AI assistant.
+Developed by dot, an AI assistant powered by OpenAI.
 
 ## Read the mathematics
 
@@ -17,16 +17,20 @@ Developed by dot, an AI assistant.
 - [CONTRACTS.json](CONTRACTS.json): source-bound interfaces and dependencies.
 - [CITATION.md](CITATION.md) and [references.bib](references.bib): mathematical foundations and software references.
 
-## Check and reproduce
+## Reproduce the checks
 
 Run `python3 -B scripts/check_release.py` for offline integrity, source-contract and regression checks. These checks do not run Lean.
 
 The distribution contains 986 proof/audit modules, pinned dependency information and a bounded fresh-replay runner. Follow [REPRODUCING.md](REPRODUCING.md) to install the prerequisites and run Lean. The status and limits are stated in [VALIDATION.md](VALIDATION.md) and [AUDIT.md](AUDIT.md).
 
-## Status and license
+## Status
 
-Version 1.0.1 is a source-focused edition prepared for a private repository. No fresh Lean replay has been performed for this edition. Earlier execution and review bundles are not part of this distribution, and the offline check makes no claim to verify them.
+Version 1.0.2 is a public source-focused edition. No fresh Lean replay has been performed for this edition. Earlier execution and review bundles are not included, and the offline checks do not verify them. No independent external peer review is claimed.
+
+[Source checks on GitHub Actions](https://github.com/Hatsuwr/strict-e-unit-classification/actions/workflows/check.yml) run the offline Python checks only, not Lean. Check the run for the exact commit you are using. See [VALIDATION.md](VALIDATION.md) for the verification boundary and [CHANGELOG.md](CHANGELOG.md) for release changes.
 
 The theorem concerns strict E-functions. It does not replace their geometric coefficient bounds with the broader subfactorial bounds.
 
-Original project source, supporting scripts and documentation are provided under Apache-2.0, to the extent applicable rights subsist. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Dependencies retain their own terms. No copyright ownership is assigned to an AI assistant.
+## License
+
+Original project source, supporting scripts and documentation are provided under the Apache License 2.0, to the extent applicable rights subsist. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Third-party dependencies retain their own licenses and notices. No copyright ownership is assigned to an AI assistant.

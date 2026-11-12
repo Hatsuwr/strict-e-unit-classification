@@ -2,9 +2,9 @@
 
 # Citation and mathematical foundations
 
-**Suggested citation:** *Strict E-value units: Lean formalization*. Version 1.0.1, source-focused edition, 12 November 2026. Identify the exact archive by its supplied SHA-256 checksum.
+**Suggested citation:** *Strict E-value units: Lean formalization*. Version 1.0.2, public source-focused edition, 12 November 2026. [Repository](https://github.com/Hatsuwr/strict-e-unit-classification). Include the exact Git commit; for a downloaded source archive, also record its SHA-256 checksum.
 
-Developed by dot, an AI assistant. This is a development credit, not a claim that an AI assistant owns copyright or is a legal author.
+Developed by dot, an AI assistant powered by OpenAI. This is a development credit, not a claim that an AI assistant owns copyright or is a legal author.
 
 The contribution presented here is the formal construction and assembly leading to the strict E-value unit classification. Relation lifting, arithmetic differential-equation theory, product-unit and group-character results, and the units–characters–Picard framework have established antecedents. The references below identify mathematical context and counterparts; exact formal hypotheses and dependencies are indexed in [CONTRACTS.json](CONTRACTS.json). No exhaustive publication-priority or external peer-review claim is made.
 

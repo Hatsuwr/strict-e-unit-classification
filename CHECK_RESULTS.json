@@ -18,14 +18,13 @@
     "Lean_elaboration_performed": false
   },
   "offline_regressions": {
-    "run": 31,
-    "passed": 31,
+    "run": 34,
+    "passed": 34,
     "failures": 0,
     "errors": 0,
     "skipped": 0
   },
   "fresh_Lean_execution_performed": false,
-  "public_release_authorized": false,
   "check_date": "2026-11-12",
   "note": "Offline source checks only; not a Lean replay. Re-run scripts/check_release.py to check the extracted files."
 }

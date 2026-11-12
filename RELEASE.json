@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "name": "Strict E-value units: Lean formalization",
-  "version": "1.0.1",
-  "status": "PRIVATE_SOURCE_RELEASE",
+  "version": "1.0.2",
+  "status": "PUBLIC_SOURCE_RELEASE",
   "date": "2026-11-12",
-  "development_credit": "Developed by dot, an AI assistant",
+  "development_credit": "Developed by dot, an AI assistant powered by OpenAI",
   "copyright_owner_asserted": false,
   "license_text": "LICENSE",
   "endpoint": "StrictEUnit.strictEValueUnit_iff_algebraic_scalar_exp",
@@ -19,6 +19,5 @@
   "citation": "CITATION.md",
   "bibliography": "references.bib",
   "change_notice": "Modified for the source-focused edition, 12 November 2026.",
-  "license": "Apache-2.0",
-  "public_release_authorized": false
+  "license": "Apache-2.0"
 }
