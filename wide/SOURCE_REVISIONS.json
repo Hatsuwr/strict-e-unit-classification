@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "revision_id": "wide-budget-01",
+  "date": "2026-11-19",
+  "baseline_source_manifest_sha256": "7ef22e81c453429fda92bd3485a85337d242b28a9ff3dcb339113d8db17e4c1e",
+  "selected_source_manifest_sha256": "da5bb8a1aa00fcc6e0facad3f8492003c413db27ffea305199a5938bde014740",
+  "baseline_canonical_inventory_sha256": "f815a903b8c194a51cba0fe0469a10b36ca79f4a9786e25c06b28428fc253cb6",
+  "canonical_inventory_hash_semantics": "Retained as baseline provenance, not a claim that every selected revised source byte equals the original canonical inventory.",
+  "source_changes": [
+    {
+      "module": "V5GenericFixedEquiv123",
+      "path": "project/V5GenericFixedEquiv123.lean",
+      "module_order_index_zero_based": 582,
+      "baseline_bytes": 1287,
+      "selected_bytes": 1287,
+      "baseline_sha256": "8923d8099cb549b65518ec364c2eb8bc5f474f955ad9d1338cf8f939879decf4",
+      "selected_sha256": "87de37fd3255b849840a31cb8b602d58c8200a629a31e17056c7ac1ff1932884",
+      "change_kind": "bounded_elaboration_budget_only",
+      "old_option": {
+        "name": "maxHeartbeats",
+        "value": "150000"
+      },
+      "new_option": {
+        "name": "maxHeartbeats",
+        "value": "300000"
+      },
+      "unified_diff": "--- baseline/project/V5GenericFixedEquiv123.lean\n+++ revised/project/V5GenericFixedEquiv123.lean\n@@ -3,7 +3,7 @@\n import V5WideOwnReduced\n noncomputable section\n open scoped TensorProduct\n-set_option maxHeartbeats 150000\n+set_option maxHeartbeats 300000\n set_option maxRecDepth 1600\n set_option synthInstance.maxHeartbeats 15000\n attribute [-instance] TensorProduct.leftModule Polynomial.commSemiring\n"
+    }
+  ],
+  "unchanged_source_modules": 668,
+  "module_names_changed": false,
+  "imports_changed": false,
+  "proof_bodies_changed": false,
+  "declaration_statements_changed": false,
+  "unchanged_soundness_controls": {
+    "kernel_trust_flag": "-t0",
+    "threads_flag": "-j1",
+    "elaboration_async_flag": "-DElab.async=false",
+    "synthInstance.maxHeartbeats_for_changed_module": 15000,
+    "maxRecDepth_for_changed_module": 1600,
+    "lean_toolchain": "leanprover/lean4:v4.19.0",
+    "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+  },
+  "replay_profile_change": {
+    "baseline_helper_sha256": "cf2d98df93d9db4464ae80f32a605397ecc9c47abd1d849044b9918491fca366",
+    "selected_helper_sha256": "eacfa183630c6c31f2af226e26af278b3b915a937ddbb42d52f06a0a685ee8da",
+    "old": {
+      "rss_bytes": 4831838208,
+      "virtual_memory_bytes": 7516192768
+    },
+    "new": {
+      "rss_bytes": 6442450944,
+      "virtual_memory_bytes": 9663676416
+    },
+    "unchanged": {
+      "cpu_seconds": [
+        300,
+        301
+      ],
+      "wall_seconds_per_module": 600,
+      "flags": [
+        "-t0",
+        "-j1",
+        "-DElab.async=false",
+        "-DmaxHeartbeats=200000",
+        "-DsynthInstance.maxHeartbeats=20000"
+      ]
+    }
+  },
+  "prefix_carry_policy": {
+    "maximum_unchanged_prefix_modules": 582,
+    "condition": "Carry is permitted only after an explicit transition audit verifies the exact ordered prefix, identical source/import/option records in both manifests, original run lineage, compiler and external-environment invariants, and every accepted object/log/receipt/used-input hash. No object or receipt for the revised module or later modules is inherited.",
+    "whole_tree_prior_verification_reused": false
+  },
+  "verification_status": "FULL_REPLAY_PASS_WITH_AUDITED_UNCHANGED_PREFIX_CARRY",
+  "verification": {
+    "accepted_modules": 669,
+    "carried_unchanged_dependency_closed_modules": 582,
+    "revised_stage_modules_compiled_from_source": 87,
+    "migration_record_sha256": "eee2c1038db5d6114ce1cf1e3ce5a2a5cec54f330da3cee363c181413ee36d52",
+    "terminal_axiom_reports": {
+      "StrictEUnit.v5ActualReciprocalExponential140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "StrictEUnit.v5_wide_reciprocal_at_one140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "StrictEUnit.v5_wide_unit_classification140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  }
+}

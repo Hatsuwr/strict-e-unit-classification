@@ -1,4 +1,3 @@
-# Modified for the source-focused edition, 12 November 2026.
 name: Source checks
 
 on:
@@ -18,5 +17,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Check package, contracts and regressions
-        run: python3 -B scripts/check_release.py
+      - name: Check broad v5 package and regressions
+        run: python3 -B wide/scripts/check_release.py
+      - name: Check the preserved strict package
+        run: python3 -B strict/scripts/check_release.py

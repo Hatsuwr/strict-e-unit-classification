@@ -1,56 +1,81 @@
-<!-- Modified for the source-focused edition, 12 November 2026. -->
-
 # Reproduce the proof checks
 
 ## Offline source checks
 
-From the extracted root, with Python 3.9+:
+From the repository root, run:
 
 ```sh
-python3 -B scripts/check_release.py
+python3 -B wide/scripts/check_release.py
+python3 -B strict/scripts/check_release.py
 ```
 
-Expected: `SOURCE_RELEASE_CHECK_PASS`. This command checks file/source integrity, contracts and regression tests, without invoking Lean. Individual commands are `python3 -B scripts/check_package.py`, `python3 -B scripts/check_contracts.py`, and `python3 -B -m unittest discover -s scripts -p 'test_*.py'`.
+The first command checks the v5 source closure, hashes, and regressions. The
+second checks the original strict distribution. The GitHub Actions workflow
+runs these two checks; neither invokes Lean.
 
-## Restore pinned prerequisites
+## Restore the pinned prerequisites
 
-The supported setup and bounded replay target Linux x86_64. Setup requires Python 3.12+, curl 7.84.0+ (for `--rate`), tar, zstd, several gigabytes of free disk and memory, and Internet access to the official upstream origins in `DEPENDENCY_PINS.json`.
-
-Use a fresh extracted package and a new sibling prerequisite directory:
+On Linux x86-64, use Python 3.12+, curl 7.84.0+, tar, and zstd. These commands
+use the original installer with the v5 dependency pins. Set the prerequisite
+directory outside the repository, with several gigabytes of free disk space.
 
 ```sh
-python3 scripts/setup_dependencies.py . ../strict-e-prereqs
+PREREQS="$(pwd)/../e-value-prereqs"
+python3 -B strict/scripts/setup_dependencies.py wide "$PREREQS"
+LEAN="$PREREQS/lean-4.19.0-linux/bin/lean"
+MATHLIB="$(pwd)/wide/project/.lake/packages/mathlib"
 ```
 
-This downloads and checks the pinned Lean 4.19.0 archive, nine dependency source archives and official Mathlib caches, then runs a dependency-import smoke test. No API key is required. Dependencies are installed locally and keep their licenses and notices. Existing sources are checked rather than silently replaced. If an interrupted installation is rejected, retain it and retry with a new extraction and prerequisite directory. Preserve the pins and lockfile; do not run `lake update` for reproduction.
+The installer fetches pinned sources and cached dependency objects. Do not
+run `lake update` for reproduction. The source pins are listed in
+[wide/DEPENDENCY_PINS.json](wide/DEPENDENCY_PINS.json). See the original
+[strict setup notes](strict/REPRODUCING.md) for installer requirements.
 
-## Preflight
+## Replay v5 from source
 
 ```sh
-python3 -B scripts/rebuild.py \
-  --lean ../strict-e-prereqs/lean-4.19.0-linux/bin/lean \
-  --source-archives ../strict-e-prereqs/downloads \
-  --preflight
+python3 -B wide/scripts/rebuild.py --lean "$LEAN" --mathlib "$MATHLIB" \
+  --source-archives "$PREREQS/downloads" --preflight
+python3 -B wide/scripts/rebuild.py --lean "$LEAN" --mathlib "$MATHLIB" \
+  --source-archives "$PREREQS/downloads" --output-parent "$PREREQS/v5-runs"
 ```
 
-Expected: `PREFLIGHT_PASS`. Supply the actual compiler binary, not an Elan shim. This checks the compiler version, dependency source pins and project source closure. The setup command separately checks installed toolchain bytes against the pinned official release archive. Exact clean Git dependency checkouts may use the same command without `--source-archives`.
+The runner uses a new output directory and never falls back to previously
+compiled project files. It does use the pinned external dependency cache.
+A full pass requires `FULL_REPLAY_PASS` in the run's `result.json`, all 669
+local modules compiled, and exact axiom reports for the three audited
+endpoints. The original strict replay remains separate. Do not combine the
+two project directories in one Lean search path: some shared module names
+have different source versions.
 
-## Fresh Lean replay
+The default per-module limits are 300 seconds of CPU time (301 seconds hard
+limit), 600 seconds wall time, 6 GiB sampled RSS, and 9 GiB virtual memory.
+The runner uses `-t0`, `-j1`, `-DElab.async=false`, and bounded elaboration
+options. Source-local limits are recorded in
+[wide/SOURCE_MANIFEST.json](wide/SOURCE_MANIFEST.json).
 
-```sh
-python3 -B scripts/rebuild.py \
-  --lean ../strict-e-prereqs/lean-4.19.0-linux/bin/lean \
-  --source-archives ../strict-e-prereqs/downloads
-```
+## Recorded verification
 
-Every attempt creates a new `replay/fresh-*` directory with empty project output and log directories. The runner uses only project objects accepted in the current run and the external dependencies. It verifies source hashes, dependency object hashes before and after use, all accepted objects at completion, and the compiler/dependency inventory before and after execution.
+The [verification record](wide/VERIFICATION_STATUS.json) reports
+`FULL_REPLAY_PASS` for the exact 669-module source closure. All three audited
+endpoints report exactly `propext`, `Classical.choice`, and `Quot.sound`:
 
-Flags for each module: `-t0 -j1 -DElab.async=false -DmaxHeartbeats=200000 -DsynthInstance.maxHeartbeats=20000`.
+- `StrictEUnit.v5ActualReciprocalExponential140`
+- `StrictEUnit.v5_wide_reciprocal_at_one140`
+- `StrictEUnit.v5_wide_unit_classification140`
 
-Per-process limits: 300/301 CPU seconds, 600 wall seconds, a 4,831,838,208-byte sampled RSS stop, and a 7,516,192,768-byte address-space cap. A failure stops the run without substituting prior outputs or increasing proof limits.
+The recorded run retained source-build receipts for an audited prefix of 582
+unchanged modules, then compiled the revised module and all 86 later modules
+from source. Both source manifests had the same module order and import
+graph. Every carried source and option record was byte-identical, no carried
+module depended on the changed source, and all receipt, input, export,
+compiler, and external-inventory hashes were rechecked. The
+[source revision ledger](wide/SOURCE_REVISIONS.json) identifies the sole
+bounded elaboration-budget change. The public command above instead starts a
+new output directory and compiles every project module from source.
 
-Success requires a new `result.json` with `FRESH_REPLAY_PASS`, 986 accepted modules, `final_project_exports_rechecked_after_run: true`, and completed source/environment rechecks. The three audit logs must contain the expected declarations and only `propext`, `Classical.choice`, and `Quot.sound`. Identical repeated reports are allowed; conflicting reports fail.
-
-Preserve the first failure's module, log, and resource outcome. A retry starts a new run. Review newly produced logs for local paths and other identifiers before sharing them.
-
-The bounded Python replay is the supported verification route. `project/lakefile.lean` and its lockfile are included for Lean tooling; an ordinary `lake build` is not claimed to be tested for this edition. Offline CI is not a full Lean replay. See [VALIDATION.md](VALIDATION.md).
+This verification covers project sources. The compiler and cached external
+dependency objects were inventoried and hash-bound, not reconstructed from
+source. Dependency source pins and cached compiled artifacts are separate
+inputs. No compiled project objects, raw execution logs, or external
+prerequisites are bundled in this repository.

@@ -1,0 +1,3 @@
+project/.lake/
+__pycache__/
+*.py[cod]

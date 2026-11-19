@@ -1,0 +1,24 @@
+{
+  "static_check": "python3 -B scripts/check_release.py",
+  "source_manifest_policy": "Selected proof-source hashes, import closure and source-local options are fixed. The one authorized bounded elaboration-budget revision is recorded in SOURCE_REVISIONS.json; freeze_manifest never rewrites proof-source hashes.",
+  "after_documentation_or_tool_changes": "python3 -B scripts/freeze_manifest.py; python3 -B scripts/check_release.py",
+  "offline_preflight": "python3 -B scripts/rebuild.py --lean \"$LEAN\" --mathlib \"$MATHLIB\" --preflight",
+  "isolated_full_replay": "python3 -B scripts/rebuild.py --lean \"$LEAN\" --mathlib \"$MATHLIB\" --output-parent \"$OUT\"",
+  "focused_check": "python3 -B scripts/focused_check.py --lean \"$LEAN\" --mathlib \"$MATHLIB\" --project-objects \"$PROJECT_OBJECTS\" --output-parent \"$OUT\"",
+  "live_status": "python3 -B scripts/status.py \"$RUN\"",
+  "buffered_status": "python3 -B scripts/buffer_status.py --static \"$STATIC_JSON\" --focused-run \"$FOCUSED_RUN\" --full-run \"$FULL_RUN\"",
+  "dependency_setup": "Separately provision the exact pins in DEPENDENCY_PINS.json; replay scripts install nothing and make no network requests. The preserved strict setup helper also accepts wide as its release-root argument.",
+  "full_pass_policy": "Only all669 fresh source compilations, exact named terminal axiom reports, and final source/export/external-environment checks yield FULL_REPLAY_PASS. Limited and focused runs never yield that status.",
+  "input_cache_notice": "Dependency source pins and observed cached artifacts are distinct. Compiled dependency caches are observed/bound to a replay; they are not rebuilt by this helper.",
+  "default_replay_limits": {
+    "cpu_seconds": [
+      300,
+      301
+    ],
+    "wall_seconds_per_module": 600,
+    "rss_bytes": 6442450944,
+    "virtual_memory_bytes": 9663676416
+  },
+  "source_revision_ledger": "SOURCE_REVISIONS.json",
+  "prefix_carry_policy": "An old accepted prefix may be inherited only through an explicit audited revision transition proving all carried source/import/option records and original fresh object/input receipts unchanged. Earlier whole-tree focused/full receipts do not certify the revised tree."
+}
