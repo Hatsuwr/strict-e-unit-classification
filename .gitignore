@@ -1,5 +1,7 @@
-# Local dependencies, build products and fresh replay records
-project/.lake/
+# Local dependencies, build products and verification records
+.lake/
 replay/
 __pycache__/
 *.py[cod]
+*.olean
+*.ilean

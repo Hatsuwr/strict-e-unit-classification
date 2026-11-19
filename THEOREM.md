@@ -1,74 +1,55 @@
-<!-- Modified for the source-focused edition, 12 November 2026. -->
-
 # Theorem and definitions
 
-Let $\mathcal E_{\mathrm{strict}}$ be the ring of values of strict E-functions at algebraic arguments. The classification is
+Let $\mathcal E_{\mathrm{broad}}$ be the ring of values of broad Siegel E-functions at algebraic arguments. The classification is
 
 $$
-\mathcal E_{\mathrm{strict}}^\times
+\mathcal E_{\mathrm{broad}}^\times
 =\{\alpha\exp(\beta):\alpha\in\overline{\mathbb Q}^{\times},\ \beta\in\overline{\mathbb Q}\}.
 $$
 
-The authoritative statement is in [StrictEValueUnitClassification.lean](project/StrictEValueUnitClassification.lean), namespace `StrictEUnit`:
+The authoritative declaration is in `V5WideFinal140.lean`, namespace `StrictEUnit`:
 
 ```lean
-theorem strictEValueUnit_iff_algebraic_scalar_exp (u : ℂ) :
-    IsStrictEValueUnit u ↔
+theorem v5_wide_unit_classification140 (u : ℂ) :
+    V5IsWideEValueUnit131 u ↔
       ∃ α β : ℂ, IsAlgebraic ℚ α ∧ α ≠ 0 ∧ IsAlgebraic ℚ β ∧
-        u = α * Complex.exp β :=
-  strictEValueUnit_iff_algebraic_scalar_exp_of_arithmetic_inputs
-    actualStrictE_commonArithmeticFrameAvailability strictELaurentRelationLifting u
+        u = α * Complex.exp β
 ```
 
-Both arithmetic inputs are proved declarations. Neither is a remaining hypothesis of the endpoint. The numerical audit includes an explicitly typed example of the same equivalence. The source SHA-256 is `fc52dd6f442eeee2c3b24f1e44f8ebc7a503dabb2ae42a288e53cfd15c9bea51`; all proof sources are unchanged in this release.
+There are no extra mathematical hypotheses. The Lean endpoint uses the numerical unit predicate rather than a bundled subring type. Its proof handles arbitrary algebraic evaluation arguments by rescaling to one.
 
 ## Definitions, verbatim from project source
 
-These definitions are copied from [StrictEFunctionDefinitions.lean](project/StrictEFunctionDefinitions.lean), which supplies the imports and notation. `AlgebraicComplex` is the algebraic closure of ℚ inside ℂ.
+`AlgebraicComplex` is the algebraic closure of ℚ inside ℂ. `HasAlgebraicPolynomialODE` is the original strict edition's predicate for a nontrivial homogeneous linear ODE over algebraic polynomial coefficients.
+
+From `V5BroadAlgebraicDescent.lean` and `V5BroadActualData.lean`:
 
 ```lean
-abbrev AlgebraicComplex := algebraicClosure ℚ ℂ
+def V5BroadAlgebraicArithmetic (a : ℕ → AlgebraicComplex) : Prop :=
+  ∀ ε : ℝ, 0 < ε →
+    ∃ C : ℝ, 1 ≤ C ∧ ∃ δ : ℕ → ℕ, (∀ L, 0 < δ L) ∧
+      (∀ L, (δ L : ℝ) ≤ C^(L+1) * (L.factorial : ℝ)^ε) ∧
+      (∀ τ : AlgebraicComplex →ₐ[ℚ] ℂ, ∀ n,
+        ‖τ (a n)‖ ≤ C^(n+1) * (n.factorial : ℝ)^ε) ∧
+      (∀ L n, n ≤ L → IsIntegral ℤ ((δ L : ℂ) * (a n : ℂ)))
 
-def HasAlgebraicPolynomialODE (f : ℂ → ℂ) : Prop :=
-  ∃ m : ℕ, ∃ p : Fin (m + 1) → Polynomial AlgebraicComplex,
-    (∃ i, p i ≠ 0) ∧
-    ∀ z : ℂ, ∑ i, (p i).eval₂ (algebraicClosure ℚ ℂ).val.toRingHom z *
-      iteratedDeriv i.val f z = 0
-
-def HasStrictEArithmetic (a : ℕ → AlgebraicComplex) : Prop :=
-  ∃ C : ℝ, 1 ≤ C ∧
-    (∀ σ : AlgebraicComplex →ₐ[ℚ] ℂ, ∀ n : ℕ, ‖σ (a n)‖ ≤ C ^ (n + 1)) ∧
-    ∃ d : ℕ → ℕ, (∀ n, 0 < d n) ∧ (∀ n, (d n : ℝ) ≤ C ^ (n + 1)) ∧
-      ∀ n j : ℕ, j ≤ n → IsIntegral ℤ ((d n : ℂ) * (a j : ℂ))
-
-def IsStrictEFunction (f : ℂ → ℂ) : Prop :=
+def V5IsBroadEFunction (f : ℂ → ℂ) : Prop :=
   ∃ a : ℕ → AlgebraicComplex,
     Differentiable ℂ f ∧
     (∀ z : ℂ, HasSum (fun n => (a n : ℂ) * z ^ n / (n.factorial : ℂ)) (f z)) ∧
-    HasAlgebraicPolynomialODE f ∧ HasStrictEArithmetic a
-
-def IsStrictEValue (u : ℂ) : Prop :=
-  ∃ f : ℂ → ℂ, IsStrictEFunction f ∧ ∃ α : AlgebraicComplex, f α = u
-
-def IsStrictEValueUnit (u : ℂ) : Prop :=
-  u ≠ 0 ∧ IsStrictEValue u ∧ IsStrictEValue u⁻¹
+    HasAlgebraicPolynomialODE f ∧ V5BroadAlgebraicArithmetic a
 ```
 
-Thus a strict E-function is entire, is represented everywhere by its factorial-normalized algebraic coefficient series, and satisfies a homogeneous linear ODE with algebraic polynomial coefficients not all zero. All coefficient conjugates and the common denominators of each initial segment have geometric bounds. A single finite coefficient field is subsequently derived from the ODE.
+From `V5WideValueClassificationBoundary131.lean`:
 
-The unit predicate means exactly that a nonzero number and its reciprocal are both strict E-values. Ring closure is proved separately, and `strictEValueUnit_iff_exists_unit` identifies this predicate with the ordinary units of the value subring. Algebraic scalar exponentials and their reciprocal representations are constructed directly.
+```lean
+def V5IsWideEValue131 (u : ℂ) : Prop :=
+  ∃ f : ℂ → ℂ, V5IsBroadEFunction f ∧ ∃ a : AlgebraicComplex, f a = u
 
-## Navigation and scope
+def V5IsWideEValueUnit131 (u : ℂ) : Prop :=
+  u ≠ 0 ∧ V5IsWideEValue131 u ∧ V5IsWideEValue131 u⁻¹
+```
 
-| Purpose | Entry point |
-| --- | --- |
-| Mathematical construction and sensitive hypotheses | [PROOF.md](PROOF.md) |
-| Exact source signatures, assumptions, dependencies and historical closures | [CONTRACTS.json](CONTRACTS.json) |
-| Finite coefficient field and actual/formal correspondence | Contracts C02–C03 |
-| Proved frame and relation-lifting inputs | Contracts C04–C06 |
-| Exact fiber, character lifting and analytic unit classification | Contracts C07–C17 |
-| Final assembly, reverse inclusion and ring units | Contracts C01, C18–C20 |
-| Verification status and trust boundary | [VALIDATION.md](VALIDATION.md), [AUDIT.md](AUDIT.md) |
-| Antecedents and contribution | [CITATION.md](CITATION.md) |
+The bounds apply to all coefficient conjugates and to a single positive integer clearing each initial segment. They are equivalent to the conventional subfactorial bounds: to remove the factor $C^{n+1}$, use the Lean bound with exponent $\varepsilon/2$ and absorb this geometric factor into a constant times $(n!)^{\varepsilon/2}$. Least positive common denominators may be used to make the choice independent of the exponent. The polynomial ODE is the rational ODE with denominators cleared; the proof derives a common number field for the coefficients from the equation.
 
-The endpoint addresses the **strict** class in Fischler–Rivoal's Conjecture 1.2. It does not replace the geometric bounds by Siegel's broader subfactorial conditions. No general recognition algorithm or separately formalized uniqueness theorem is claimed. Historical “unproved input” comments refer to intermediate conditional layers; the contract index names their later proofs.
+See [PROOF-v5.md](PROOF-v5.md) for the construction. The earlier [strict endpoint and definitions](https://github.com/Hatsuwr/strict-e-unit-classification/blob/340c7435608e0f1aa1d9b08a0100721a4fd23005/THEOREM.md) are unchanged at their original commit.

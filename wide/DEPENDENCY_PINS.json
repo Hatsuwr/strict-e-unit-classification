@@ -1,0 +1,103 @@
+{
+  "toolchain": {
+    "lean_toolchain": "leanprover/lean4:v4.19.0",
+    "platform": "Linux x86_64",
+    "official_release_url": "https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+    "bytes": 343842845,
+    "sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+    "hash_provenance": "Observed downloaded archive SHA-256, not an upstream signature or digest."
+  },
+  "packages": [
+    {
+      "name": "plausible",
+      "git_revision": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "repository": "https://github.com/leanprover-community/plausible",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/plausible/tar.gz/77e08eddc486491d7b9e470926b3dbe50319451a",
+      "source_archive_filename": "plausible-77e08eddc486491d7b9e470926b3dbe50319451a.tar.gz",
+      "bytes": 24686,
+      "sha256": "91d72e812d5364e8f9ca10b4cda705346f44f14e82fda023b25e68881895b772"
+    },
+    {
+      "name": "LeanSearchClient",
+      "git_revision": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "repository": "https://github.com/leanprover-community/LeanSearchClient",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/LeanSearchClient/tar.gz/25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "source_archive_filename": "LeanSearchClient-25078369972d295301f5a1e53c3e5850cf6d9d4c.tar.gz",
+      "bytes": 13717,
+      "sha256": "450e9a9494fadaab844f71de7663cedf7a18c02a441648efc15eed4ffe9cb949"
+    },
+    {
+      "name": "importGraph",
+      "git_revision": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "repository": "https://github.com/leanprover-community/import-graph",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/import-graph/tar.gz/e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "source_archive_filename": "importGraph-e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b.tar.gz",
+      "bytes": 101212,
+      "sha256": "4a57246f0cead0de9383260f54341c4175062cbc12039d3d19d4b7470dc5dea4"
+    },
+    {
+      "name": "proofwidgets",
+      "git_revision": "c4919189477c3221e6a204008998b0d724f49904",
+      "repository": "https://github.com/leanprover-community/ProofWidgets4",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/ProofWidgets4/tar.gz/c4919189477c3221e6a204008998b0d724f49904",
+      "source_archive_filename": "proofwidgets-c4919189477c3221e6a204008998b0d724f49904.tar.gz",
+      "bytes": 325010,
+      "sha256": "1a871906b225b6f02962e4e0f77536eb56d71c9988cf0a1c727fa7b93d3dfc63"
+    },
+    {
+      "name": "aesop",
+      "git_revision": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "repository": "https://github.com/leanprover-community/aesop",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/aesop/tar.gz/5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "source_archive_filename": "aesop-5d50b08dedd7d69b3d9b3176e0d58a23af228884.tar.gz",
+      "bytes": 203439,
+      "sha256": "01701770d7dbc11792ef329c67492bf5d472a46c72219911c959049e6331d34f"
+    },
+    {
+      "name": "Qq",
+      "git_revision": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "repository": "https://github.com/leanprover-community/quote4",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/quote4/tar.gz/fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "source_archive_filename": "Qq-fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02.tar.gz",
+      "bytes": 28887,
+      "sha256": "bd7ac49fdc62dfc23af3cb2c8be5dd14fceff3553375dcfcb3a6e3b0e7b3b75b"
+    },
+    {
+      "name": "batteries",
+      "git_revision": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "repository": "https://github.com/leanprover-community/batteries",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/batteries/tar.gz/f5d04a9c4973d401c8c92500711518f7c656f034",
+      "source_archive_filename": "batteries-f5d04a9c4973d401c8c92500711518f7c656f034.tar.gz",
+      "bytes": 279634,
+      "sha256": "cc864d6e653231cbe8874cbff5459845e293b2d17741b7ee473b970808242732"
+    },
+    {
+      "name": "Cli",
+      "git_revision": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "repository": "https://github.com/leanprover/lean4-cli",
+      "source_archive_url": "https://codeload.github.com/leanprover/lean4-cli/tar.gz/02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "source_archive_filename": "Cli-02dbd02bc00ec4916e99b04b2245b30200e200d0.tar.gz",
+      "bytes": 24714,
+      "sha256": "effde04639cf71aee8172ba06b12d6b953b1e6ce90660c28f7f09ad98c4b717c"
+    },
+    {
+      "name": "mathlib",
+      "git_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "repository": "https://github.com/leanprover-community/mathlib4.git",
+      "source_archive_url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "source_archive_filename": "mathlib-c44e0c8ee63ca166450922a373c7409c5d26b00b.tar.gz",
+      "bytes": 17774877,
+      "sha256": "9fce64f31ba5612df46871eee8b4581c81c120604deb08cc35fa9f0fb543a425"
+    }
+  ],
+  "cache_unpacker": {
+    "official_release_url": "https://github.com/digama0/leangz/releases/download/v0.1.15/leantar-v0.1.15-x86_64-unknown-linux-musl.tar.gz",
+    "archive_sha256": "87ea796fb4a6cc9a7b7548b392ba19e7da509324ecced9579692fe299d1516df",
+    "binary_sha256": "c3294bf820d5d1d7cc59bc3ce9bdc244b3f45cab37ea9dd649e1a388c20dbe3c"
+  },
+  "official_mathlib_cache_base": "https://lakecache.blob.core.windows.net/mathlib4",
+  "external_prerequisites_bundled": false,
+  "setup_is_automatic": false,
+  "notice": "Pins and hashes describe external inputs. Dependency sources, compiler and caches are obtained separately. A successful source-pin check is not a Lean proof replay or a claim of byte-for-byte reproduction of an earlier environment.",
+  "change_notice": "Modified for the source-focused edition, 12 November 2026. Upstream origins, revisions and archive hashes are unchanged."
+}

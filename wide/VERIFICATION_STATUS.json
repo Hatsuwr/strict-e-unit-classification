@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "observed_utc": "2026-11-19T03:16:24.795866+00:00",
+  "source_modules": 669,
+  "source_bytes": 2778905,
+  "source_manifest_sha256": "da5bb8a1aa00fcc6e0facad3f8492003c413db27ffea305199a5938bde014740",
+  "source_revision": "SOURCE_REVISIONS.json",
+  "static": {
+    "status": "STATIC_RELEASE_CHECK_PASS",
+    "offline_regressions": {
+      "run": 46,
+      "passed": 46,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "fresh_Lean_execution_performed": false
+  },
+  "focused": {
+    "status": "NOT_USED_FOR_COMPLETION"
+  },
+  "isolated_full_replay": {
+    "status": "FULL_REPLAY_PASS",
+    "scope": "ISOLATED_SOURCE_ONLY_WITH_AUDITED_SOURCE_REVISION",
+    "accepted_modules": 669,
+    "carried_unchanged_dependency_closed_modules": 582,
+    "revised_stage_modules_compiled_from_source": 87,
+    "ordered_module_names_sha256": "659d6c5cb52bd19aa8c6cdb903823361f9a23f8d55027798a01344a0cb980d37",
+    "source_manifest_sha256": "da5bb8a1aa00fcc6e0facad3f8492003c413db27ffea305199a5938bde014740",
+    "migration_record_sha256": "eee2c1038db5d6114ce1cf1e3ce5a2a5cec54f330da3cee363c181413ee36d52",
+    "flags": [
+      "-t0",
+      "-j1",
+      "-DElab.async=false",
+      "-DmaxHeartbeats=200000",
+      "-DsynthInstance.maxHeartbeats=20000"
+    ],
+    "effective_resumed_limits": {
+      "cpu_seconds": [
+        300,
+        301
+      ],
+      "wall_seconds_per_module": 600,
+      "rss_bytes": 6442450944,
+      "virtual_memory_bytes": 9663676416
+    },
+    "compiler_sha256": "92c3d35b5bfaa5e0fea413a775d504cf46cd95e1345df61c2274f76779e7e023",
+    "external_inventory_sha256": "ed162f003cf877508b4554fd768061e246d94d56a81c94985a02d13a872b8d6d",
+    "external_file_count": 40841,
+    "external_environment_rechecked_after_run": true,
+    "final_project_exports_rechecked_after_run": true,
+    "final_copied_sources_rechecked_after_run": true,
+    "axiom_reports": {
+      "StrictEUnit.v5ActualReciprocalExponential140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "StrictEUnit.v5_wide_reciprocal_at_one140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "StrictEUnit.v5_wide_unit_classification140": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "run_result_sha256": "b23725c70f87fb97d500fe8355c31866d37bf3b61eaf2e0f3200ace5ac9593f0"
+  },
+  "release_verification": "FULL_SOURCE_ONLY_REPLAY_PASS_WITH_AUDITED_SOURCE_REVISION",
+  "notice": "All669 project modules have verified from-source artifacts. Exactly582 unchanged modules were carried from the preserved fresh run after source/import/ancestor and artifact-chain audits; the revised module and all86 later modules were compiled from source. Terminal checks used only the listed standard axioms. Dependency compiled caches were observed and hash-bound, not rebuilt from source. Detailed execution records remain outside this source distribution."
+}

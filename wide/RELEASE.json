@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "name": "Broad v5 E-value units: technical source preview",
+  "status": "CHECKED_SOURCE_PREVIEW",
+  "license": "Apache-2.0",
+  "source_modules": 669,
+  "source_bytes": 2778905,
+  "root_module": "V5WideFinal140",
+  "endpoint": "StrictEUnit.v5_wide_unit_classification140",
+  "strict_baseline_commit": "340c7435608e0f1aa1d9b08a0100721a4fd23005",
+  "lean_toolchain": "leanprover/lean4:v4.19.0",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "verification_status": "VERIFICATION_STATUS.json",
+  "source_manifest": "SOURCE_MANIFEST.json",
+  "generated_exports_bundled": false,
+  "historical_execution_records_bundled": false,
+  "public_actions_performed": false,
+  "source_revision": "wide-budget-01",
+  "source_revisions": "SOURCE_REVISIONS.json",
+  "source_manifest_sha256": "da5bb8a1aa00fcc6e0facad3f8492003c413db27ffea305199a5938bde014740",
+  "default_replay_limits": {
+    "cpu_seconds": [
+      300,
+      301
+    ],
+    "wall_seconds_per_module": 600,
+    "rss_bytes": 6442450944,
+    "virtual_memory_bytes": 9663676416
+  },
+  "source_only_verification": "FULL_REPLAY_PASS_WITH_AUDITED_SOURCE_REVISION"
+}
